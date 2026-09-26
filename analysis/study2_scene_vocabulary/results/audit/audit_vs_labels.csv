@@ -1,0 +1,7 @@
+method,items,label_verdict,agreement_with_labels,label_correct_human_N,label_wrong_human_Y,unverifiable_items,unverifiable_in_photo,unverifiable_useful
+static,300,258,0.9302,14,4,42,0.0952,0.0952
+clip,300,155,0.8258,24,3,145,0.3241,0.1379
+blip2_orig,150,50,1.0,0,0,100,0.0,0.0
+blip2_caption,156,70,0.8571,10,0,86,0.7558,0.1744
+blip2_qa,145,94,0.8404,13,2,51,0.7059,0.2157
+qwen_vl,272,162,0.8086,29,2,110,0.6818,0.3455

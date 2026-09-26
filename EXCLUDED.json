@@ -1,0 +1,10 @@
+{
+ "_why": "What is deliberately not in this repository, and the reason for each. Checked by make_release.py, which refuses to build a release containing any of it.",
+ "photographs of any person": "No image or video of any person is published. The two photographs behind fig_eyecrop.pdf are of an author, taken outside any session with written consent, and stay unpublished. The session software has no image-writing path.",
+ "**/audit_key_private/, **/message_key_private/": "The blinded answer keys and code mappings for the Study 2 and Study 3 human audits. Withheld so that someone else can rate the same sheets blind. The rated workbooks and every derived number are published.",
+ "data/sessions/study6_deployment/": "The two Study 6 operator logs. Both operators gave written informed consent; the folder waits on one open question about institutional review, described in the top-level README. verify_paper_numbers.py checks Section 4.6 the moment it is added.",
+ "face_landmarker.task": "Google's model. Downloaded by the reader rather than redistributed here; the command is in the README.",
+ "superseded result tables": "Where a later run replaced an earlier one, the findings file says what changed and why. The superseded tables are in the working tree and available on request.",
+ "e2 testdata (LVIS and COCO annotation subsets)": "Third-party annotation files. results/set.jsonl records exactly which images were used, so the scoring stage runs without them.",
+ "environments and caches": ".venv/, __pycache__/, per-machine files such as camera_choice.json."
+}

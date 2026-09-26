@@ -1,0 +1,21 @@
+{
+  "version": "v3 (clock correction: setup; stability windows; model on all labelled frames)",
+  "clock_lag_median_ms_by_setup": {
+    "Laptop": 380.0,
+    "PC": 40.0
+  },
+  "n_participants": 51,
+  "setups": {
+    "Laptop": 27,
+    "PC": 24
+  },
+  "n_frames": 152634,
+  "face_detected": 0.9995217317242554,
+  "frames_with_tobii_label": 0.8863097343973164,
+  "median_tobii_dt_ms": 2.0,
+  "median_fps": 29.65850037119525,
+  "train_frames": 135217,
+  "lag_median_ms": 27.0,
+  "lag_within_200ms_frac": 1.0,
+  "r_predx_tobiix_at_zero_median": 0.9494594086655925
+}

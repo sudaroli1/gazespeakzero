@@ -1,0 +1,8 @@
+method,items,in_photo_changed,in_photo_changed_pct,useful_compared,useful_changed
+blip2_caption,156,3,1.92,123,3
+blip2_orig,150,0,0.0,15,0
+blip2_qa,145,3,2.07,115,3
+clip,300,5,1.67,143,6
+qwen_vl,272,3,1.1,204,9
+static,300,0,0.0,60,2
+ALL,1323,14,1.06,660,23

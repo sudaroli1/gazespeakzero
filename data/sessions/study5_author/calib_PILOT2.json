@@ -1,0 +1,18 @@
+{
+ "ax": 5.858734256321547,
+ "bx": -2.2562658834708857,
+ "ay": 2.7214434584103033e-16,
+ "by": 0.4999999999999998,
+ "n_frames": 78,
+ "raw_range": [
+  0.3084226017041425,
+  0.5792389335426499
+ ],
+ "zone_accuracy_in_sample": 1.0,
+ "zone_accuracy_linear": 0.938,
+ "zone_accuracy_isotonic": 0.912,
+ "mapping": "linear",
+ "zone_accuracy_held_out": 0.938,
+ "held_out_frames": 80,
+ "zones": 2
+}

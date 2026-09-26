@@ -1,0 +1,3 @@
+method,held_out_3zone_accuracy
+"population model, raw",0.3141025641025641
++ straight-line correction (x' = -0.02x + 0.55),0.20512820512820512

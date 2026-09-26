@@ -1,0 +1,14 @@
+{
+  "rms_total_x_mm": 30.363178574057706,
+  "rms_total_y_mm": 40.62238827978804,
+  "rms_person_bias_x_mm": 9.370230217856452,
+  "rms_person_bias_y_mm": 20.506752919413067,
+  "rms_frame_scatter_x_mm": 28.90883446978409,
+  "rms_frame_scatter_y_mm": 35.454893350945454,
+  "share_of_mse_removable_by_offset_x": 0.09523707639460036,
+  "share_of_mse_removable_by_offset_y": 0.2548372392745124,
+  "screen_w_mm_median": 286.4708,
+  "screen_h_mm_median": 179.0442,
+  "rms_frame_scatter_x_screen_frac": 0.10009012274651419,
+  "rms_frame_scatter_y_screen_frac": 0.19599286016049877
+}

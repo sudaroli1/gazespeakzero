@@ -1,0 +1,4 @@
+method,held_out_3zone_accuracy
+"population model, raw",0.6097560975609756
+"+ correction fitted the WRONG way (target on prediction), x' = 1.03x + 0.01",0.6097560975609756
+"+ correction fitted correctly (prediction on target), x' = 1.49x + -0.24",0.7195121951219512

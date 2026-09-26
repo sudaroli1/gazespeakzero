@@ -1,0 +1,5 @@
+method,it
+blip2_caption,"bathroom (50), living room (40), kitchen (35), group of people (11), bedroom (11), room (8), furniture (8), video game (7), shower (7), window (7), living room filled (6), men (6), hotel room (6), wall (6), food (5)"
+blip2_orig,"object (283), area (283)"
+blip2_qa,"window (30), shower (11), people (8), food (7), video game (6), rug (6), living room (5), nightstand (5), men (4), kitchen (4), furniture (3), dining room (3), washer (2), teeth (2), floor (2)"
+qwen_vl,"rug (22), window (22), picture (12), wall (7), door (7), nightstand (6), floor (6), bookshelf (5), light (5), menu (4), food (4), shelf (4), picture frame (4), french fries (3), beer (3)"

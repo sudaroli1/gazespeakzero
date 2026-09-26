@@ -1,0 +1,10 @@
+# Text files keep LF in the repository whatever the machine that commits them, so a
+# Windows checkout does not produce a diff in every file.
+* text=auto eol=lf
+
+# Binary, so git never tries to normalise or merge them.
+*.pdf   binary
+*.png   binary
+*.xlsx  binary
+*.joblib binary
+*.task  binary

@@ -1,0 +1,1072 @@
+[
+ {
+  "id": "I01",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:thirst",
+  "objects": [
+   "water bottle",
+   "straw"
+  ],
+  "objects_raw": [
+   "water_bottle",
+   "straw_(for_drinking)"
+  ],
+  "utterance": "I am thirsty, can I have some water?",
+  "paraphrases": [
+   "Could I have a drink of water, please?",
+   "I would like water with a straw."
+  ]
+ },
+ {
+  "id": "I02",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:medication",
+  "objects": [
+   "pill",
+   "water bottle"
+  ],
+  "objects_raw": [
+   "pill",
+   "water_bottle"
+  ],
+  "utterance": "It is time for my medicine, please bring it with water.",
+  "paraphrases": [
+   "Can I have my tablet with some water?",
+   "My pills are due now."
+  ]
+ },
+ {
+  "id": "I03",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:temperature",
+  "objects": [
+   "blanket"
+  ],
+  "objects_raw": [
+   "blanket"
+  ],
+  "utterance": "I am cold, can I have another blanket?",
+  "paraphrases": [
+   "Please put another blanket over me.",
+   "I feel cold, I need a blanket."
+  ]
+ },
+ {
+  "id": "I04",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:temperature",
+  "objects": [
+   "fan"
+  ],
+  "objects_raw": [
+   "fan"
+  ],
+  "utterance": "I am too warm, please turn on the fan.",
+  "paraphrases": [
+   "Could you switch the fan on? It is hot.",
+   "Please put the fan on for me."
+  ]
+ },
+ {
+  "id": "I05",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:position",
+  "objects": [
+   "pillow"
+  ],
+  "objects_raw": [
+   "pillow"
+  ],
+  "utterance": "Please move my pillow, my head is uncomfortable.",
+  "paraphrases": [
+   "Can you fix my pillow?",
+   "My pillow needs adjusting."
+  ]
+ },
+ {
+  "id": "I06",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:position",
+  "objects": [
+   "bed",
+   "quilt",
+   "pillow"
+  ],
+  "objects_raw": [
+   "bed",
+   "quilt",
+   "pillow"
+  ],
+  "utterance": "Please straighten my bed covers.",
+  "paraphrases": [
+   "The quilt needs pulling up.",
+   "Could you tidy my bedding?"
+  ]
+ },
+ {
+  "id": "I07",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:toileting",
+  "objects": [
+   "toilet"
+  ],
+  "objects_raw": [
+   "toilet"
+  ],
+  "utterance": "I need to use the toilet.",
+  "paraphrases": [
+   "Please take me to the toilet.",
+   "I have to go to the bathroom."
+  ]
+ },
+ {
+  "id": "I08",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:secretions",
+  "objects": [
+   "tissue paper"
+  ],
+  "objects_raw": [
+   "tissue_paper"
+  ],
+  "utterance": "I need a tissue, please.",
+  "paraphrases": [
+   "Could you pass me a tissue?",
+   "Please wipe my mouth with a tissue."
+  ]
+ },
+ {
+  "id": "I09",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:sleep",
+  "objects": [
+   "lamp"
+  ],
+  "objects_raw": [
+   "lamp"
+  ],
+  "utterance": "Please turn the light off, I want to sleep.",
+  "paraphrases": [
+   "Switch the lamp off, I am tired.",
+   "Turn off the bedside light, please."
+  ]
+ },
+ {
+  "id": "I10",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:vision",
+  "objects": [
+   "spectacles"
+  ],
+  "objects_raw": [
+   "spectacles"
+  ],
+  "utterance": "Can you pass me my glasses?",
+  "paraphrases": [
+   "I need my spectacles.",
+   "Please put my glasses on for me."
+  ]
+ },
+ {
+  "id": "I11",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:mobility",
+  "objects": [
+   "walking stick"
+  ],
+  "objects_raw": [
+   "walking_stick"
+  ],
+  "utterance": "Pass me my walking stick, I want to move.",
+  "paraphrases": [
+   "I need my stick.",
+   "Bring me my walking cane, please."
+  ]
+ },
+ {
+  "id": "I12",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:dressing",
+  "objects": [
+   "sock",
+   "slipper",
+   "shoe"
+  ],
+  "objects_raw": [
+   "sock",
+   "slipper_(footwear)",
+   "shoe"
+  ],
+  "utterance": "Please put my socks and slippers on.",
+  "paraphrases": [
+   "I want my socks and slippers.",
+   "Could you dress my feet?"
+  ]
+ },
+ {
+  "id": "I13",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:hygiene",
+  "objects": [
+   "toothbrush",
+   "toothpaste",
+   "cup"
+  ],
+  "objects_raw": [
+   "toothbrush",
+   "toothpaste",
+   "cup"
+  ],
+  "utterance": "I want to brush my teeth.",
+  "paraphrases": [
+   "Please help me clean my teeth.",
+   "Bring my toothbrush and toothpaste."
+  ]
+ },
+ {
+  "id": "I14",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:hygiene",
+  "objects": [
+   "shower head",
+   "towel",
+   "soap"
+  ],
+  "objects_raw": [
+   "shower_head",
+   "towel",
+   "soap"
+  ],
+  "utterance": "I would like a shower now.",
+  "paraphrases": [
+   "Please help me wash in the shower.",
+   "I want to be showered."
+  ]
+ },
+ {
+  "id": "I15",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:toileting",
+  "objects": [
+   "toilet tissue"
+  ],
+  "objects_raw": [
+   "toilet_tissue"
+  ],
+  "utterance": "The toilet paper is finished, please bring more.",
+  "paraphrases": [
+   "We need more toilet roll.",
+   "There is no toilet paper left."
+  ]
+ },
+ {
+  "id": "I16",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:hygiene",
+  "objects": [
+   "soap",
+   "sink"
+  ],
+  "objects_raw": [
+   "soap",
+   "sink"
+  ],
+  "utterance": "I want to wash my hands.",
+  "paraphrases": [
+   "Please help me wash my hands with soap.",
+   "Can I clean my hands at the sink?"
+  ]
+ },
+ {
+  "id": "I17",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:grooming",
+  "objects": [
+   "hairbrush"
+  ],
+  "objects_raw": [
+   "hairbrush"
+  ],
+  "utterance": "Please brush my hair.",
+  "paraphrases": [
+   "Could you do my hair?",
+   "I would like my hair brushed."
+  ]
+ },
+ {
+  "id": "I18",
+  "room": "bathroom",
+  "purpose": "needs",
+  "source": "board:grooming",
+  "objects": [
+   "mirror"
+  ],
+  "objects_raw": [
+   "mirror"
+  ],
+  "utterance": "Hold the mirror up, I want to see myself.",
+  "paraphrases": [
+   "Let me look in the mirror.",
+   "Please show me my face in the mirror."
+  ]
+ },
+ {
+  "id": "I19",
+  "room": "kitchen",
+  "purpose": "needs",
+  "source": "board:thirst",
+  "objects": [
+   "kettle",
+   "mug"
+  ],
+  "objects_raw": [
+   "kettle",
+   "mug"
+  ],
+  "utterance": "I would like a hot drink, please.",
+  "paraphrases": [
+   "Could you make me a cup of tea?",
+   "Please boil the kettle for me."
+  ]
+ },
+ {
+  "id": "I20",
+  "room": "kitchen",
+  "purpose": "needs",
+  "source": "board:thirst",
+  "objects": [
+   "milk",
+   "glass"
+  ],
+  "objects_raw": [
+   "milk",
+   "glass_(drink_container)"
+  ],
+  "utterance": "Can I have a glass of milk?",
+  "paraphrases": [
+   "I would like some milk.",
+   "Please pour me milk in a glass."
+  ]
+ },
+ {
+  "id": "I21",
+  "room": "kitchen",
+  "purpose": "needs",
+  "source": "board:hunger",
+  "objects": [
+   "sandwich"
+  ],
+  "objects_raw": [
+   "sandwich"
+  ],
+  "utterance": "I am hungry, I would like a sandwich.",
+  "paraphrases": [
+   "Could you make me a sandwich?",
+   "I want something to eat, a sandwich."
+  ]
+ },
+ {
+  "id": "I22",
+  "room": "kitchen",
+  "purpose": "needs",
+  "source": "board:thirst",
+  "objects": [
+   "refrigerator",
+   "orange juice"
+  ],
+  "objects_raw": [
+   "refrigerator",
+   "orange_juice"
+  ],
+  "utterance": "There is juice in the fridge, can I have some?",
+  "paraphrases": [
+   "Please get the orange juice from the fridge.",
+   "I would like juice, it is in the refrigerator."
+  ]
+ },
+ {
+  "id": "I23",
+  "room": "kitchen",
+  "purpose": "needs",
+  "source": "board:medication",
+  "objects": [
+   "medicine",
+   "spoon"
+  ],
+  "objects_raw": [
+   "medicine",
+   "spoon"
+  ],
+  "utterance": "My liquid medicine is due, please give it to me.",
+  "paraphrases": [
+   "Bring my medicine and a spoon.",
+   "It is time for my syrup."
+  ]
+ },
+ {
+  "id": "I24",
+  "room": "dining",
+  "purpose": "needs",
+  "source": "board:hunger",
+  "objects": [
+   "plate",
+   "fork",
+   "napkin"
+  ],
+  "objects_raw": [
+   "plate",
+   "fork",
+   "napkin"
+  ],
+  "utterance": "I am ready to eat now.",
+  "paraphrases": [
+   "Please bring my meal.",
+   "I would like my food."
+  ]
+ },
+ {
+  "id": "I25",
+  "room": "dining",
+  "purpose": "needs",
+  "source": "board:thirst",
+  "objects": [
+   "cup",
+   "straw"
+  ],
+  "objects_raw": [
+   "cup",
+   "straw_(for_drinking)"
+  ],
+  "utterance": "Can I have a drink with a straw?",
+  "paraphrases": [
+   "Please give me my cup with a straw.",
+   "I need a straw for my drink."
+  ]
+ },
+ {
+  "id": "I26",
+  "room": "dining",
+  "purpose": "needs",
+  "source": "board:hygiene",
+  "objects": [
+   "napkin"
+  ],
+  "objects_raw": [
+   "napkin"
+  ],
+  "utterance": "I need a napkin, please.",
+  "paraphrases": [
+   "Could you pass me a serviette?",
+   "Please wipe my mouth with a napkin."
+  ]
+ },
+ {
+  "id": "I27",
+  "room": "dining",
+  "purpose": "needs",
+  "source": "board:feeding",
+  "objects": [
+   "spoon"
+  ],
+  "objects_raw": [
+   "spoon"
+  ],
+  "utterance": "Please feed me with a spoon, it is easier.",
+  "paraphrases": [
+   "Use the spoon to feed me.",
+   "I would rather be fed with a spoon."
+  ]
+ },
+ {
+  "id": "I28",
+  "room": "living room",
+  "purpose": "needs",
+  "source": "board:entertainment",
+  "objects": [
+   "television set",
+   "remote control"
+  ],
+  "objects_raw": [
+   "television_set",
+   "remote_control"
+  ],
+  "utterance": "Please turn on the television.",
+  "paraphrases": [
+   "Switch the TV on for me.",
+   "I want to watch television."
+  ]
+ },
+ {
+  "id": "I29",
+  "room": "living room",
+  "purpose": "needs",
+  "source": "board:position",
+  "objects": [
+   "sofa",
+   "cushion"
+  ],
+  "objects_raw": [
+   "sofa",
+   "cushion"
+  ],
+  "utterance": "I want to sit on the sofa.",
+  "paraphrases": [
+   "Please move me to the couch.",
+   "Help me onto the sofa with a cushion."
+  ]
+ },
+ {
+  "id": "I30",
+  "room": "living room",
+  "purpose": "needs",
+  "source": "board:mobility",
+  "objects": [
+   "wheelchair"
+  ],
+  "objects_raw": [
+   "wheelchair"
+  ],
+  "utterance": "I want to get into my wheelchair.",
+  "paraphrases": [
+   "Please transfer me to the wheelchair.",
+   "Put me in my chair with wheels."
+  ]
+ },
+ {
+  "id": "I31",
+  "room": "living room",
+  "purpose": "needs",
+  "source": "board:light",
+  "objects": [
+   "curtain"
+  ],
+  "objects_raw": [
+   "curtain"
+  ],
+  "utterance": "Please open the curtains.",
+  "paraphrases": [
+   "Could you draw the curtains back?",
+   "I want to see outside, open the curtain."
+  ]
+ },
+ {
+  "id": "I32",
+  "room": "living room",
+  "purpose": "needs",
+  "source": "board:temperature",
+  "objects": [
+   "heater"
+  ],
+  "objects_raw": [
+   "heater"
+  ],
+  "utterance": "Please turn up the heater.",
+  "paraphrases": [
+   "It is cold, put the heating on.",
+   "Could you increase the heater?"
+  ]
+ },
+ {
+  "id": "I33",
+  "room": "bedroom",
+  "purpose": "needs",
+  "source": "board:comfort",
+  "objects": [
+   "hand towel"
+  ],
+  "objects_raw": [
+   "hand_towel"
+  ],
+  "utterance": "My face is sweaty, please wipe it with a towel.",
+  "paraphrases": [
+   "Could you dab my forehead with a towel?",
+   "Please use a towel on my face."
+  ]
+ },
+ {
+  "id": "I34",
+  "room": "bedroom",
+  "purpose": "information",
+  "source": "info:time",
+  "objects": [
+   "alarm clock"
+  ],
+  "objects_raw": [
+   "alarm_clock"
+  ],
+  "utterance": "What time is it?",
+  "paraphrases": [
+   "Could you tell me the time?",
+   "Is it morning already?"
+  ]
+ },
+ {
+  "id": "I35",
+  "room": "living room",
+  "purpose": "information",
+  "source": "info:schedule",
+  "objects": [
+   "wall clock"
+  ],
+  "objects_raw": [
+   "wall_clock"
+  ],
+  "utterance": "When is my appointment today?",
+  "paraphrases": [
+   "What time do we leave for the clinic?",
+   "Tell me the time of my appointment."
+  ]
+ },
+ {
+  "id": "I36",
+  "room": "bedroom",
+  "purpose": "information",
+  "source": "info:medical",
+  "objects": [
+   "medicine"
+  ],
+  "objects_raw": [
+   "medicine"
+  ],
+  "utterance": "I have already taken my medicine.",
+  "paraphrases": [
+   "My tablets are done for now.",
+   "Do not give me the medicine again."
+  ]
+ },
+ {
+  "id": "I37",
+  "room": "bedroom",
+  "purpose": "information",
+  "source": "info:instruction",
+  "objects": [
+   "notebook",
+   "pen"
+  ],
+  "objects_raw": [
+   "notebook",
+   "pen"
+  ],
+  "utterance": "Write this down for me, please.",
+  "paraphrases": [
+   "Take a note of this.",
+   "Please use the notebook to write it."
+  ]
+ },
+ {
+  "id": "I38",
+  "room": "living room",
+  "purpose": "information",
+  "source": "info:instruction",
+  "objects": [
+   "laptop computer"
+  ],
+  "objects_raw": [
+   "laptop_computer"
+  ],
+  "utterance": "Open my laptop, I want to check my email.",
+  "paraphrases": [
+   "Please start the computer for me.",
+   "I need my laptop to read messages."
+  ]
+ },
+ {
+  "id": "I39",
+  "room": "bedroom",
+  "purpose": "information",
+  "source": "info:entertainment",
+  "objects": [
+   "book"
+  ],
+  "objects_raw": [
+   "book"
+  ],
+  "utterance": "Read me the next chapter of my book.",
+  "paraphrases": [
+   "Please continue my book.",
+   "Read to me from that book."
+  ]
+ },
+ {
+  "id": "I40",
+  "room": "living room",
+  "purpose": "information",
+  "source": "info:news",
+  "objects": [
+   "newspaper"
+  ],
+  "objects_raw": [
+   "newspaper"
+  ],
+  "utterance": "Read me the news, please.",
+  "paraphrases": [
+   "What does the paper say today?",
+   "Tell me the headlines from the newspaper."
+  ]
+ },
+ {
+  "id": "I41",
+  "room": "kitchen",
+  "purpose": "information",
+  "source": "info:safety",
+  "objects": [
+   "stove"
+  ],
+  "objects_raw": [
+   "stove"
+  ],
+  "utterance": "Be careful, the stove is still on.",
+  "paraphrases": [
+   "Turn the cooker off, it is burning.",
+   "The gas is still lit."
+  ]
+ },
+ {
+  "id": "I42",
+  "room": "bedroom",
+  "purpose": "information",
+  "source": "info:maintenance",
+  "objects": [
+   "table lamp"
+  ],
+  "objects_raw": [
+   "table_lamp"
+  ],
+  "utterance": "The lamp beside my bed is not working.",
+  "paraphrases": [
+   "My bedside light is broken.",
+   "That lamp needs a new bulb."
+  ]
+ },
+ {
+  "id": "I43",
+  "room": "dining",
+  "purpose": "information",
+  "source": "info:household",
+  "objects": [
+   "cake"
+  ],
+  "objects_raw": [
+   "cake"
+  ],
+  "utterance": "There is cake for the visitors, offer them some.",
+  "paraphrases": [
+   "Give our guests some cake.",
+   "The cake is for everybody."
+  ]
+ },
+ {
+  "id": "I44",
+  "room": "bedroom",
+  "purpose": "social",
+  "source": "social:family",
+  "objects": [
+   "cellular telephone"
+  ],
+  "objects_raw": [
+   "cellular_telephone"
+  ],
+  "utterance": "Call my family, I want to talk to them.",
+  "paraphrases": [
+   "Please phone my daughter.",
+   "I would like to speak to my family on the phone."
+  ]
+ },
+ {
+  "id": "I45",
+  "room": "living room",
+  "purpose": "social",
+  "source": "social:conversation",
+  "objects": [
+   "painting"
+  ],
+  "objects_raw": [
+   "painting"
+  ],
+  "utterance": "That painting is my favourite, tell me about it.",
+  "paraphrases": [
+   "I like looking at that picture.",
+   "Talk to me about the painting."
+  ]
+ },
+ {
+  "id": "I46",
+  "room": "living room",
+  "purpose": "social",
+  "source": "social:pets",
+  "objects": [
+   "dog"
+  ],
+  "objects_raw": [
+   "dog"
+  ],
+  "utterance": "Bring the dog to me, I want to stroke it.",
+  "paraphrases": [
+   "Let the dog come up here.",
+   "I want to pet the dog."
+  ]
+ },
+ {
+  "id": "I47",
+  "room": "bedroom",
+  "purpose": "social",
+  "source": "social:pets",
+  "objects": [
+   "cat"
+  ],
+  "objects_raw": [
+   "cat"
+  ],
+  "utterance": "Is the cat here? I would like to see her.",
+  "paraphrases": [
+   "Bring the cat in, please.",
+   "Where is my cat?"
+  ]
+ },
+ {
+  "id": "I48",
+  "room": "living room",
+  "purpose": "social",
+  "source": "social:conversation",
+  "objects": [
+   "flower arrangement"
+  ],
+  "objects_raw": [
+   "flower_arrangement"
+  ],
+  "utterance": "Who sent these flowers?",
+  "paraphrases": [
+   "Tell me who brought the flowers.",
+   "Where did that bouquet come from?"
+  ]
+ },
+ {
+  "id": "I49",
+  "room": "dining",
+  "purpose": "social",
+  "source": "social:celebration",
+  "objects": [
+   "wineglass"
+  ],
+  "objects_raw": [
+   "wineglass"
+  ],
+  "utterance": "Pour me a little wine, let us celebrate.",
+  "paraphrases": [
+   "A small glass of wine for me too.",
+   "I would like to join the toast."
+  ]
+ },
+ {
+  "id": "I50",
+  "room": "living room",
+  "purpose": "social",
+  "source": "social:music",
+  "objects": [
+   "radio receiver"
+  ],
+  "objects_raw": [
+   "radio_receiver"
+  ],
+  "utterance": "Put some music on, please.",
+  "paraphrases": [
+   "Turn the radio on.",
+   "I would like to listen to music."
+  ]
+ },
+ {
+  "id": "I51",
+  "room": "bedroom",
+  "purpose": "social",
+  "source": "social:conversation",
+  "objects": [
+   "magazine"
+  ],
+  "objects_raw": [
+   "magazine"
+  ],
+  "utterance": "Sit with me and look at this magazine.",
+  "paraphrases": [
+   "Let us go through the magazine together.",
+   "Stay and read the magazine with me."
+  ]
+ },
+ {
+  "id": "I52",
+  "room": "living room",
+  "purpose": "social",
+  "source": "social:company",
+  "objects": [
+   "armchair"
+  ],
+  "objects_raw": [
+   "armchair"
+  ],
+  "utterance": "Sit down next to me for a while.",
+  "paraphrases": [
+   "Take the armchair and stay with me.",
+   "Please keep me company here."
+  ]
+ },
+ {
+  "id": "I53",
+  "room": "bedroom",
+  "purpose": "social",
+  "source": "social:music",
+  "objects": [
+   "headset"
+  ],
+  "objects_raw": [
+   "headset"
+  ],
+  "utterance": "Put my headphones on, I want to listen.",
+  "paraphrases": [
+   "Help me with my headset.",
+   "I would like my headphones."
+  ]
+ },
+ {
+  "id": "I54",
+  "room": "dining",
+  "purpose": "etiquette",
+  "source": "etiquette:thanks",
+  "objects": [
+   "plate"
+  ],
+  "objects_raw": [
+   "plate"
+  ],
+  "utterance": "That was lovely, thank you.",
+  "paraphrases": [
+   "The meal was very good, thank you.",
+   "Thank you for my food."
+  ]
+ },
+ {
+  "id": "I55",
+  "room": "living room",
+  "purpose": "etiquette",
+  "source": "etiquette:offer",
+  "objects": [
+   "cup",
+   "teapot",
+   "milk"
+  ],
+  "objects_raw": [
+   "cup",
+   "teapot",
+   "milk"
+  ],
+  "utterance": "Would you like a cup of tea?",
+  "paraphrases": [
+   "Have some tea with me.",
+   "Shall we offer our guest tea?"
+  ]
+ },
+ {
+  "id": "I56",
+  "room": "dining",
+  "purpose": "etiquette",
+  "source": "etiquette:welcome",
+  "objects": [
+   "chair"
+  ],
+  "objects_raw": [
+   "chair"
+  ],
+  "utterance": "Please sit down, make yourself comfortable.",
+  "paraphrases": [
+   "Take a seat, please.",
+   "Do sit down with us."
+  ]
+ },
+ {
+  "id": "I57",
+  "room": "bedroom",
+  "purpose": "etiquette",
+  "source": "etiquette:thanks",
+  "objects": [
+   "flower arrangement"
+  ],
+  "objects_raw": [
+   "flower_arrangement"
+  ],
+  "utterance": "Thank you for the flowers, they are beautiful.",
+  "paraphrases": [
+   "It was kind of you to bring flowers.",
+   "The flowers are lovely, thank you."
+  ]
+ },
+ {
+  "id": "I58",
+  "room": "living room",
+  "purpose": "etiquette",
+  "source": "etiquette:apology",
+  "objects": [
+   "television set"
+  ],
+  "objects_raw": [
+   "television_set"
+  ],
+  "utterance": "Sorry, could you turn the television down?",
+  "paraphrases": [
+   "The TV is a little loud, sorry.",
+   "Please lower the television volume."
+  ]
+ },
+ {
+  "id": "I59",
+  "room": "dining",
+  "purpose": "etiquette",
+  "source": "etiquette:apology",
+  "objects": [
+   "napkin",
+   "table"
+  ],
+  "objects_raw": [
+   "napkin",
+   "table"
+  ],
+  "utterance": "Excuse me, I have spilled something on the table.",
+  "paraphrases": [
+   "Sorry, I have made a mess here.",
+   "I need help, I spilt my drink."
+  ]
+ },
+ {
+  "id": "I60",
+  "room": "bedroom",
+  "purpose": "etiquette",
+  "source": "etiquette:welcome",
+  "objects": [
+   "chair",
+   "bed"
+  ],
+  "objects_raw": [
+   "chair",
+   "bed"
+  ],
+  "utterance": "Please come in and sit down beside me.",
+  "paraphrases": [
+   "Bring a chair over and sit with me.",
+   "You are welcome, sit here."
+  ]
+ }
+]

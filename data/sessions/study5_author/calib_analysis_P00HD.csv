@@ -1,0 +1,6 @@
+method,held_out_3zone_accuracy
+"population model, raw",0.654320987654321
++ straight-line correction (x' = 1.83x + -0.36),0.654320987654321
+"refit on THIS session, ridge, eye features only",0.6419753086419753
+"refit on THIS session, ridge, eye + head features",0.5432098765432098
+"refit on THIS session, gradient boosting",0.7777777777777778

@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: If you use this software or data, please cite the paper.
+title: "GazeSpeakZero: a webcam-only gaze communication aid, and its measurement"
+abstract: >-
+  Code, session logs and figures for "Seeing is not selecting: measuring a
+  webcam-only gaze communication aid". The work measures how far per-frame
+  benchmark accuracy overstates live per-selection accuracy for a gaze-operated
+  communication aid that needs no hardware beyond an ordinary webcam.
+type: software
+license: MIT
+authors:
+  - family-names: Dhananjeyan
+    given-names: Sudaroli
+    email: oli.sudar@gmail.com
+    affiliation: Independent Researcher, Bengaluru, India
+  - family-names: R.
+    given-names: Alexander
+    affiliation: >-
+      Department of Computer Science and Engineering, St. Joseph's College of
+      Engineering, Chennai, India
+  - family-names: Sumathi
+    given-names: G.
+    affiliation: >-
+      Department of Computer Science and Engineering, SRM Institute of Science
+      and Technology, Ramapuram Campus, Chennai, India
+  - family-names: Sindhu
+    given-names: M.
+    affiliation: >-
+      Department of Computer Science and Engineering, Chennai Institute of
+      Technology, Chennai, India
+  - family-names: R.
+    given-names: Vanidha Sri
+    affiliation: >-
+      Department of Computer Science and Business Systems, Panimalar Engineering
+      College, Chennai, India
+keywords:
+  - augmentative and alternative communication
+  - gaze interaction
+  - webcam gaze estimation
+  - dwell selection
+  - accessibility
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Seeing is not selecting: measuring a webcam-only gaze communication aid"
+  year: 2026
+  authors:
+    - family-names: Dhananjeyan
+      given-names: Sudaroli
+    - family-names: R.
+      given-names: Alexander
+    - family-names: Sumathi
+      given-names: G.
+    - family-names: Sindhu
+      given-names: M.
+    - family-names: R.
+      given-names: Vanidha Sri

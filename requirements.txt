@@ -1,0 +1,27 @@
+# Python 3.11 or 3.12. NOT 3.13 or later - mediapipe has no wheels for them, and
+# setup_check.py will say so rather than failing halfway through a session.
+#
+# These are the versions the first author's machine ran, pinned so that a second
+# machine reproduces the same numbers. Studies 1-4 also run on newer releases of
+# each; Study 6 documents one case where a version difference was suspected and
+# ruled out by direct test (the predictions were bit-identical).
+
+# the system, and every analysis in this repository
+mediapipe==1.0.1
+opencv-python==5.0.0.93
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.6.1
+joblib==1.6.0
+scipy==1.17.1
+matplotlib==3.10.9
+
+# only for particular steps
+av==17.1.0             # decoding the Eye of the Typer videos (Study 1b)
+openpyxl==3.1.5        # reading and writing the blinded audit workbooks (Studies 2, 3)
+nbformat==5.10.4       # regenerating the Colab notebooks from the source files
+
+# Not listed, and deliberately: torch, transformers and sentence-transformers.
+# They are needed only by the generation stages of Studies 2 and 3, which ran on a
+# hosted T4 GPU; the notebooks in those folders install them, and the outputs those
+# runs produced are in the repository so the scoring can be repeated without a GPU.

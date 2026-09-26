@@ -1,0 +1,99 @@
+t_ms,block,condition_pattern,condition_guard,trial,cue_item,event,zone,item,page,detail,frame_ms,px,py
+3535.6,0,direct,double,1,curtain,dwell,1,,0,,39.05,0.584,0.5355
+3535.6,0,direct,double,1,curtain,reject,1,blanket,0,first of two,39.05,0.584,0.5355
+4457.1,0,direct,double,1,curtain,dwell,1,,0,,39.86,0.5624,0.5426
+4457.1,0,direct,double,1,curtain,select,1,blanket,0,double,39.86,0.5624,0.5426
+4457.1,0,direct,double,1,curtain,trial_end,,blanket,,,1431.8,,
+6671.7,0,direct,double,2,phone,dwell,1,,0,,35.95,0.5315,0.4963
+6671.7,0,direct,double,2,phone,reject,1,blanket,0,first of two,35.95,0.5315,0.4963
+7660.2,0,direct,double,2,phone,dwell,1,,0,,35.87,0.5856,0.6022
+7660.2,0,direct,double,2,phone,select,1,blanket,0,double,35.87,0.5856,0.6022
+7660.2,0,direct,double,2,phone,trial_end,,blanket,,,1530.1,,
+9877.4,0,direct,double,3,water bottle,dwell,1,,0,,33.4,0.4844,0.4706
+9877.4,0,direct,double,3,water bottle,reject,1,blanket,0,first of two,33.4,0.4844,0.4706
+10838.4,0,direct,double,3,water bottle,dwell,1,,0,,33.14,0.6306,0.5498
+10838.4,0,direct,double,3,water bottle,select,1,blanket,0,double,33.14,0.6306,0.5498
+10838.4,0,direct,double,3,water bottle,trial_end,,blanket,,,1500.8,,
+12998.2,0,direct,double,4,blanket,dwell,1,,0,,35.63,0.5425,0.536
+12998.2,0,direct,double,4,blanket,reject,1,blanket,0,first of two,35.63,0.5425,0.536
+13945.6,0,direct,double,4,blanket,dwell,1,,0,,37.89,0.5734,0.5688
+13945.6,0,direct,double,4,blanket,select,1,blanket,0,double,37.89,0.5734,0.5688
+13945.6,0,direct,double,4,blanket,trial_end,,blanket,,,1447.7,,
+16124.5,0,direct,double,5,toilet,dwell,1,,0,,36.81,0.4656,0.7312
+16124.5,0,direct,double,5,toilet,reject,1,blanket,0,first of two,36.81,0.4656,0.7312
+17077.8,0,direct,double,5,toilet,dwell,1,,0,,35.22,0.5538,0.4831
+17077.8,0,direct,double,5,toilet,select,1,blanket,0,double,35.22,0.5538,0.4831
+17077.8,0,direct,double,5,toilet,trial_end,,blanket,,,1465.8,,
+19317.1,0,direct,double,6,book,dwell,1,,0,,37.67,0.599,0.4539
+19317.1,0,direct,double,6,book,reject,1,blanket,0,first of two,37.67,0.599,0.4539
+20359.4,0,direct,double,6,book,dwell,1,,0,,31.13,0.5326,0.5938
+20359.4,0,direct,double,6,book,select,1,blanket,0,double,31.13,0.5326,0.5938
+20359.4,0,direct,double,6,book,trial_end,,blanket,,,1609.4,,
+23939.6,1,scan,none,1,toilet,dwell,1,,0,,40.27,0.5674,0.3958
+23939.6,1,scan,none,1,toilet,select,1,blanket,0,none,40.27,0.5674,0.3958
+23939.6,1,scan,none,1,toilet,trial_end,,blanket,,,509.4,,
+26143.3,1,scan,none,2,lamp,dwell,1,,0,,36.29,0.587,0.4713
+26143.3,1,scan,none,2,lamp,select,1,blanket,0,none,36.29,0.587,0.4713
+26143.3,1,scan,none,2,lamp,trial_end,,blanket,,,535.3,,
+28317.8,1,scan,none,3,television,dwell,1,,0,,33.32,0.5405,0.6407
+28317.8,1,scan,none,3,television,select,1,blanket,0,none,33.32,0.5405,0.6407
+28317.8,1,scan,none,3,television,trial_end,,blanket,,,505.2,,
+30687.1,1,scan,none,4,pillow,dwell,1,,0,,34.68,0.6601,0.3353
+30687.1,1,scan,none,4,pillow,select,1,blanket,0,none,34.68,0.6601,0.3353
+30687.1,1,scan,none,4,pillow,trial_end,,blanket,,,691.0,,
+32989.0,1,scan,none,5,phone,dwell,2,,0,,40.02,0.7668,0.4631
+32989.0,1,scan,none,5,phone,select,2,toilet,0,none,40.02,0.7668,0.4631
+32989.0,1,scan,none,5,phone,trial_end,,toilet,,,643.2,,
+35188.6,1,scan,none,6,pillow,dwell,1,,0,,34.47,0.5498,0.5782
+35188.6,1,scan,none,6,pillow,select,1,blanket,0,none,34.47,0.5498,0.5782
+35188.6,1,scan,none,6,pillow,trial_end,,blanket,,,543.3,,
+38784.6,2,scan,double,1,lamp,dwell,1,,0,,35.89,0.5979,0.6728
+38784.6,2,scan,double,1,lamp,reject,1,blanket,0,first of two,35.89,0.5979,0.6728
+39750.1,2,scan,double,1,lamp,dwell,1,,0,,37.42,0.52,0.6692
+39750.1,2,scan,double,1,lamp,select,1,blanket,0,double,37.42,0.52,0.6692
+39750.1,2,scan,double,1,lamp,trial_end,,blanket,,,1488.7,,
+42065.5,2,scan,double,2,toilet,dwell,1,,0,,29.36,0.4992,0.5251
+42065.5,2,scan,double,2,toilet,reject,1,blanket,0,first of two,29.36,0.4992,0.5251
+43036.6,2,scan,double,2,toilet,dwell,1,,0,,30.78,0.6506,0.5376
+43036.6,2,scan,double,2,toilet,select,1,blanket,0,double,30.78,0.6506,0.5376
+43036.6,2,scan,double,2,toilet,trial_end,,blanket,,,1592.7,,
+45218.2,2,scan,double,3,lamp,dwell,1,,0,,35.79,0.6402,0.73
+45218.2,2,scan,double,3,lamp,reject,1,blanket,0,first of two,35.79,0.6402,0.73
+46377.6,2,scan,double,3,lamp,dwell,1,,0,,31.49,0.6661,0.5306
+46377.6,2,scan,double,3,lamp,select,1,blanket,0,double,31.49,0.6661,0.5306
+46377.6,2,scan,double,3,lamp,trial_end,,blanket,,,1685.0,,
+48552.2,2,scan,double,4,phone,dwell,1,,0,,36.36,0.5265,0.4289
+48552.2,2,scan,double,4,phone,reject,1,blanket,0,first of two,36.36,0.5265,0.4289
+49519.4,2,scan,double,4,phone,dwell,1,,0,,35.53,0.6775,0.393
+49519.4,2,scan,double,4,phone,select,1,blanket,0,double,35.53,0.6775,0.393
+49519.4,2,scan,double,4,phone,trial_end,,blanket,,,1483.6,,
+51712.9,2,scan,double,5,fan,dwell,1,,0,,38.55,0.5253,0.6403
+51712.9,2,scan,double,5,fan,reject,1,blanket,0,first of two,38.55,0.5253,0.6403
+52621.5,2,scan,double,5,fan,dwell,1,,0,,40.39,0.859,0.5541
+52621.5,2,scan,double,5,fan,select,1,blanket,0,double,40.39,0.859,0.5541
+52621.5,2,scan,double,5,fan,trial_end,,blanket,,,1442.2,,
+54827.6,2,scan,double,6,pillow,dwell,2,,0,,34.75,0.7118,0.6433
+54827.6,2,scan,double,6,pillow,reject,2,toilet,0,first of two,34.75,0.7118,0.6433
+55811.0,2,scan,double,6,pillow,dwell,1,,0,,36.68,0.7369,0.4665
+55811.0,2,scan,double,6,pillow,reject,1,blanket,0,first of two,36.68,0.7369,0.4665
+56802.2,2,scan,double,6,pillow,dwell,1,,0,,31.88,0.8369,0.7101
+56802.2,2,scan,double,6,pillow,select,1,blanket,0,double,31.88,0.8369,0.7101
+56802.2,2,scan,double,6,pillow,trial_end,,blanket,,,2499.2,,
+60371.9,3,direct,none,1,lamp,dwell,1,,0,,34.75,0.6726,0.4903
+60371.9,3,direct,none,1,lamp,select,1,blanket,0,none,34.75,0.6726,0.4903
+60371.9,3,direct,none,1,lamp,trial_end,,blanket,,,515.6,,
+62622.6,3,direct,none,2,curtain,dwell,1,,0,,31.93,0.444,0.6102
+62622.6,3,direct,none,2,curtain,select,1,blanket,0,none,31.93,0.444,0.6102
+62622.6,3,direct,none,2,curtain,trial_end,,blanket,,,576.8,,
+64813.2,3,direct,none,3,book,dwell,1,,0,,38.38,0.6076,0.765
+64813.2,3,direct,none,3,book,select,1,blanket,0,none,38.38,0.6076,0.765
+64813.2,3,direct,none,3,book,trial_end,,blanket,,,537.0,,
+67064.7,3,direct,none,4,sandwich,dwell,1,,0,,36.46,0.4947,0.5283
+67064.7,3,direct,none,4,sandwich,select,1,blanket,0,none,36.46,0.4947,0.5283
+67064.7,3,direct,none,4,sandwich,trial_end,,blanket,,,588.8,,
+69238.9,3,direct,none,5,tissue,dwell,1,,0,,38.62,0.6001,0.6752
+69238.9,3,direct,none,5,tissue,select,1,blanket,0,none,38.62,0.6001,0.6752
+69238.9,3,direct,none,5,tissue,trial_end,,blanket,,,518.0,,
+71400.5,3,direct,none,6,toilet,dwell,1,,0,,38.75,0.5424,0.7844
+71400.5,3,direct,none,6,toilet,select,1,blanket,0,none,38.75,0.5424,0.7844
+71400.5,3,direct,none,6,toilet,trial_end,,blanket,,,504.6,,

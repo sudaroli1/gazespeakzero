@@ -1,0 +1,219 @@
+t_ms,block,condition_pattern,condition_guard,condition_calib,trial,cue_item,event,zone,item,page,detail,frame_ms,px,py,eye_px,cue_zone
+4120.4,0,scan,none,calibrated,1,toilet,dwell,0,,0,,34.1,0.0709,0.5,49.1,2
+4120.4,0,scan,none,calibrated,1,toilet,select,0,water bottle,0,none,34.1,0.0709,0.5,49.1,2
+4120.4,0,scan,none,calibrated,1,toilet,trial_end,,water bottle,,,1099.0,,,49.1,2
+6870.1,0,scan,none,calibrated,2,water bottle,dwell,1,,0,,36.37,0.3686,0.5,49.4,0
+6870.1,0,scan,none,calibrated,2,water bottle,select,1,blanket,0,none,36.37,0.3686,0.5,49.4,0
+6870.1,0,scan,none,calibrated,2,water bottle,trial_end,,blanket,,,1092.0,,,49.4,0
+9736.7,0,scan,none,calibrated,3,water bottle,dwell,0,,0,,34.65,0.0,0.5,49.4,0
+9736.7,0,scan,none,calibrated,3,water bottle,select,0,water bottle,0,none,34.65,0.0,0.5,49.4,0
+9736.7,0,scan,none,calibrated,3,water bottle,trial_end,,water bottle,,,1197.2,,,49.4,0
+12587.3,0,scan,none,calibrated,4,blanket,dwell,0,,0,,31.95,0.0,0.5,49.4,1
+12587.3,0,scan,none,calibrated,4,blanket,select,0,water bottle,0,none,31.95,0.0,0.5,49.4,1
+12587.3,0,scan,none,calibrated,4,blanket,trial_end,,water bottle,,,1161.3,,,49.4,1
+15352.6,0,scan,none,calibrated,5,blanket,dwell,0,,0,,39.62,0.038,0.5,49.4,1
+15352.6,0,scan,none,calibrated,5,blanket,select,0,water bottle,0,none,39.62,0.038,0.5,49.4,1
+15352.6,0,scan,none,calibrated,5,blanket,trial_end,,water bottle,,,1118.3,,,49.4,1
+18201.4,0,scan,none,calibrated,6,toilet,dwell,0,,0,,31.33,0.1299,0.5,49.6,2
+18201.4,0,scan,none,calibrated,6,toilet,select,0,water bottle,0,none,31.33,0.1299,0.5,49.6,2
+18201.4,0,scan,none,calibrated,6,toilet,trial_end,,water bottle,,,1152.3,,,49.6,2
+22441.2,1,scan,double,calibrated,1,blanket,dwell,0,,0,,35.48,0.1441,0.5,49.6,1
+22441.2,1,scan,double,calibrated,1,blanket,reject,0,water bottle,0,first of two,35.48,0.1441,0.5,49.6,1
+23513.6,1,scan,double,calibrated,1,blanket,dwell,0,,0,,36.71,0.3034,0.5,49.5,1
+23513.6,1,scan,double,calibrated,1,blanket,select,0,water bottle,0,double,36.71,0.3034,0.5,49.5,1
+23513.6,1,scan,double,calibrated,1,blanket,trial_end,,water bottle,,,2239.7,,,49.5,1
+26375.4,1,scan,double,calibrated,2,blanket,dwell,1,,0,,35.21,0.4539,0.5,49.0,1
+26375.4,1,scan,double,calibrated,2,blanket,reject,1,blanket,0,first of two,35.21,0.4539,0.5,49.0,1
+27462.3,1,scan,double,calibrated,2,blanket,dwell,2,,0,,31.69,0.6926,0.5,48.6,1
+27462.3,1,scan,double,calibrated,2,blanket,reject,2,toilet,0,first of two,31.69,0.6926,0.5,48.6,1
+28247.4,1,scan,double,calibrated,2,blanket,page,,,1,auto,39.87,0.6668,0.5,48.3,
+29320.5,1,scan,double,calibrated,2,blanket,dwell,2,,1,,39.48,0.6786,0.5,48.1,
+29320.5,1,scan,double,calibrated,2,blanket,reject,2,phone,1,first of two,39.48,0.6786,0.5,48.1,
+30409.8,1,scan,double,calibrated,2,blanket,dwell,2,,1,,31.02,0.7329,0.5,48.2,
+30409.8,1,scan,double,calibrated,2,blanket,select,2,phone,1,double,31.02,0.7329,0.5,48.2,
+30409.8,1,scan,double,calibrated,2,blanket,trial_end,,phone,,,5231.8,,,48.2,
+33160.2,1,scan,double,calibrated,3,lamp,dwell,2,,0,,37.58,0.7706,0.5,48.0,
+33160.2,1,scan,double,calibrated,3,lamp,reject,2,toilet,0,first of two,37.58,0.7706,0.5,48.0,
+34251.0,1,scan,double,calibrated,3,lamp,dwell,2,,0,,34.22,0.8104,0.5,47.9,
+34251.0,1,scan,double,calibrated,3,lamp,select,2,toilet,0,double,34.22,0.8104,0.5,47.9,
+34251.0,1,scan,double,calibrated,3,lamp,trial_end,,toilet,,,2192.4,,,47.9,
+37112.6,1,scan,double,calibrated,4,toilet,dwell,1,,0,,38.52,0.6282,0.5,48.2,2
+37112.6,1,scan,double,calibrated,4,toilet,reject,1,blanket,0,first of two,38.52,0.6282,0.5,48.2,2
+38184.5,1,scan,double,calibrated,4,toilet,dwell,1,,0,,36.99,0.6149,0.5,48.5,2
+38184.5,1,scan,double,calibrated,4,toilet,select,1,blanket,0,double,36.99,0.6149,0.5,48.5,2
+38184.5,1,scan,double,calibrated,4,toilet,trial_end,,blanket,,,2270.7,,,48.5,2
+41048.6,1,scan,double,calibrated,5,toilet,dwell,1,,0,,38.38,0.5686,0.5,48.6,2
+41048.6,1,scan,double,calibrated,5,toilet,reject,1,blanket,0,first of two,38.38,0.5686,0.5,48.6,2
+42120.4,1,scan,double,calibrated,5,toilet,dwell,2,,0,,40.17,0.7506,0.5,48.8,2
+42120.4,1,scan,double,calibrated,5,toilet,reject,2,toilet,0,first of two,40.17,0.7506,0.5,48.8,2
+42920.8,1,scan,double,calibrated,5,toilet,page,,,1,auto,35.98,0.5795,0.5,48.7,
+43993.4,1,scan,double,calibrated,5,toilet,dwell,1,,1,,42.5,0.4863,0.5,48.8,
+43993.4,1,scan,double,calibrated,5,toilet,reject,1,lamp,1,first of two,42.5,0.4863,0.5,48.8,
+45080.4,1,scan,double,calibrated,5,toilet,dwell,1,,1,,37.29,0.4943,0.5,48.7,
+45080.4,1,scan,double,calibrated,5,toilet,select,1,lamp,1,double,37.29,0.4943,0.5,48.7,
+45080.4,1,scan,double,calibrated,5,toilet,trial_end,,lamp,,,5224.1,,,48.7,
+47833.4,1,scan,double,calibrated,6,lamp,dwell,1,,0,,36.02,0.4786,0.5,48.7,
+47833.4,1,scan,double,calibrated,6,lamp,reject,1,blanket,0,first of two,36.02,0.4786,0.5,48.7,
+48919.5,1,scan,double,calibrated,6,lamp,dwell,1,,0,,31.64,0.5413,0.5,48.6,
+48919.5,1,scan,double,calibrated,6,lamp,select,1,blanket,0,double,31.64,0.5413,0.5,48.6,
+48919.5,1,scan,double,calibrated,6,lamp,trial_end,,blanket,,,2185.8,,,48.6,
+53161.0,2,direct,double,calibrated,1,water bottle,dwell,1,,0,,34.97,0.4283,0.5,48.7,0
+53161.0,2,direct,double,calibrated,1,water bottle,reject,1,blanket,0,first of two,34.97,0.4283,0.5,48.7,0
+54232.8,2,direct,double,calibrated,1,water bottle,dwell,0,,0,,37.99,0.3222,0.5,48.7,0
+54232.8,2,direct,double,calibrated,1,water bottle,reject,0,water bottle,0,first of two,37.99,0.3222,0.5,48.7,0
+55224.2,2,direct,double,calibrated,1,water bottle,dwell,0,,0,,34.64,0.2514,0.5,48.8,0
+55224.2,2,direct,double,calibrated,1,water bottle,select,0,water bottle,0,double,34.64,0.2514,0.5,48.8,0
+55224.2,2,direct,double,calibrated,1,water bottle,trial_end,,water bottle,,,3234.2,,,48.8,0
+57978.0,2,direct,double,calibrated,2,water bottle,dwell,0,,0,,41.29,0.3104,0.5,48.6,0
+57978.0,2,direct,double,calibrated,2,water bottle,reject,0,water bottle,0,first of two,41.29,0.3104,0.5,48.6,0
+59065.2,2,direct,double,calibrated,2,water bottle,dwell,0,,0,,37.32,0.1052,0.5,48.7,0
+59065.2,2,direct,double,calibrated,2,water bottle,select,0,water bottle,0,double,37.32,0.1052,0.5,48.7,0
+59065.2,2,direct,double,calibrated,2,water bottle,trial_end,,water bottle,,,2189.1,,,48.7,0
+62123.8,2,direct,double,calibrated,3,blanket,dwell,1,,0,,42.11,0.4393,0.5,48.8,1
+62123.8,2,direct,double,calibrated,3,blanket,reject,1,blanket,0,first of two,42.11,0.4393,0.5,48.8,1
+63192.1,2,direct,double,calibrated,3,blanket,dwell,0,,0,,32.48,0.3349,0.5,48.8,1
+63192.1,2,direct,double,calibrated,3,blanket,reject,0,water bottle,0,first of two,32.48,0.3349,0.5,48.8,1
+64183.9,2,direct,double,calibrated,3,blanket,dwell,1,,0,,30.46,0.3858,0.5,48.7,1
+64183.9,2,direct,double,calibrated,3,blanket,reject,1,blanket,0,first of two,30.46,0.3858,0.5,48.7,1
+65657.5,2,direct,double,calibrated,3,blanket,dwell,1,,0,,38.91,0.4068,0.5,48.7,1
+65657.5,2,direct,double,calibrated,3,blanket,select,1,blanket,0,double,38.91,0.4068,0.5,48.7,1
+65657.5,2,direct,double,calibrated,3,blanket,trial_end,,blanket,,,4929.2,,,48.7,1
+68522.9,2,direct,double,calibrated,4,blanket,dwell,1,,0,,38.27,0.4149,0.5,48.5,1
+68522.9,2,direct,double,calibrated,4,blanket,reject,1,blanket,0,first of two,38.27,0.4149,0.5,48.5,1
+69592.7,2,direct,double,calibrated,4,blanket,dwell,1,,0,,38.71,0.3887,0.5,48.5,1
+69592.7,2,direct,double,calibrated,4,blanket,select,1,blanket,0,double,38.71,0.3887,0.5,48.5,1
+69592.7,2,direct,double,calibrated,4,blanket,trial_end,,blanket,,,2269.1,,,48.5,1
+72361.8,2,direct,double,calibrated,5,blanket,dwell,1,,0,,36.85,0.4855,0.5,48.4,1
+72361.8,2,direct,double,calibrated,5,blanket,reject,1,blanket,0,first of two,36.85,0.4855,0.5,48.4,1
+73432.7,2,direct,double,calibrated,5,blanket,dwell,1,,0,,39.4,0.4207,0.5,48.5,1
+73432.7,2,direct,double,calibrated,5,blanket,select,1,blanket,0,double,39.4,0.4207,0.5,48.5,1
+73432.7,2,direct,double,calibrated,5,blanket,trial_end,,blanket,,,2184.7,,,48.5,1
+76585.0,2,direct,double,calibrated,6,water bottle,dwell,0,,0,,38.41,0.2714,0.5,48.4,0
+76585.0,2,direct,double,calibrated,6,water bottle,reject,0,water bottle,0,first of two,38.41,0.2714,0.5,48.4,0
+77576.8,2,direct,double,calibrated,6,water bottle,dwell,0,,0,,32.66,0.2866,0.5,48.5,0
+77576.8,2,direct,double,calibrated,6,water bottle,select,0,water bottle,0,double,32.66,0.2866,0.5,48.5,0
+77576.8,2,direct,double,calibrated,6,water bottle,trial_end,,water bottle,,,2463.6,,,48.5,0
+81801.8,3,direct,none,calibrated,1,water bottle,dwell,0,,0,,37.16,0.2408,0.5,48.5,0
+81801.8,3,direct,none,calibrated,1,water bottle,select,0,water bottle,0,none,37.16,0.2408,0.5,48.5,0
+81801.8,3,direct,none,calibrated,1,water bottle,trial_end,,water bottle,,,1148.3,,,48.5,0
+84570.8,3,direct,none,calibrated,2,water bottle,dwell,0,,0,,37.15,0.2093,0.5,48.4,0
+84570.8,3,direct,none,calibrated,2,water bottle,select,0,water bottle,0,none,37.15,0.2093,0.5,48.4,0
+84570.8,3,direct,none,calibrated,2,water bottle,trial_end,,water bottle,,,1110.7,,,48.4,0
+87418.1,3,direct,none,calibrated,3,water bottle,dwell,0,,0,,36.56,0.2203,0.5,48.3,0
+87418.1,3,direct,none,calibrated,3,water bottle,select,0,water bottle,0,none,36.56,0.2203,0.5,48.3,0
+87418.1,3,direct,none,calibrated,3,water bottle,trial_end,,water bottle,,,1152.2,,,48.3,0
+90473.9,3,direct,none,calibrated,4,blanket,dwell,1,,0,,32.85,0.4468,0.5,48.3,1
+90473.9,3,direct,none,calibrated,4,blanket,select,1,blanket,0,none,32.85,0.4468,0.5,48.3,1
+90473.9,3,direct,none,calibrated,4,blanket,trial_end,,blanket,,,1363.8,,,48.3,1
+93322.2,3,direct,none,calibrated,5,blanket,dwell,1,,0,,40.02,0.4572,0.5,48.2,1
+93322.2,3,direct,none,calibrated,5,blanket,select,1,blanket,0,none,40.02,0.4572,0.5,48.2,1
+93322.2,3,direct,none,calibrated,5,blanket,trial_end,,blanket,,,1165.2,,,48.2,1
+96186.6,3,direct,none,calibrated,6,blanket,dwell,1,,0,,38.49,0.5586,0.5,48.3,1
+96186.6,3,direct,none,calibrated,6,blanket,select,1,blanket,0,none,38.49,0.5586,0.5,48.3,1
+96186.6,3,direct,none,calibrated,6,blanket,trial_end,,blanket,,,1186.2,,,48.3,1
+100412.0,4,direct,double,free,1,blanket,dwell,1,,0,,32.41,0.4982,0.7012,48.4,1
+100412.0,4,direct,double,free,1,blanket,reject,1,blanket,0,first of two,32.41,0.4982,0.7012,48.4,1
+101498.6,4,direct,double,free,1,blanket,dwell,1,,0,,37.88,0.4839,0.705,48.7,1
+101498.6,4,direct,double,free,1,blanket,select,1,blanket,0,double,37.88,0.4839,0.705,48.7,1
+101498.6,4,direct,double,free,1,blanket,trial_end,,blanket,,,2236.9,,,48.7,1
+104362.1,4,direct,double,free,2,water bottle,dwell,1,,0,,38.16,0.4401,0.714,48.5,0
+104362.1,4,direct,double,free,2,water bottle,reject,1,blanket,0,first of two,38.16,0.4401,0.714,48.5,0
+105434.4,4,direct,double,free,2,water bottle,dwell,1,,0,,33.64,0.4724,0.6844,48.4,0
+105434.4,4,direct,double,free,2,water bottle,select,1,blanket,0,double,33.64,0.4724,0.6844,48.4,0
+105434.4,4,direct,double,free,2,water bottle,trial_end,,blanket,,,2260.2,,,48.4,0
+108299.5,4,direct,double,free,3,blanket,dwell,1,,0,,32.18,0.4781,0.6642,48.5,1
+108299.5,4,direct,double,free,3,blanket,reject,1,blanket,0,first of two,32.18,0.4781,0.6642,48.5,1
+109371.7,4,direct,double,free,3,blanket,dwell,1,,0,,39.97,0.4663,0.6745,48.5,1
+109371.7,4,direct,double,free,3,blanket,select,1,blanket,0,double,39.97,0.4663,0.6745,48.5,1
+109371.7,4,direct,double,free,3,blanket,trial_end,,blanket,,,2272.5,,,48.5,1
+112234.9,4,direct,double,free,4,water bottle,dwell,1,,0,,39.35,0.4686,0.673,48.5,0
+112234.9,4,direct,double,free,4,water bottle,reject,1,blanket,0,first of two,39.35,0.4686,0.673,48.5,0
+113306.3,4,direct,double,free,4,water bottle,dwell,1,,0,,34.58,0.4815,0.6864,48.6,0
+113306.3,4,direct,double,free,4,water bottle,select,1,blanket,0,double,34.58,0.4815,0.6864,48.6,0
+113306.3,4,direct,double,free,4,water bottle,trial_end,,blanket,,,2270.4,,,48.6,0
+116074.6,4,direct,double,free,5,blanket,dwell,1,,0,,36.6,0.5088,0.6827,48.7,1
+116074.6,4,direct,double,free,5,blanket,reject,1,blanket,0,first of two,36.6,0.5088,0.6827,48.7,1
+117146.7,4,direct,double,free,5,blanket,dwell,1,,0,,33.22,0.4804,0.688,48.6,1
+117146.7,4,direct,double,free,5,blanket,select,1,blanket,0,double,33.22,0.4804,0.688,48.6,1
+117146.7,4,direct,double,free,5,blanket,trial_end,,blanket,,,2177.1,,,48.6,1
+119915.3,4,direct,double,free,6,water bottle,dwell,1,,0,,39.46,0.4214,0.6899,48.5,0
+119915.3,4,direct,double,free,6,water bottle,reject,1,blanket,0,first of two,39.46,0.4214,0.6899,48.5,0
+120987.4,4,direct,double,free,6,water bottle,dwell,1,,0,,35.45,0.3988,0.7189,48.5,0
+120987.4,4,direct,double,free,6,water bottle,select,1,blanket,0,double,35.45,0.3988,0.7189,48.5,0
+120987.4,4,direct,double,free,6,water bottle,trial_end,,blanket,,,2176.3,,,48.5,0
+125227.0,5,scan,none,free,1,toilet,dwell,1,,0,,36.6,0.4539,0.759,48.9,2
+125227.0,5,scan,none,free,1,toilet,select,1,blanket,0,none,36.6,0.4539,0.759,48.9,2
+125227.0,5,scan,none,free,1,toilet,trial_end,,blanket,,,1172.7,,,48.9,2
+128091.2,5,scan,none,free,2,blanket,dwell,1,,0,,39.27,0.5374,0.6737,48.8,1
+128091.2,5,scan,none,free,2,blanket,select,1,blanket,0,none,39.27,0.5374,0.6737,48.8,1
+128091.2,5,scan,none,free,2,blanket,trial_end,,blanket,,,1177.9,,,48.8,1
+130938.8,5,scan,none,free,3,toilet,dwell,1,,0,,38.31,0.5205,0.7208,49.0,2
+130938.8,5,scan,none,free,3,toilet,select,1,blanket,0,none,38.31,0.5205,0.7208,49.0,2
+130938.8,5,scan,none,free,3,toilet,trial_end,,blanket,,,1185.7,,,49.0,2
+133787.3,5,scan,none,free,4,toilet,dwell,1,,0,,36.52,0.5143,0.7329,49.0,2
+133787.3,5,scan,none,free,4,toilet,select,1,blanket,0,none,36.52,0.5143,0.7329,49.0,2
+133787.3,5,scan,none,free,4,toilet,trial_end,,blanket,,,1183.8,,,49.0,2
+136652.6,5,scan,none,free,5,water bottle,dwell,1,,0,,32.64,0.4365,0.7255,48.9,0
+136652.6,5,scan,none,free,5,water bottle,select,1,blanket,0,none,32.64,0.4365,0.7255,48.9,0
+136652.6,5,scan,none,free,5,water bottle,trial_end,,blanket,,,1192.3,,,48.9,0
+139403.2,5,scan,none,free,6,toilet,dwell,1,,0,,40.29,0.4483,0.7816,49.0,2
+139403.2,5,scan,none,free,6,toilet,select,1,blanket,0,none,40.29,0.4483,0.7816,49.0,2
+139403.2,5,scan,none,free,6,toilet,trial_end,,blanket,,,1098.7,,,49.0,2
+143643.6,6,direct,none,free,1,water bottle,dwell,1,,0,,34.45,0.5323,0.7198,48.7,0
+143643.6,6,direct,none,free,1,water bottle,select,1,blanket,0,none,34.45,0.5323,0.7198,48.7,0
+143643.6,6,direct,none,free,1,water bottle,trial_end,,blanket,,,1157.2,,,48.7,0
+146491.2,6,direct,none,free,2,blanket,dwell,1,,0,,36.62,0.5254,0.6965,48.6,1
+146491.2,6,direct,none,free,2,blanket,select,1,blanket,0,none,36.62,0.5254,0.6965,48.6,1
+146491.2,6,direct,none,free,2,blanket,trial_end,,blanket,,,1181.2,,,48.6,1
+149359.1,6,direct,none,free,3,blanket,dwell,1,,0,,38.99,0.4949,0.6949,48.6,1
+149359.1,6,direct,none,free,3,blanket,select,1,blanket,0,none,38.99,0.4949,0.6949,48.6,1
+149359.1,6,direct,none,free,3,blanket,trial_end,,blanket,,,1199.1,,,48.6,1
+152204.6,6,direct,none,free,4,water bottle,dwell,1,,0,,39.72,0.461,0.6738,48.5,0
+152204.6,6,direct,none,free,4,water bottle,select,1,blanket,0,none,39.72,0.461,0.6738,48.5,0
+152204.6,6,direct,none,free,4,water bottle,trial_end,,blanket,,,1156.1,,,48.5,0
+154955.6,6,direct,none,free,5,water bottle,dwell,1,,0,,33.4,0.4407,0.6362,48.2,0
+154955.6,6,direct,none,free,5,water bottle,select,1,blanket,0,none,33.4,0.4407,0.6362,48.2,0
+154955.6,6,direct,none,free,5,water bottle,trial_end,,blanket,,,1090.6,,,48.2,0
+157821.1,6,direct,none,free,6,water bottle,dwell,1,,0,,37.33,0.4882,0.6436,48.3,0
+157821.1,6,direct,none,free,6,water bottle,select,1,blanket,0,none,37.33,0.4882,0.6436,48.3,0
+157821.1,6,direct,none,free,6,water bottle,trial_end,,blanket,,,1199.0,,,48.3,0
+162060.1,7,scan,double,free,1,toilet,dwell,1,,0,,34.05,0.4413,0.6753,48.3,2
+162060.1,7,scan,double,free,1,toilet,reject,1,blanket,0,first of two,34.05,0.4413,0.6753,48.3,2
+163132.4,7,scan,double,free,1,toilet,dwell,1,,0,,37.77,0.5668,0.6948,48.5,2
+163132.4,7,scan,double,free,1,toilet,select,1,blanket,0,double,37.77,0.5668,0.6948,48.5,2
+163132.4,7,scan,double,free,1,toilet,trial_end,,blanket,,,2254.4,,,48.5,2
+165996.5,7,scan,double,free,2,blanket,dwell,1,,0,,38.05,0.5452,0.6876,48.6,1
+165996.5,7,scan,double,free,2,blanket,reject,1,blanket,0,first of two,38.05,0.5452,0.6876,48.6,1
+167068.8,7,scan,double,free,2,blanket,dwell,1,,0,,31.28,0.5649,0.674,48.6,1
+167068.8,7,scan,double,free,2,blanket,select,1,blanket,0,double,31.28,0.5649,0.674,48.6,1
+167068.8,7,scan,double,free,2,blanket,trial_end,,blanket,,,2272.4,,,48.6,1
+169837.0,7,scan,double,free,3,toilet,dwell,1,,0,,36.93,0.5348,0.6674,48.7,2
+169837.0,7,scan,double,free,3,toilet,reject,1,blanket,0,first of two,36.93,0.5348,0.6674,48.7,2
+170909.9,7,scan,double,free,3,toilet,dwell,1,,0,,38.95,0.5527,0.6756,48.7,2
+170909.9,7,scan,double,free,3,toilet,select,1,blanket,0,double,38.95,0.5527,0.6756,48.7,2
+170909.9,7,scan,double,free,3,toilet,trial_end,,blanket,,,2184.6,,,48.7,2
+173772.4,7,scan,double,free,4,toilet,dwell,1,,0,,37.91,0.617,0.67,49.0,2
+173772.4,7,scan,double,free,4,toilet,reject,1,blanket,0,first of two,37.91,0.617,0.67,49.0,2
+174844.9,7,scan,double,free,4,toilet,dwell,2,,0,,37.24,0.7202,0.6904,49.0,2
+174844.9,7,scan,double,free,4,toilet,reject,2,toilet,0,first of two,37.24,0.7202,0.6904,49.0,2
+175646.0,7,scan,double,free,4,toilet,page,,,1,auto,41.1,0.6281,0.6599,49.0,
+176717.9,7,scan,double,free,4,toilet,dwell,1,,1,,39.77,0.6166,0.672,49.0,
+176717.9,7,scan,double,free,4,toilet,reject,1,lamp,1,first of two,39.77,0.6166,0.672,49.0,
+177803.8,7,scan,double,free,4,toilet,dwell,1,,1,,31.01,0.6175,0.6673,49.0,
+177803.8,7,scan,double,free,4,toilet,select,1,lamp,1,double,31.01,0.6175,0.6673,49.0,
+177803.8,7,scan,double,free,4,toilet,trial_end,,lamp,,,5230.1,,,49.0,
+180557.5,7,scan,double,free,5,lamp,dwell,1,,0,,33.63,0.5442,0.6658,48.8,
+180557.5,7,scan,double,free,5,lamp,reject,1,blanket,0,first of two,33.63,0.5442,0.6658,48.8,
+181644.9,7,scan,double,free,5,lamp,dwell,1,,0,,35.57,0.5539,0.6763,48.7,
+181644.9,7,scan,double,free,5,lamp,select,1,blanket,0,double,35.57,0.5539,0.6763,48.7,
+181644.9,7,scan,double,free,5,lamp,trial_end,,blanket,,,2187.8,,,48.7,
+184508.3,7,scan,double,free,6,toilet,dwell,1,,0,,39.38,0.5694,0.7144,48.7,2
+184508.3,7,scan,double,free,6,toilet,reject,1,blanket,0,first of two,39.38,0.5694,0.7144,48.7,2
+185580.9,7,scan,double,free,6,toilet,dwell,2,,0,,35.51,0.7765,0.7136,48.9,2
+185580.9,7,scan,double,free,6,toilet,reject,2,toilet,0,first of two,35.51,0.7765,0.7136,48.9,2
+186364.8,7,scan,double,free,6,toilet,page,,,1,auto,33.34,0.7513,0.6719,49.0,
+187453.7,7,scan,double,free,6,toilet,dwell,1,,1,,35.41,0.6391,0.6783,48.9,
+187453.7,7,scan,double,free,6,toilet,reject,1,lamp,1,first of two,35.41,0.6391,0.6783,48.9,
+188541.3,7,scan,double,free,6,toilet,dwell,1,,1,,36.54,0.6326,0.6916,48.8,
+188541.3,7,scan,double,free,6,toilet,select,1,lamp,1,double,36.54,0.6326,0.6916,48.8,
+188541.3,7,scan,double,free,6,toilet,trial_end,,lamp,,,5227.2,,,48.8,

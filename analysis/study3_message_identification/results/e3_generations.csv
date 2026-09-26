@@ -1,0 +1,1201 @@
+method,case_id,intent_id,condition,objects_shown,generated,reference,mapped_to,auto_correct
+lm_gen_phi3.5,I01:clean,I01,clean,"water bottle, straw",I would like to drink water using a straw.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_phi3.5,I01:partial,I01,partial,water bottle,I would like a water bottle.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_phi3.5,I01:wrong_label,I01,wrong_label,"water bottle, television set",I would like to drink water and watch television in the bedroom.,"I am thirsty, can I have some water?",Please turn on the television.,False
+lm_gen_phi3.5,I01:wrong_pick,I01,wrong_pick,"water bottle, sheets",I would like a water bottle and new sheets for my bedroom.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_phi3.5,I02:clean,I02,clean,"pill, water bottle",I need a pill and a water bottle.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+lm_gen_phi3.5,I02:partial,I02,partial,pill,I need a pill to rest or sleep.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+lm_gen_phi3.5,I02:wrong_label,I02,wrong_label,"pill, cat",I want a pillow for my cat to rest on in the bedroom.,"It is time for my medicine, please bring it with water.","Please move my pillow, my head is uncomfortable.",False
+lm_gen_phi3.5,I02:wrong_pick,I02,wrong_pick,"pill, laptop",I need a pill for comfort and a laptop for communication.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_phi3.5,I03:clean,I03,clean,blanket,I would like to wrap myself in the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_phi3.5,I03:partial,I03,partial,blanket,I would like to wrap myself in the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_phi3.5,I03:wrong_label,I03,wrong_label,television set,I want to watch television.,"I am cold, can I have another blanket?",Please turn on the television.,False
+lm_gen_phi3.5,I03:wrong_pick,I03,wrong_pick,top of it,I want the top of the bed.,"I am cold, can I have another blanket?",I want to sit on the sofa.,False
+lm_gen_phi3.5,I04:clean,I04,clean,fan,I want to turn on the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_phi3.5,I04:partial,I04,partial,fan,I want to turn on the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_phi3.5,I04:wrong_label,I04,wrong_label,laptop computer,I want to use the laptop computer in the bedroom.,"I am too warm, please turn on the fan.","Open my laptop, I want to check my email.",False
+lm_gen_phi3.5,I04:wrong_pick,I04,wrong_pick,luggage,I need to pack for my trip.,"I am too warm, please turn on the fan.",I want to brush my teeth.,False
+lm_gen_phi3.5,I05:clean,I05,clean,pillow,I would like to rest on the pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_phi3.5,I05:partial,I05,partial,pillow,I would like to rest on the pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_phi3.5,I05:wrong_label,I05,wrong_label,clock,I want to check the time on the clock.,"Please move my pillow, my head is uncomfortable.",What time is it?,False
+lm_gen_phi3.5,I05:wrong_pick,I05,wrong_pick,young boy,I want to play with my toys in the bedroom.,"Please move my pillow, my head is uncomfortable.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I06:clean,I06,clean,"bed, quilt, pillow",I want to sleep on the bed with the quilt and pillow.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I06:partial,I06,partial,bed,I want to sleep in the bed.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I06:wrong_label,I06,wrong_label,"bed, quilt, dining table",I want to go to bed with a quilt on the dining table.,Please straighten my bed covers.,Please straighten my bed covers.,True
+lm_gen_phi3.5,I06:wrong_pick,I06,wrong_pick,"bed, quilt, mother",I want my mother to help me get into bed with the quilt.,Please straighten my bed covers.,Please straighten my bed covers.,True
+lm_gen_phi3.5,I07:clean,I07,clean,toilet,I need to use the toilet.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_phi3.5,I07:partial,I07,partial,toilet,I need to use the toilet.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_phi3.5,I07:wrong_label,I07,wrong_label,chair,I would like to sit on the chair.,I need to use the toilet.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I07:wrong_pick,I07,wrong_pick,television set,I want to watch television.,I need to use the toilet.,Please turn on the television.,False
+lm_gen_phi3.5,I08:clean,I08,clean,tissue paper,I need some tissue paper.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_phi3.5,I08:partial,I08,partial,tissue paper,I need some tissue paper.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_phi3.5,I08:wrong_label,I08,wrong_label,sofa,I want the sofa in the bedroom.,"I need a tissue, please.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I08:wrong_pick,I08,wrong_pick,mother,I need my mother's help to get into bed.,"I need a tissue, please.","Please turn the light off, I want to sleep.",False
+lm_gen_phi3.5,I09:clean,I09,clean,lamp,I want the lamp turned on.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+lm_gen_phi3.5,I09:partial,I09,partial,lamp,I want the lamp turned on.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+lm_gen_phi3.5,I09:wrong_label,I09,wrong_label,train,I want to see the train model in the bedroom.,"Please turn the light off, I want to sleep.",Please open the curtains.,False
+lm_gen_phi3.5,I09:wrong_pick,I09,wrong_pick,wheelchair,I need a comfortable place to rest in my bedroom.,"Please turn the light off, I want to sleep.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I10:clean,I10,clean,spectacles,I need my spectacles to see clearly.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_phi3.5,I10:partial,I10,partial,spectacles,I need my spectacles to see clearly.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_phi3.5,I10:wrong_label,I10,wrong_label,cat,I want to pet the cat.,Can you pass me my glasses?,"Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I10:wrong_pick,I10,wrong_pick,camera,I want to take a picture of this room.,Can you pass me my glasses?,Please open the curtains.,False
+lm_gen_phi3.5,I11:clean,I11,clean,walking stick,I need a walking stick for stability in my bedroom.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_phi3.5,I11:partial,I11,partial,walking stick,I need a walking stick for stability in my bedroom.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_phi3.5,I11:wrong_label,I11,wrong_label,bottle,I would like a bottle.,"Pass me my walking stick, I want to move.",Can I have a glass of milk?,False
+lm_gen_phi3.5,I11:wrong_pick,I11,wrong_pick,orange cat,I want the orange cat in the bedroom.,"Pass me my walking stick, I want to move.",Is the cat here? I would like to see her.,False
+lm_gen_phi3.5,I12:clean,I12,clean,"sock, slipper, shoe","I need my sock, slipper, and shoe for bedtime.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_phi3.5,I12:partial,I12,partial,sock,I want to put on my sock.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_phi3.5,I12:wrong_label,I12,wrong_label,"sock, slipper, microwave oven","I need to put on my sock, then my slipper, and finally heat up my food in the microwave oven.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_phi3.5,I12:wrong_pick,I12,wrong_pick,"sock, slipper, nightstands","I want to put on my sock, then my slipper, and check my nightstands.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_phi3.5,I13:clean,I13,clean,"toothbrush, toothpaste, cup",I need to brush my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_phi3.5,I13:partial,I13,partial,toothbrush,I need to brush my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_phi3.5,I13:wrong_label,I13,wrong_label,"toothbrush, toothpaste, bed",I need to brush my teeth and then go to bed.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_phi3.5,I13:wrong_pick,I13,wrong_pick,"toothbrush, toothpaste, front of a mirror",I need to brush my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_phi3.5,I14:clean,I14,clean,"shower head, towel, soap","I want to take a shower with this shower head, dry off with this towel, and use this soap.",I would like a shower now.,I would like a shower now.,True
+lm_gen_phi3.5,I14:partial,I14,partial,shower head,I want to use the shower head.,I would like a shower now.,I would like a shower now.,True
+lm_gen_phi3.5,I14:wrong_label,I14,wrong_label,"shower head, towel, toilet bowl","I need to shower, dry off with a towel, and clean the toilet bowl.",I would like a shower now.,I need to use the toilet.,False
+lm_gen_phi3.5,I14:wrong_pick,I14,wrong_pick,"shower head, towel, lamp","I want to take a shower, dry off with this towel, and turn on the lamp.",I would like a shower now.,"My face is sweaty, please wipe it with a towel.",False
+lm_gen_phi3.5,I15:clean,I15,clean,toilet tissue,I need toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+lm_gen_phi3.5,I15:partial,I15,partial,toilet tissue,I need toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+lm_gen_phi3.5,I15:wrong_label,I15,wrong_label,chair,I need a chair in the bathroom.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_phi3.5,I15:wrong_pick,I15,wrong_pick,cabinet,I need the cabinet.,"The toilet paper is finished, please bring more.","I need a napkin, please.",False
+lm_gen_phi3.5,I16:clean,I16,clean,"soap, sink",I need soap to wash my hands at the sink.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_phi3.5,I16:partial,I16,partial,soap,I need some soap.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_phi3.5,I16:wrong_label,I16,wrong_label,"soap, bed",I need soap for cleaning and a bed for resting.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_phi3.5,I16:wrong_pick,I16,wrong_pick,"soap, recliner",I need soap for cleaning and a recliner for relaxation in the bathroom.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_phi3.5,I17:clean,I17,clean,hairbrush,I need to brush my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_phi3.5,I17:partial,I17,partial,hairbrush,I need to brush my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_phi3.5,I17:wrong_label,I17,wrong_label,bowl,I need a bowl for washing my hands.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_phi3.5,I17:wrong_pick,I17,wrong_pick,washer,I need to wash my clothes.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_phi3.5,I18:clean,I18,clean,mirror,I want to look at my reflection in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_phi3.5,I18:partial,I18,partial,mirror,I want to look at my reflection in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_phi3.5,I18:wrong_label,I18,wrong_label,bowl,I need a bowl for washing my hands.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_phi3.5,I18:wrong_pick,I18,wrong_pick,washer,I need to wash my clothes.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_phi3.5,I19:clean,I19,clean,"kettle, mug",I would like to make some tea.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_phi3.5,I19:partial,I19,partial,kettle,I want to boil some water.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_phi3.5,I19:wrong_label,I19,wrong_label,"kettle, cat",I want the kettle for making tea and the cat for companionship.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_phi3.5,I19:wrong_pick,I19,wrong_pick,"kettle, view of the ocean",I would like to make tea and look at the ocean.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_phi3.5,I20:clean,I20,clean,"milk, glass",I would like some milk in a glass.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_phi3.5,I20:partial,I20,partial,milk,I would like some milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_phi3.5,I20:wrong_label,I20,wrong_label,"milk, newspaper",I would like some milk and a newspaper.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_phi3.5,I20:wrong_pick,I20,wrong_pick,"milk, turkey","I would like milk and turkey, please.",Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_phi3.5,I21:clean,I21,clean,sandwich,I would like a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_phi3.5,I21:partial,I21,partial,sandwich,I would like a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_phi3.5,I21:wrong_label,I21,wrong_label,microwave,I want to heat up my food.,"I am hungry, I would like a sandwich.",I am ready to eat now.,False
+lm_gen_phi3.5,I21:wrong_pick,I21,wrong_pick,vase,I want the vase.,"I am hungry, I would like a sandwich.","Pass me my walking stick, I want to move.",False
+lm_gen_phi3.5,I22:clean,I22,clean,"refrigerator, orange juice",I would like some orange juice from the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_phi3.5,I22:partial,I22,partial,refrigerator,I want to open the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_phi3.5,I22:wrong_label,I22,wrong_label,"refrigerator, toaster",I want to get something from the refrigerator and toast it.,"There is juice in the fridge, can I have some?","Pour me a little wine, let us celebrate.",False
+lm_gen_phi3.5,I22:wrong_pick,I22,wrong_pick,"refrigerator, newspaper",I would like to get a newspaper from the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_phi3.5,I23:clean,I23,clean,"medicine, spoon",I need a spoon to take my medicine.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+lm_gen_phi3.5,I23:partial,I23,partial,medicine,I need some medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_phi3.5,I23:wrong_label,I23,wrong_label,"medicine, dog",I need medicine for my dog in the kitchen.,"My liquid medicine is due, please give it to me.","It is time for my medicine, please bring it with water.",False
+lm_gen_phi3.5,I23:wrong_pick,I23,wrong_pick,"medicine, top of a microwave",I need the medicine from the top of the microwave.,"My liquid medicine is due, please give it to me.","It is time for my medicine, please bring it with water.",False
+lm_gen_phi3.5,I24:clean,I24,clean,"plate, fork, napkin","I would like a plate, fork, and napkin for dining.",I am ready to eat now.,"I need a napkin, please.",False
+lm_gen_phi3.5,I24:partial,I24,partial,plate,I would like a plate for my meal.,I am ready to eat now.,I am ready to eat now.,True
+lm_gen_phi3.5,I24:wrong_label,I24,wrong_label,"plate, fork, cake",I would like some cake from the dining room.,I am ready to eat now.,"There is cake for the visitors, offer them some.",False
+lm_gen_phi3.5,I24:wrong_pick,I24,wrong_pick,"plate, fork, cup","I would like a plate, fork, and cup for my meal.",I am ready to eat now.,I am ready to eat now.,True
+lm_gen_phi3.5,I25:clean,I25,clean,"cup, straw",I would like a cup with a straw.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_phi3.5,I25:partial,I25,partial,cup,"I would like a cup, please.",Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_phi3.5,I25:wrong_label,I25,wrong_label,"cup, bowl",I would like a cup and a bowl for the dining room.,Can I have a drink with a straw?,I am ready to eat now.,False
+lm_gen_phi3.5,I25:wrong_pick,I25,wrong_pick,"cup, broccoli","I would like a cup of broccoli, please.",Can I have a drink with a straw?,Can I have a glass of milk?,False
+lm_gen_phi3.5,I26:clean,I26,clean,napkin,I would like a napkin for my meal.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_phi3.5,I26:partial,I26,partial,napkin,I would like a napkin for my meal.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_phi3.5,I26:wrong_label,I26,wrong_label,banana,I would like a banana.,"I need a napkin, please.",I am ready to eat now.,False
+lm_gen_phi3.5,I26:wrong_pick,I26,wrong_pick,glass of wine,I would like a glass of wine.,"I need a napkin, please.","Pour me a little wine, let us celebrate.",False
+lm_gen_phi3.5,I27:clean,I27,clean,spoon,I would like a spoon for eating.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_phi3.5,I27:partial,I27,partial,spoon,I would like a spoon for eating.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_phi3.5,I27:wrong_label,I27,wrong_label,bear,I want a teddy bear for the dining room.,"Please feed me with a spoon, it is easier.","Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I27:wrong_pick,I27,wrong_pick,tomato,"I would like a tomato, please.","Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+lm_gen_phi3.5,I28:clean,I28,clean,"television set, remote control",I want to turn on the television.,Please turn on the television.,Please turn on the television.,True
+lm_gen_phi3.5,I28:partial,I28,partial,television set,I want to watch television.,Please turn on the television.,Please turn on the television.,True
+lm_gen_phi3.5,I28:wrong_label,I28,wrong_label,"television set, chair",I would like to watch television on the chair.,Please turn on the television.,Please turn on the television.,True
+lm_gen_phi3.5,I28:wrong_pick,I28,wrong_pick,"television set, bedspread",I would like to watch television on the bedspread.,Please turn on the television.,Please turn on the television.,True
+lm_gen_phi3.5,I29:clean,I29,clean,"sofa, cushion",I would like to sit on the sofa with a cushion.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_phi3.5,I29:partial,I29,partial,sofa,I would like to sit on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_phi3.5,I29:wrong_label,I29,wrong_label,"sofa, cake",I would like to sit on the sofa and have a piece of cake.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_phi3.5,I29:wrong_pick,I29,wrong_pick,"sofa, woman",I want to sit on the sofa next to the woman.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_phi3.5,I30:clean,I30,clean,wheelchair,I need a comfortable wheelchair for easy movement in the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_phi3.5,I30:partial,I30,partial,wheelchair,I need a comfortable wheelchair for easy movement in the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_phi3.5,I30:wrong_label,I30,wrong_label,vase,I would like to place the vase on the coffee table.,I want to get into my wheelchair.,"I need a napkin, please.",False
+lm_gen_phi3.5,I30:wrong_pick,I30,wrong_pick,men,I want to see some men's items in the living room.,I want to get into my wheelchair.,Can you pass me my glasses?,False
+lm_gen_phi3.5,I31:clean,I31,clean,curtain,I want to close the curtains in the living room.,Please open the curtains.,Please open the curtains.,True
+lm_gen_phi3.5,I31:partial,I31,partial,curtain,I want to close the curtains in the living room.,Please open the curtains.,Please open the curtains.,True
+lm_gen_phi3.5,I31:wrong_label,I31,wrong_label,cushion,I would like to sit on the cushion.,Please open the curtains.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I31:wrong_pick,I31,wrong_pick,pajamas,I want to wear my pajamas.,Please open the curtains.,Please put my socks and slippers on.,False
+lm_gen_phi3.5,I32:clean,I32,clean,heater,I want the heater turned on.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_phi3.5,I32:partial,I32,partial,heater,I want the heater turned on.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_phi3.5,I32:wrong_label,I32,wrong_label,quilt,I would like to wrap myself in the quilt.,Please turn up the heater.,Please straighten my bed covers.,False
+lm_gen_phi3.5,I32:wrong_pick,I32,wrong_pick,rabbit,I want the rabbit.,Please turn up the heater.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I33:clean,I33,clean,hand towel,I need a hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_phi3.5,I33:partial,I33,partial,hand towel,I need a hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_phi3.5,I33:wrong_label,I33,wrong_label,chair,I would like to sit on the chair.,"My face is sweaty, please wipe it with a towel.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I33:wrong_pick,I33,wrong_pick,cell phone,I need to call someone.,"My face is sweaty, please wipe it with a towel.","Call my family, I want to talk to them.",False
+lm_gen_phi3.5,I34:clean,I34,clean,alarm clock,I want to wake up early.,What time is it?,What time is it?,True
+lm_gen_phi3.5,I34:partial,I34,partial,alarm clock,I want to wake up early.,What time is it?,What time is it?,True
+lm_gen_phi3.5,I34:wrong_label,I34,wrong_label,remote control,I want to change the channel on the television.,What time is it?,Please turn on the television.,False
+lm_gen_phi3.5,I34:wrong_pick,I34,wrong_pick,itself,I am in the bedroom.,What time is it?,I want to sit on the sofa.,False
+lm_gen_phi3.5,I35:clean,I35,clean,wall clock,I want to check the time on the wall clock.,When is my appointment today?,What time is it?,False
+lm_gen_phi3.5,I35:partial,I35,partial,wall clock,I want to check the time on the wall clock.,When is my appointment today?,What time is it?,False
+lm_gen_phi3.5,I35:wrong_label,I35,wrong_label,doughnut,I would like a doughnut.,When is my appointment today?,I am ready to eat now.,False
+lm_gen_phi3.5,I35:wrong_pick,I35,wrong_pick,remote control,I want to change the channel on the TV.,When is my appointment today?,Please turn on the television.,False
+lm_gen_phi3.5,I36:clean,I36,clean,medicine,I need some medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_phi3.5,I36:partial,I36,partial,medicine,I need some medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_phi3.5,I36:wrong_label,I36,wrong_label,sofa,I want the sofa in the bedroom.,I have already taken my medicine.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I36:wrong_pick,I36,wrong_pick,orange cat,I want the orange cat in the bedroom.,I have already taken my medicine.,Is the cat here? I would like to see her.,False
+lm_gen_phi3.5,I37:clean,I37,clean,"notebook, pen",I would like to write in my notebook with this pen.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_phi3.5,I37:partial,I37,partial,notebook,I would like to write or read in my notebook.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_phi3.5,I37:wrong_label,I37,wrong_label,"notebook, toilet",I need a notebook and access to the toilet in the bedroom.,"Write this down for me, please.",I need to use the toilet.,False
+lm_gen_phi3.5,I37:wrong_pick,I37,wrong_pick,"notebook, blanket",I would like a notebook and a blanket for my bedroom.,"Write this down for me, please.","I am cold, can I have another blanket?",False
+lm_gen_phi3.5,I38:clean,I38,clean,laptop computer,I want to use the laptop computer in the living room.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_phi3.5,I38:partial,I38,partial,laptop computer,I want to use the laptop computer in the living room.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_phi3.5,I38:wrong_label,I38,wrong_label,chair,I would like to sit on the chair.,"Open my laptop, I want to check my email.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I38:wrong_pick,I38,wrong_pick,beer bottle,I would like a beer.,"Open my laptop, I want to check my email.","I would like a hot drink, please.",False
+lm_gen_phi3.5,I39:clean,I39,clean,book,I would like to read a book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_phi3.5,I39:partial,I39,partial,book,I would like to read a book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_phi3.5,I39:wrong_label,I39,wrong_label,bottle,I would like a bottle.,Read me the next chapter of my book.,Can I have a glass of milk?,False
+lm_gen_phi3.5,I39:wrong_pick,I39,wrong_pick,dorm room,I am looking for a dorm room.,Read me the next chapter of my book.,I would like a shower now.,False
+lm_gen_phi3.5,I40:clean,I40,clean,newspaper,I would like to read the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_phi3.5,I40:partial,I40,partial,newspaper,I would like to read the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_phi3.5,I40:wrong_label,I40,wrong_label,phone,I want to call someone.,"Read me the news, please.","Call my family, I want to talk to them.",False
+lm_gen_phi3.5,I40:wrong_pick,I40,wrong_pick,group of people,I would like to sit with this group of people in the living room.,"Read me the news, please.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I41:clean,I41,clean,stove,I want to cook something on the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_phi3.5,I41:partial,I41,partial,stove,I want to cook something on the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_phi3.5,I41:wrong_label,I41,wrong_label,apples,I would like an apple.,"Be careful, the stove is still on.",I am ready to eat now.,False
+lm_gen_phi3.5,I41:wrong_pick,I41,wrong_pick,dog,I want my dog to come into the kitchen.,"Be careful, the stove is still on.","Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I42:clean,I42,clean,table lamp,I want the table lamp turned on.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+lm_gen_phi3.5,I42:partial,I42,partial,table lamp,I want the table lamp turned on.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+lm_gen_phi3.5,I42:wrong_label,I42,wrong_label,clock,I want to check the time on the clock.,The lamp beside my bed is not working.,What time is it?,False
+lm_gen_phi3.5,I42:wrong_pick,I42,wrong_pick,floor,I need to clean the floor in my bedroom.,The lamp beside my bed is not working.,I want to brush my teeth.,False
+lm_gen_phi3.5,I43:clean,I43,clean,cake,I would like some cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_phi3.5,I43:partial,I43,partial,cake,I would like some cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_phi3.5,I43:wrong_label,I43,wrong_label,television set,I want to watch television in the dining room.,"There is cake for the visitors, offer them some.",Please turn on the television.,False
+lm_gen_phi3.5,I43:wrong_pick,I43,wrong_pick,ketchup,"I would like some ketchup, please.","There is cake for the visitors, offer them some.","I would like a hot drink, please.",False
+lm_gen_phi3.5,I44:clean,I44,clean,cellular telephone,I need to call someone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_phi3.5,I44:partial,I44,partial,cellular telephone,I need to call someone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_phi3.5,I44:wrong_label,I44,wrong_label,clock,I want to check the time on the clock.,"Call my family, I want to talk to them.",What time is it?,False
+lm_gen_phi3.5,I44:wrong_pick,I44,wrong_pick,bookcase,I would like to read a book from the bookcase.,"Call my family, I want to talk to them.",Read me the next chapter of my book.,False
+lm_gen_phi3.5,I45:clean,I45,clean,painting,I want to look at the painting in the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_phi3.5,I45:partial,I45,partial,painting,I want to look at the painting in the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_phi3.5,I45:wrong_label,I45,wrong_label,cake,I would like a slice of cake.,"That painting is my favourite, tell me about it.","There is cake for the visitors, offer them some.",False
+lm_gen_phi3.5,I45:wrong_pick,I45,wrong_pick,furniture,I would like to sit on the furniture in the living room.,"That painting is my favourite, tell me about it.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I46:clean,I46,clean,dog,I want the dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_phi3.5,I46:partial,I46,partial,dog,I want the dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_phi3.5,I46:wrong_label,I46,wrong_label,couch,I want to sit on the couch.,"Bring the dog to me, I want to stroke it.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I46:wrong_pick,I46,wrong_pick,map,I would like to explore a map of the living room.,"Bring the dog to me, I want to stroke it.",Please open the curtains.,False
+lm_gen_phi3.5,I47:clean,I47,clean,cat,I want to pet the cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I47:partial,I47,partial,cat,I want to pet the cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_phi3.5,I47:wrong_label,I47,wrong_label,chair,I would like to sit on the chair.,Is the cat here? I would like to see her.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I47:wrong_pick,I47,wrong_pick,remote,I want to change the channel on the TV.,Is the cat here? I would like to see her.,Please turn on the television.,False
+lm_gen_phi3.5,I48:clean,I48,clean,flower arrangement,I would like to see the flower arrangement in the living room.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_phi3.5,I48:partial,I48,partial,flower arrangement,I would like to see the flower arrangement in the living room.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_phi3.5,I48:wrong_label,I48,wrong_label,doughnut,I would like a doughnut.,Who sent these flowers?,I am ready to eat now.,False
+lm_gen_phi3.5,I48:wrong_pick,I48,wrong_pick,wine bottle,I would like a glass of wine.,Who sent these flowers?,"Pour me a little wine, let us celebrate.",False
+lm_gen_phi3.5,I49:clean,I49,clean,wineglass,I would like a glass of wine.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_phi3.5,I49:partial,I49,partial,wineglass,I would like a glass of wine.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_phi3.5,I49:wrong_label,I49,wrong_label,refrigerator,I would like to get something from the refrigerator.,"Pour me a little wine, let us celebrate.","There is juice in the fridge, can I have some?",False
+lm_gen_phi3.5,I49:wrong_pick,I49,wrong_pick,plate of pizza,I would like a slice of pizza.,"Pour me a little wine, let us celebrate.",I am ready to eat now.,False
+lm_gen_phi3.5,I50:clean,I50,clean,radio receiver,I want to turn on the radio receiver.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_phi3.5,I50:partial,I50,partial,radio receiver,I want to turn on the radio receiver.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_phi3.5,I50:wrong_label,I50,wrong_label,bottle,"I would like a bottle, please.","Put some music on, please.","I would like a hot drink, please.",False
+lm_gen_phi3.5,I50:wrong_pick,I50,wrong_pick,video game,I want to play the video game.,"Put some music on, please.",Please turn on the television.,False
+lm_gen_phi3.5,I51:clean,I51,clean,magazine,I would like to read the magazine.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_phi3.5,I51:partial,I51,partial,magazine,I would like to read the magazine.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_phi3.5,I51:wrong_label,I51,wrong_label,remote control,I want to change the channel on the television.,Sit with me and look at this magazine.,Please turn on the television.,False
+lm_gen_phi3.5,I51:wrong_pick,I51,wrong_pick,chair,I would like to sit on the chair.,Sit with me and look at this magazine.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I52:clean,I52,clean,armchair,I would like to sit in the armchair.,Sit down next to me for a while.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I52:partial,I52,partial,armchair,I would like to sit in the armchair.,Sit down next to me for a while.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I52:wrong_label,I52,wrong_label,umbrella,I would like to take the umbrella.,Sit down next to me for a while.,Please open the curtains.,False
+lm_gen_phi3.5,I52:wrong_pick,I52,wrong_pick,bed,I would like to sleep in the bed.,Sit down next to me for a while.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I53:clean,I53,clean,headset,I would like to use the headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_phi3.5,I53:partial,I53,partial,headset,I would like to use the headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_phi3.5,I53:wrong_label,I53,wrong_label,toilet,I need to use the toilet.,"Put my headphones on, I want to listen.",I need to use the toilet.,False
+lm_gen_phi3.5,I53:wrong_pick,I53,wrong_pick,papers,I need some papers for my room.,"Put my headphones on, I want to listen.","The toilet paper is finished, please bring more.",False
+lm_gen_phi3.5,I54:clean,I54,clean,plate,I would like a plate for my meal.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_phi3.5,I54:partial,I54,partial,plate,I would like a plate for my meal.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_phi3.5,I54:wrong_label,I54,wrong_label,sofa,I would like to sit on the sofa.,"That was lovely, thank you.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I54:wrong_pick,I54,wrong_pick,bowl of peanuts,I would like some peanuts.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_phi3.5,I55:clean,I55,clean,"cup, teapot, milk",I would like a cup of tea with milk.,Would you like a cup of tea?,Can I have a glass of milk?,False
+lm_gen_phi3.5,I55:partial,I55,partial,cup,"I would like a cup, please.",Would you like a cup of tea?,Can I have a drink with a straw?,False
+lm_gen_phi3.5,I55:wrong_label,I55,wrong_label,"cup, teapot, sofa",I would like a cup of tea on the sofa.,Would you like a cup of tea?,Would you like a cup of tea?,True
+lm_gen_phi3.5,I55:wrong_pick,I55,wrong_pick,"cup, teapot, refrigerator",I would like a cup of tea and to check the refrigerator.,Would you like a cup of tea?,Would you like a cup of tea?,True
+lm_gen_phi3.5,I56:clean,I56,clean,chair,I would like to sit in the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I56:partial,I56,partial,chair,I would like to sit in the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_phi3.5,I56:wrong_label,I56,wrong_label,knife,I would like to cut some food.,"Please sit down, make yourself comfortable.",I am ready to eat now.,False
+lm_gen_phi3.5,I56:wrong_pick,I56,wrong_pick,drinks,I would like a drink.,"Please sit down, make yourself comfortable.","I would like a hot drink, please.",False
+lm_gen_phi3.5,I57:clean,I57,clean,flower arrangement,I would like to have a flower arrangement in my bedroom.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_phi3.5,I57:partial,I57,partial,flower arrangement,I would like to have a flower arrangement in my bedroom.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_phi3.5,I57:wrong_label,I57,wrong_label,orange,I want an orange.,"Thank you for the flowers, they are beautiful.","There is juice in the fridge, can I have some?",False
+lm_gen_phi3.5,I57:wrong_pick,I57,wrong_pick,hotel room,I would like a room similar to a hotel room.,"Thank you for the flowers, they are beautiful.",I would like a shower now.,False
+lm_gen_phi3.5,I58:clean,I58,clean,television set,I want to watch television.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_phi3.5,I58:partial,I58,partial,television set,I want to watch television.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_phi3.5,I58:wrong_label,I58,wrong_label,orange,I would like an orange.,"Sorry, could you turn the television down?","There is juice in the fridge, can I have some?",False
+lm_gen_phi3.5,I58:wrong_pick,I58,wrong_pick,radio receiver,I want to turn on the radio receiver.,"Sorry, could you turn the television down?","Put some music on, please.",False
+lm_gen_phi3.5,I59:clean,I59,clean,"napkin, table",I would like a napkin on the table.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_phi3.5,I59:partial,I59,partial,napkin,I would like a napkin for my meal.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_phi3.5,I59:wrong_label,I59,wrong_label,"napkin, cup",I would like a napkin and a cup for my meal.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_phi3.5,I59:wrong_pick,I59,wrong_pick,"napkin, man",I would like a napkin and a man for the dining room.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_phi3.5,I60:clean,I60,clean,"chair, bed",I would like to sit on the chair and then lie down on the bed.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I60:partial,I60,partial,chair,I would like to sit on the chair.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I60:wrong_label,I60,wrong_label,"chair, laptop",I would like to sit on the chair and use my laptop.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_phi3.5,I60:wrong_pick,I60,wrong_pick,"chair, mouse",I would like to sit on the chair and use the mouse.,Please come in and sit down beside me.,I want to get into my wheelchair.,False
+lm_gen_qwen1.5b,I01:clean,I01,clean,"water bottle, straw",I want to drink some water through my straw.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen1.5b,I01:partial,I01,partial,water bottle,I want to drink some water.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen1.5b,I01:wrong_label,I01,wrong_label,"water bottle, television set",I want to drink some water from the water bottle on the nightstand next to the bed.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen1.5b,I01:wrong_pick,I01,wrong_pick,"water bottle, sheets",I want to drink some water while I sleep on these sheets.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen1.5b,I02:clean,I02,clean,"pill, water bottle",I want some water.,"It is time for my medicine, please bring it with water.","I am thirsty, can I have some water?",False
+lm_gen_qwen1.5b,I02:partial,I02,partial,pill,I am taking my medicine.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_qwen1.5b,I02:wrong_label,I02,wrong_label,"pill, cat",I want to take the pill for my cat.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+lm_gen_qwen1.5b,I02:wrong_pick,I02,wrong_pick,"pill, laptop",I want to take my tablet out of the drawer.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_qwen1.5b,I03:clean,I03,clean,blanket,I am going to cover myself with the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_qwen1.5b,I03:partial,I03,partial,blanket,I am going to cover myself with the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_qwen1.5b,I03:wrong_label,I03,wrong_label,television set,I want to watch TV.,"I am cold, can I have another blanket?",Please turn on the television.,False
+lm_gen_qwen1.5b,I03:wrong_pick,I03,wrong_pick,top of it,I am reaching for the top of the bed.,"I am cold, can I have another blanket?",Please straighten my bed covers.,False
+lm_gen_qwen1.5b,I04:clean,I04,clean,fan,I want to turn on the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_qwen1.5b,I04:partial,I04,partial,fan,I want to turn on the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_qwen1.5b,I04:wrong_label,I04,wrong_label,laptop computer,I want to use my laptop computer.,"I am too warm, please turn on the fan.","Open my laptop, I want to check my email.",False
+lm_gen_qwen1.5b,I04:wrong_pick,I04,wrong_pick,luggage,I am carrying my suitcase into the bedroom.,"I am too warm, please turn on the fan.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I05:clean,I05,clean,pillow,I want to sleep on the pillow tonight.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_qwen1.5b,I05:partial,I05,partial,pillow,I want to sleep on the pillow tonight.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_qwen1.5b,I05:wrong_label,I05,wrong_label,clock,I need to check the time before I go to bed.,"Please move my pillow, my head is uncomfortable.",What time is it?,False
+lm_gen_qwen1.5b,I05:wrong_pick,I05,wrong_pick,young boy,I am holding a small toy car.,"Please move my pillow, my head is uncomfortable.","Pass me my walking stick, I want to move.",False
+lm_gen_qwen1.5b,I06:clean,I06,clean,"bed, quilt, pillow","I want to sleep on the big, soft bed tonight under my cozy quilt and pillows.",Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I06:partial,I06,partial,bed,I want to sleep on the bed tonight.,Please straighten my bed covers.,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I06:wrong_label,I06,wrong_label,"bed, quilt, dining table",I want to sit on the bed and read my book while it's quiet.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I06:wrong_pick,I06,wrong_pick,"bed, quilt, mother",I want to sleep on my mother's bed tonight.,Please straighten my bed covers.,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I07:clean,I07,clean,toilet,I need to use the bathroom.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_qwen1.5b,I07:partial,I07,partial,toilet,I need to use the bathroom.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_qwen1.5b,I07:wrong_label,I07,wrong_label,chair,I am sitting on the chair.,I need to use the toilet.,Please come in and sit down beside me.,False
+lm_gen_qwen1.5b,I07:wrong_pick,I07,wrong_pick,television set,I want to watch TV.,I need to use the toilet.,Please turn on the television.,False
+lm_gen_qwen1.5b,I08:clean,I08,clean,tissue paper,I want to use the tissue paper to clean my hands after touching something dirty.,"I need a tissue, please.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I08:partial,I08,partial,tissue paper,I want to use the tissue paper to clean my hands after touching something dirty.,"I need a tissue, please.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I08:wrong_label,I08,wrong_label,sofa,I want to sit on the sofa.,"I need a tissue, please.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I08:wrong_pick,I08,wrong_pick,mother,I am helping my mother clean up after dinner.,"I need a tissue, please.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I09:clean,I09,clean,lamp,I turned on the lamp.,"Please turn the light off, I want to sleep.","Please turn the light off, I want to sleep.",True
+lm_gen_qwen1.5b,I09:partial,I09,partial,lamp,I turned on the lamp.,"Please turn the light off, I want to sleep.","Please turn the light off, I want to sleep.",True
+lm_gen_qwen1.5b,I09:wrong_label,I09,wrong_label,train,I want to go outside to watch the train.,"Please turn the light off, I want to sleep.",Please open the curtains.,False
+lm_gen_qwen1.5b,I09:wrong_pick,I09,wrong_pick,wheelchair,I am using my wheelchair in the bedroom.,"Please turn the light off, I want to sleep.",I want to get into my wheelchair.,False
+lm_gen_qwen1.5b,I10:clean,I10,clean,spectacles,I need my glasses.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_qwen1.5b,I10:partial,I10,partial,spectacles,I need my glasses.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_qwen1.5b,I10:wrong_label,I10,wrong_label,cat,I want to say that I am going to pet the cat.,Can you pass me my glasses?,"Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen1.5b,I10:wrong_pick,I10,wrong_pick,camera,I want to take a picture of the room.,Can you pass me my glasses?,Please open the curtains.,False
+lm_gen_qwen1.5b,I11:clean,I11,clean,walking stick,I am using my walking stick to navigate around the room.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_qwen1.5b,I11:partial,I11,partial,walking stick,I am using my walking stick to navigate around the room.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_qwen1.5b,I11:wrong_label,I11,wrong_label,bottle,I want to drink from the bottle.,"Pass me my walking stick, I want to move.","Excuse me, I have spilled something on the table.",False
+lm_gen_qwen1.5b,I11:wrong_pick,I11,wrong_pick,orange cat,I saw an orange cat in the bedroom.,"Pass me my walking stick, I want to move.",Is the cat here? I would like to see her.,False
+lm_gen_qwen1.5b,I12:clean,I12,clean,"sock, slipper, shoe",I put on my socks before putting on my slippers and then my shoes.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen1.5b,I12:partial,I12,partial,sock,I put on my socks before bed.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen1.5b,I12:wrong_label,I12,wrong_label,"sock, slipper, microwave oven",I am putting on my socks and then my slippers before going to use the microwave oven.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen1.5b,I12:wrong_pick,I12,wrong_pick,"sock, slipper, nightstands",I put on my socks and slipped into my slippers before going to bed.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen1.5b,I13:clean,I13,clean,"toothbrush, toothpaste, cup",I am brushing my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen1.5b,I13:partial,I13,partial,toothbrush,I am brushing my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen1.5b,I13:wrong_label,I13,wrong_label,"toothbrush, toothpaste, bed",I am brushing my teeth before going to bed.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen1.5b,I13:wrong_pick,I13,wrong_pick,"toothbrush, toothpaste, front of a mirror",I am brushing my teeth using toothpaste on the front of the mirror.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen1.5b,I14:clean,I14,clean,"shower head, towel, soap",I want to use the soap to wash my hands before entering the shower.,I would like a shower now.,I want to wash my hands.,False
+lm_gen_qwen1.5b,I14:partial,I14,partial,shower head,I want to use the shower head.,I would like a shower now.,I would like a shower now.,True
+lm_gen_qwen1.5b,I14:wrong_label,I14,wrong_label,"shower head, towel, toilet bowl",I want to use the toilet.,I would like a shower now.,I need to use the toilet.,False
+lm_gen_qwen1.5b,I14:wrong_pick,I14,wrong_pick,"shower head, towel, lamp",I want to use the shower.,I would like a shower now.,I would like a shower now.,True
+lm_gen_qwen1.5b,I15:clean,I15,clean,toilet tissue,I need to use the toilet.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_qwen1.5b,I15:partial,I15,partial,toilet tissue,I need to use the toilet.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_qwen1.5b,I15:wrong_label,I15,wrong_label,chair,I want to sit on the chair in the bathroom.,"The toilet paper is finished, please bring more.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I15:wrong_pick,I15,wrong_pick,cabinet,I want to open the cabinet door.,"The toilet paper is finished, please bring more.",Please open the curtains.,False
+lm_gen_qwen1.5b,I16:clean,I16,clean,"soap, sink",I am washing my hands with soap at the sink.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen1.5b,I16:partial,I16,partial,soap,I am washing my hands with soap.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen1.5b,I16:wrong_label,I16,wrong_label,"soap, bed",I want to use the soap before getting on the bed.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen1.5b,I16:wrong_pick,I16,wrong_pick,"soap, recliner",I want to use the soap and sit on the recliner.,I want to wash my hands.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I17:clean,I17,clean,hairbrush,I am brushing my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_qwen1.5b,I17:partial,I17,partial,hairbrush,I am brushing my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_qwen1.5b,I17:wrong_label,I17,wrong_label,bowl,I am washing my hands.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_qwen1.5b,I17:wrong_pick,I17,wrong_pick,washer,I washed my hands.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_qwen1.5b,I18:clean,I18,clean,mirror,I am looking at my reflection in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_qwen1.5b,I18:partial,I18,partial,mirror,I am looking at my reflection in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_qwen1.5b,I18:wrong_label,I18,wrong_label,bowl,I am washing my hands.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I18:wrong_pick,I18,wrong_pick,washer,I washed my hands.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I19:clean,I19,clean,"kettle, mug",I want to make tea using the kettle and mug.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen1.5b,I19:partial,I19,partial,kettle,I want to boil water for tea.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen1.5b,I19:wrong_label,I19,wrong_label,"kettle, cat",I want to make tea using the kettle.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen1.5b,I19:wrong_pick,I19,wrong_pick,"kettle, view of the ocean",I want to make tea while looking at the view of the ocean.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen1.5b,I20:clean,I20,clean,"milk, glass",I want some milk in the glass.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen1.5b,I20:partial,I20,partial,milk,I want some milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen1.5b,I20:wrong_label,I20,wrong_label,"milk, newspaper",I want some milk from the fridge.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen1.5b,I20:wrong_pick,I20,wrong_pick,"milk, turkey",I want some milk and turkey for dinner.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen1.5b,I21:clean,I21,clean,sandwich,I want to make a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_qwen1.5b,I21:partial,I21,partial,sandwich,I want to make a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_qwen1.5b,I21:wrong_label,I21,wrong_label,microwave,I want to use the microwave to heat up some popcorn.,"I am hungry, I would like a sandwich.",Please turn up the heater.,False
+lm_gen_qwen1.5b,I21:wrong_pick,I21,wrong_pick,vase,I want to clean up after myself by putting away the vase.,"I am hungry, I would like a sandwich.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I22:clean,I22,clean,"refrigerator, orange juice",I want some orange juice from the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen1.5b,I22:partial,I22,partial,refrigerator,I want to open the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen1.5b,I22:wrong_label,I22,wrong_label,"refrigerator, toaster",I want to open the refrigerator and toast some bread.,"There is juice in the fridge, can I have some?","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen1.5b,I22:wrong_pick,I22,wrong_pick,"refrigerator, newspaper",I want to open the refrigerator and read the newspaper.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen1.5b,I23:clean,I23,clean,"medicine, spoon",I want to use the spoon to take some medicine.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+lm_gen_qwen1.5b,I23:partial,I23,partial,medicine,I need to take my medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_qwen1.5b,I23:wrong_label,I23,wrong_label,"medicine, dog",I want to take the medicine for my dog.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_qwen1.5b,I23:wrong_pick,I23,wrong_pick,"medicine, top of a microwave",I want to use the medicine from the top of the microwave.,"My liquid medicine is due, please give it to me.","It is time for my medicine, please bring it with water.",False
+lm_gen_qwen1.5b,I24:clean,I24,clean,"plate, fork, napkin",I want to eat dinner.,I am ready to eat now.,I am ready to eat now.,True
+lm_gen_qwen1.5b,I24:partial,I24,partial,plate,I want to eat from the plate.,I am ready to eat now.,"I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I24:wrong_label,I24,wrong_label,"plate, fork, cake",I want to eat the cake with my fork.,I am ready to eat now.,"There is cake for the visitors, offer them some.",False
+lm_gen_qwen1.5b,I24:wrong_pick,I24,wrong_pick,"plate, fork, cup",I want to eat dinner.,I am ready to eat now.,I am ready to eat now.,True
+lm_gen_qwen1.5b,I25:clean,I25,clean,"cup, straw",I want to drink my tea from the straw.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_qwen1.5b,I25:partial,I25,partial,cup,I want to drink from the cup.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_qwen1.5b,I25:wrong_label,I25,wrong_label,"cup, bowl",I want to drink from the cup.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_qwen1.5b,I25:wrong_pick,I25,wrong_pick,"cup, broccoli",I want to drink from the cup while eating the broccoli.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_qwen1.5b,I26:clean,I26,clean,napkin,I want to wash my hands before dinner.,"I need a napkin, please.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I26:partial,I26,partial,napkin,I want to wash my hands before dinner.,"I need a napkin, please.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I26:wrong_label,I26,wrong_label,banana,I want to eat the banana.,"I need a napkin, please.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I26:wrong_pick,I26,wrong_pick,glass of wine,I want to have a glass of wine for dinner.,"I need a napkin, please.","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen1.5b,I27:clean,I27,clean,spoon,I want to use the spoon to eat dinner.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_qwen1.5b,I27:partial,I27,partial,spoon,I want to use the spoon to eat dinner.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_qwen1.5b,I27:wrong_label,I27,wrong_label,bear,I want to eat some food from the bear.,"Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I27:wrong_pick,I27,wrong_pick,tomato,I want to eat the tomato.,"Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I28:clean,I28,clean,"television set, remote control",I want to turn on the TV using the remote control.,Please turn on the television.,"Sorry, could you turn the television down?",False
+lm_gen_qwen1.5b,I28:partial,I28,partial,television set,I want to watch TV.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen1.5b,I28:wrong_label,I28,wrong_label,"television set, chair",I want to watch TV on the chair.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen1.5b,I28:wrong_pick,I28,wrong_pick,"television set, bedspread",I want to watch TV and change the bedspread.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen1.5b,I29:clean,I29,clean,"sofa, cushion",I want to sit on the soft cushion of the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen1.5b,I29:partial,I29,partial,sofa,I want to sit on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen1.5b,I29:wrong_label,I29,wrong_label,"sofa, cake",I want to eat the cake on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen1.5b,I29:wrong_pick,I29,wrong_pick,"sofa, woman",I want to sit on the sofa next to the woman.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen1.5b,I30:clean,I30,clean,wheelchair,I am using my wheelchair to move around the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_qwen1.5b,I30:partial,I30,partial,wheelchair,I am using my wheelchair to move around the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_qwen1.5b,I30:wrong_label,I30,wrong_label,vase,I want to say that I am going to put the vase on the coffee table.,I want to get into my wheelchair.,Can I have a drink with a straw?,False
+lm_gen_qwen1.5b,I30:wrong_pick,I30,wrong_pick,men,I want to say that I am selecting a man from the living room.,I want to get into my wheelchair.,Sit down next to me for a while.,False
+lm_gen_qwen1.5b,I31:clean,I31,clean,curtain,I want to open the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_qwen1.5b,I31:partial,I31,partial,curtain,I want to open the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_qwen1.5b,I31:wrong_label,I31,wrong_label,cushion,I want to sit on the soft cushion in the living room.,Please open the curtains.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I31:wrong_pick,I31,wrong_pick,pajamas,I am putting on my pajamas.,Please open the curtains.,Please put my socks and slippers on.,False
+lm_gen_qwen1.5b,I32:clean,I32,clean,heater,I want to turn on the heater.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_qwen1.5b,I32:partial,I32,partial,heater,I want to turn on the heater.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_qwen1.5b,I32:wrong_label,I32,wrong_label,quilt,I want to sit on the quilt.,Please turn up the heater.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I32:wrong_pick,I32,wrong_pick,rabbit,I want to say that I am selecting a rabbit from the living room.,Please turn up the heater.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen1.5b,I33:clean,I33,clean,hand towel,I am washing my hands with the towel.,"My face is sweaty, please wipe it with a towel.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I33:partial,I33,partial,hand towel,I am washing my hands with the towel.,"My face is sweaty, please wipe it with a towel.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I33:wrong_label,I33,wrong_label,chair,I am sitting on the chair.,"My face is sweaty, please wipe it with a towel.",Please come in and sit down beside me.,False
+lm_gen_qwen1.5b,I33:wrong_pick,I33,wrong_pick,cell phone,I want to use my cell phone to call someone.,"My face is sweaty, please wipe it with a towel.","Call my family, I want to talk to them.",False
+lm_gen_qwen1.5b,I34:clean,I34,clean,alarm clock,I turned on the alarm clock.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I34:partial,I34,partial,alarm clock,I turned on the alarm clock.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I34:wrong_label,I34,wrong_label,remote control,I turned on the TV using the remote control.,What time is it?,Please turn on the television.,False
+lm_gen_qwen1.5b,I34:wrong_pick,I34,wrong_pick,itself,I am looking at myself in the mirror.,What time is it?,"Hold the mirror up, I want to see myself.",False
+lm_gen_qwen1.5b,I35:clean,I35,clean,wall clock,I want to say that I am looking at the wall clock on the living room wall.,When is my appointment today?,Please open the curtains.,False
+lm_gen_qwen1.5b,I35:partial,I35,partial,wall clock,I want to say that I am looking at the wall clock on the living room wall.,When is my appointment today?,Please open the curtains.,False
+lm_gen_qwen1.5b,I35:wrong_label,I35,wrong_label,doughnut,I want to eat the doughnut.,When is my appointment today?,"I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I35:wrong_pick,I35,wrong_pick,remote control,I want to use the TV remote control.,When is my appointment today?,Please turn on the television.,False
+lm_gen_qwen1.5b,I36:clean,I36,clean,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_qwen1.5b,I36:partial,I36,partial,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_qwen1.5b,I36:wrong_label,I36,wrong_label,sofa,I want to sit on the sofa.,I have already taken my medicine.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I36:wrong_pick,I36,wrong_pick,orange cat,I saw an orange cat in the bedroom.,I have already taken my medicine.,Is the cat here? I would like to see her.,False
+lm_gen_qwen1.5b,I37:clean,I37,clean,"notebook, pen",I want to write a letter using my pen and notebook.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_qwen1.5b,I37:partial,I37,partial,notebook,I want to put my notebook on the nightstand.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_qwen1.5b,I37:wrong_label,I37,wrong_label,"notebook, toilet",I want to use the toilet.,"Write this down for me, please.",I need to use the toilet.,False
+lm_gen_qwen1.5b,I37:wrong_pick,I37,wrong_pick,"notebook, blanket",I want to take a nap on the soft blanket.,"Write this down for me, please.","I am cold, can I have another blanket?",False
+lm_gen_qwen1.5b,I38:clean,I38,clean,laptop computer,I want to use my laptop computer.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_qwen1.5b,I38:partial,I38,partial,laptop computer,I want to use my laptop computer.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_qwen1.5b,I38:wrong_label,I38,wrong_label,chair,I want to sit on the chair.,"Open my laptop, I want to check my email.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I38:wrong_pick,I38,wrong_pick,beer bottle,I want to drink some beer.,"Open my laptop, I want to check my email.","I would like a hot drink, please.",False
+lm_gen_qwen1.5b,I39:clean,I39,clean,book,I want to read the book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_qwen1.5b,I39:partial,I39,partial,book,I want to read the book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_qwen1.5b,I39:wrong_label,I39,wrong_label,bottle,I want to drink from the bottle.,Read me the next chapter of my book.,"Excuse me, I have spilled something on the table.",False
+lm_gen_qwen1.5b,I39:wrong_pick,I39,wrong_pick,dorm room,I am in the dorm room.,Read me the next chapter of my book.,I need to use the toilet.,False
+lm_gen_qwen1.5b,I40:clean,I40,clean,newspaper,I want to read the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_qwen1.5b,I40:partial,I40,partial,newspaper,I want to read the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_qwen1.5b,I40:wrong_label,I40,wrong_label,phone,I want to make a call on the phone.,"Read me the news, please.","Call my family, I want to talk to them.",False
+lm_gen_qwen1.5b,I40:wrong_pick,I40,wrong_pick,group of people,I want to say that I am selecting a group of people from the living room.,"Read me the news, please.","Call my family, I want to talk to them.",False
+lm_gen_qwen1.5b,I41:clean,I41,clean,stove,I want to cook dinner.,"Be careful, the stove is still on.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I41:partial,I41,partial,stove,I want to cook dinner.,"Be careful, the stove is still on.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I41:wrong_label,I41,wrong_label,apples,I want to buy some apples for the kitchen.,"Be careful, the stove is still on.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I41:wrong_pick,I41,wrong_pick,dog,I want to say that I am selecting the dog from the kitchen.,"Be careful, the stove is still on.","Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen1.5b,I42:clean,I42,clean,table lamp,I turned off the table lamp.,The lamp beside my bed is not working.,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I42:partial,I42,partial,table lamp,I turned off the table lamp.,The lamp beside my bed is not working.,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I42:wrong_label,I42,wrong_label,clock,I need to check the time before I go to bed.,The lamp beside my bed is not working.,What time is it?,False
+lm_gen_qwen1.5b,I42:wrong_pick,I42,wrong_pick,floor,I want to clean the floor.,The lamp beside my bed is not working.,I want to wash my hands.,False
+lm_gen_qwen1.5b,I43:clean,I43,clean,cake,I want to eat the cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_qwen1.5b,I43:partial,I43,partial,cake,I want to eat the cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_qwen1.5b,I43:wrong_label,I43,wrong_label,television set,I want to watch TV.,"There is cake for the visitors, offer them some.",Please turn on the television.,False
+lm_gen_qwen1.5b,I43:wrong_pick,I43,wrong_pick,ketchup,I want some ketchup for my dinner.,"There is cake for the visitors, offer them some.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I44:clean,I44,clean,cellular telephone,I want to use my cellular telephone to call someone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_qwen1.5b,I44:partial,I44,partial,cellular telephone,I want to use my cellular telephone to call someone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_qwen1.5b,I44:wrong_label,I44,wrong_label,clock,I need to check the time before I go to bed.,"Call my family, I want to talk to them.",What time is it?,False
+lm_gen_qwen1.5b,I44:wrong_pick,I44,wrong_pick,bookcase,I want to say that I am selecting the bookcase from the bookshelf in my bedroom.,"Call my family, I want to talk to them.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I45:clean,I45,clean,painting,I want to say that I am selecting the painting from the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_qwen1.5b,I45:partial,I45,partial,painting,I want to say that I am selecting the painting from the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_qwen1.5b,I45:wrong_label,I45,wrong_label,cake,I want to eat the cake.,"That painting is my favourite, tell me about it.","There is cake for the visitors, offer them some.",False
+lm_gen_qwen1.5b,I45:wrong_pick,I45,wrong_pick,furniture,I want to sit on the couch.,"That painting is my favourite, tell me about it.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I46:clean,I46,clean,dog,I want to say that I am going to pet the dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_qwen1.5b,I46:partial,I46,partial,dog,I want to say that I am going to pet the dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_qwen1.5b,I46:wrong_label,I46,wrong_label,couch,I want to sit on the couch.,"Bring the dog to me, I want to stroke it.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I46:wrong_pick,I46,wrong_pick,map,I want to look at the map.,"Bring the dog to me, I want to stroke it.","That painting is my favourite, tell me about it.",False
+lm_gen_qwen1.5b,I47:clean,I47,clean,cat,I want to say that I am going to pet the cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen1.5b,I47:partial,I47,partial,cat,I want to say that I am going to pet the cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen1.5b,I47:wrong_label,I47,wrong_label,chair,I am sitting on the chair.,Is the cat here? I would like to see her.,Please come in and sit down beside me.,False
+lm_gen_qwen1.5b,I47:wrong_pick,I47,wrong_pick,remote,I turned on the TV using the remote.,Is the cat here? I would like to see her.,Please turn on the television.,False
+lm_gen_qwen1.5b,I48:clean,I48,clean,flower arrangement,I want to say that I am selecting the flower arrangement.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_qwen1.5b,I48:partial,I48,partial,flower arrangement,I want to say that I am selecting the flower arrangement.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_qwen1.5b,I48:wrong_label,I48,wrong_label,doughnut,I want to eat the doughnut.,Who sent these flowers?,"I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I48:wrong_pick,I48,wrong_pick,wine bottle,I want to open the wine bottle.,Who sent these flowers?,"Pour me a little wine, let us celebrate.",False
+lm_gen_qwen1.5b,I49:clean,I49,clean,wineglass,I want to drink some wine from the wineglass.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_qwen1.5b,I49:partial,I49,partial,wineglass,I want to drink some wine from the wineglass.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_qwen1.5b,I49:wrong_label,I49,wrong_label,refrigerator,I want to open the refrigerator.,"Pour me a little wine, let us celebrate.","There is juice in the fridge, can I have some?",False
+lm_gen_qwen1.5b,I49:wrong_pick,I49,wrong_pick,plate of pizza,I want to eat the pizza on the plate.,"Pour me a little wine, let us celebrate.","I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I50:clean,I50,clean,radio receiver,I want to turn on the radio receiver.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_qwen1.5b,I50:partial,I50,partial,radio receiver,I want to turn on the radio receiver.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_qwen1.5b,I50:wrong_label,I50,wrong_label,bottle,I want to drink from the bottle.,"Put some music on, please.","Excuse me, I have spilled something on the table.",False
+lm_gen_qwen1.5b,I50:wrong_pick,I50,wrong_pick,video game,I want to play the video game.,"Put some music on, please.",Please turn on the television.,False
+lm_gen_qwen1.5b,I51:clean,I51,clean,magazine,I want to read the magazine on my nightstand.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_qwen1.5b,I51:partial,I51,partial,magazine,I want to read the magazine on my nightstand.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_qwen1.5b,I51:wrong_label,I51,wrong_label,remote control,I turned on the TV using the remote control.,Sit with me and look at this magazine.,Please turn on the television.,False
+lm_gen_qwen1.5b,I51:wrong_pick,I51,wrong_pick,chair,I am sitting on the chair.,Sit with me and look at this magazine.,Please come in and sit down beside me.,False
+lm_gen_qwen1.5b,I52:clean,I52,clean,armchair,I want to sit on the armchair.,Sit down next to me for a while.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I52:partial,I52,partial,armchair,I want to sit on the armchair.,Sit down next to me for a while.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I52:wrong_label,I52,wrong_label,umbrella,I want to go outside to dry my umbrella.,Sit down next to me for a while.,Please open the curtains.,False
+lm_gen_qwen1.5b,I52:wrong_pick,I52,wrong_pick,bed,I want to sleep on the bed tonight.,Sit down next to me for a while.,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen1.5b,I53:clean,I53,clean,headset,I am wearing a headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_qwen1.5b,I53:partial,I53,partial,headset,I am wearing a headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_qwen1.5b,I53:wrong_label,I53,wrong_label,toilet,I need to use the bathroom.,"Put my headphones on, I want to listen.",I need to use the toilet.,False
+lm_gen_qwen1.5b,I53:wrong_pick,I53,wrong_pick,papers,I want to put the papers on the table.,"Put my headphones on, I want to listen.","Write this down for me, please.",False
+lm_gen_qwen1.5b,I54:clean,I54,clean,plate,I want to eat from the plate.,"That was lovely, thank you.","I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I54:partial,I54,partial,plate,I want to eat from the plate.,"That was lovely, thank you.","I am hungry, I would like a sandwich.",False
+lm_gen_qwen1.5b,I54:wrong_label,I54,wrong_label,sofa,I want to sit on the sofa.,"That was lovely, thank you.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I54:wrong_pick,I54,wrong_pick,bowl of peanuts,I want to eat some peanuts from the bowl on the dining table.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I55:clean,I55,clean,"cup, teapot, milk",I want some tea.,Would you like a cup of tea?,Would you like a cup of tea?,True
+lm_gen_qwen1.5b,I55:partial,I55,partial,cup,I want to drink from the cup.,Would you like a cup of tea?,Can I have a drink with a straw?,False
+lm_gen_qwen1.5b,I55:wrong_label,I55,wrong_label,"cup, teapot, sofa",I want to drink some tea from the teapot on the sofa.,Would you like a cup of tea?,"I would like a hot drink, please.",False
+lm_gen_qwen1.5b,I55:wrong_pick,I55,wrong_pick,"cup, teapot, refrigerator",I want to drink some tea from the teapot.,Would you like a cup of tea?,"I would like a hot drink, please.",False
+lm_gen_qwen1.5b,I56:clean,I56,clean,chair,I want to sit on the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I56:partial,I56,partial,chair,I want to sit on the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I56:wrong_label,I56,wrong_label,knife,I want to cut the vegetables for dinner.,"Please sit down, make yourself comfortable.",I am ready to eat now.,False
+lm_gen_qwen1.5b,I56:wrong_pick,I56,wrong_pick,drinks,I want some drinks.,"Please sit down, make yourself comfortable.","I would like a hot drink, please.",False
+lm_gen_qwen1.5b,I57:clean,I57,clean,flower arrangement,I put the flower arrangement on the nightstand.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_qwen1.5b,I57:partial,I57,partial,flower arrangement,I put the flower arrangement on the nightstand.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_qwen1.5b,I57:wrong_label,I57,wrong_label,orange,I like the orange color of my bedroom.,"Thank you for the flowers, they are beautiful.","There is juice in the fridge, can I have some?",False
+lm_gen_qwen1.5b,I57:wrong_pick,I57,wrong_pick,hotel room,I want to go back to my hotel room.,"Thank you for the flowers, they are beautiful.",Please open the curtains.,False
+lm_gen_qwen1.5b,I58:clean,I58,clean,television set,I want to watch TV.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_qwen1.5b,I58:partial,I58,partial,television set,I want to watch TV.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_qwen1.5b,I58:wrong_label,I58,wrong_label,orange,I like the orange sofa.,"Sorry, could you turn the television down?",I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I58:wrong_pick,I58,wrong_pick,radio receiver,I want to turn on the radio receiver.,"Sorry, could you turn the television down?","Put some music on, please.",False
+lm_gen_qwen1.5b,I59:clean,I59,clean,"napkin, table",I want to use the napkin at the table for my meal.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen1.5b,I59:partial,I59,partial,napkin,I want to wash my hands before dinner.,"Excuse me, I have spilled something on the table.",I want to wash my hands.,False
+lm_gen_qwen1.5b,I59:wrong_label,I59,wrong_label,"napkin, cup",I want to use the napkin to clean my hands after eating.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen1.5b,I59:wrong_pick,I59,wrong_pick,"napkin, man",I want to use the napkin at dinner.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen1.5b,I60:clean,I60,clean,"chair, bed",I want to sit on the chair and then go to sleep on the bed.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I60:partial,I60,partial,chair,I am sitting on the chair.,Please come in and sit down beside me.,Please come in and sit down beside me.,True
+lm_gen_qwen1.5b,I60:wrong_label,I60,wrong_label,"chair, laptop",I want to sit on the chair while using my laptop.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_qwen1.5b,I60:wrong_pick,I60,wrong_pick,"chair, mouse",I want to sit on the chair because I need to use the mouse to find my way around the room.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I01:clean,I01,clean,"water bottle, straw",I want some water please.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen3b,I01:partial,I01,partial,water bottle,I need water from the bedroom.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+lm_gen_qwen3b,I01:wrong_label,I01,wrong_label,"water bottle, television set",I want to drink from my water bottle and turn on the television.,"I am thirsty, can I have some water?",Please turn on the television.,False
+lm_gen_qwen3b,I01:wrong_pick,I01,wrong_pick,"water bottle, sheets",I need water and clean sheets.,"I am thirsty, can I have some water?",Please straighten my bed covers.,False
+lm_gen_qwen3b,I02:clean,I02,clean,"pill, water bottle",I need water from the pill bottle.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+lm_gen_qwen3b,I02:partial,I02,partial,pill,I need to take the pill.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+lm_gen_qwen3b,I02:wrong_label,I02,wrong_label,"pill, cat",I need to take my pill and pet my cat.,"It is time for my medicine, please bring it with water.","Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen3b,I02:wrong_pick,I02,wrong_pick,"pill, laptop",I need to take my pill and then use the laptop.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_qwen3b,I03:clean,I03,clean,blanket,I want to cover myself with the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_qwen3b,I03:partial,I03,partial,blanket,I want to cover myself with the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_qwen3b,I03:wrong_label,I03,wrong_label,television set,I want to watch something on the television set.,"I am cold, can I have another blanket?",Please turn on the television.,False
+lm_gen_qwen3b,I03:wrong_pick,I03,wrong_pick,top of it,I want to touch the top of the bedroom.,"I am cold, can I have another blanket?",I want to wash my hands.,False
+lm_gen_qwen3b,I04:clean,I04,clean,fan,I need the fan in the bedroom.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_qwen3b,I04:partial,I04,partial,fan,I need the fan in the bedroom.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_qwen3b,I04:wrong_label,I04,wrong_label,laptop computer,I need to use the laptop in the bedroom.,"I am too warm, please turn on the fan.","Open my laptop, I want to check my email.",False
+lm_gen_qwen3b,I04:wrong_pick,I04,wrong_pick,luggage,I need to pack my luggage.,"I am too warm, please turn on the fan.",I want to get into my wheelchair.,False
+lm_gen_qwen3b,I05:clean,I05,clean,pillow,I want to snuggle with the pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_qwen3b,I05:partial,I05,partial,pillow,I want to snuggle with the pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_qwen3b,I05:wrong_label,I05,wrong_label,clock,I need to check the time on the clock.,"Please move my pillow, my head is uncomfortable.",What time is it?,False
+lm_gen_qwen3b,I05:wrong_pick,I05,wrong_pick,young boy,I see a young boy in the bedroom.,"Please move my pillow, my head is uncomfortable.",The lamp beside my bed is not working.,False
+lm_gen_qwen3b,I06:clean,I06,clean,"bed, quilt, pillow",I'm comfortable on the bed with the quilt and pillow.,Please straighten my bed covers.,"Please move my pillow, my head is uncomfortable.",False
+lm_gen_qwen3b,I06:partial,I06,partial,bed,I want to lie on the bed.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I06:wrong_label,I06,wrong_label,"bed, quilt, dining table",I want to sit on the bed and cover myself with the quilt.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I06:wrong_pick,I06,wrong_pick,"bed, quilt, mother",I need to talk to my mother about the quilt on the bed.,Please straighten my bed covers.,Please straighten my bed covers.,True
+lm_gen_qwen3b,I07:clean,I07,clean,toilet,I need to use the toilet in the bedroom.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_qwen3b,I07:partial,I07,partial,toilet,I need to use the toilet in the bedroom.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_qwen3b,I07:wrong_label,I07,wrong_label,chair,I need to sit on the chair.,I need to use the toilet.,Please come in and sit down beside me.,False
+lm_gen_qwen3b,I07:wrong_pick,I07,wrong_pick,television set,I want to watch something on the television set.,I need to use the toilet.,Please turn on the television.,False
+lm_gen_qwen3b,I08:clean,I08,clean,tissue paper,I need a tissue in the bedroom.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_qwen3b,I08:partial,I08,partial,tissue paper,I need a tissue in the bedroom.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_qwen3b,I08:wrong_label,I08,wrong_label,sofa,I want to sit on the sofa.,"I need a tissue, please.",I want to sit on the sofa.,False
+lm_gen_qwen3b,I08:wrong_pick,I08,wrong_pick,mother,I see my mother in the bedroom.,"I need a tissue, please.",Please open the curtains.,False
+lm_gen_qwen3b,I09:clean,I09,clean,lamp,I need the lamp turned on in the bedroom.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+lm_gen_qwen3b,I09:partial,I09,partial,lamp,I need the lamp turned on in the bedroom.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+lm_gen_qwen3b,I09:wrong_label,I09,wrong_label,train,I see a train in the bedroom.,"Please turn the light off, I want to sleep.",Please open the curtains.,False
+lm_gen_qwen3b,I09:wrong_pick,I09,wrong_pick,wheelchair,I need my wheelchair in the bedroom.,"Please turn the light off, I want to sleep.",I want to get into my wheelchair.,False
+lm_gen_qwen3b,I10:clean,I10,clean,spectacles,I need my spectacles in the bedroom.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_qwen3b,I10:partial,I10,partial,spectacles,I need my spectacles in the bedroom.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_qwen3b,I10:wrong_label,I10,wrong_label,cat,I see the cat in the bedroom.,Can you pass me my glasses?,Is the cat here? I would like to see her.,False
+lm_gen_qwen3b,I10:wrong_pick,I10,wrong_pick,camera,I see a camera in the bedroom.,Can you pass me my glasses?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I11:clean,I11,clean,walking stick,I need my walking stick in the bedroom.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_qwen3b,I11:partial,I11,partial,walking stick,I need my walking stick in the bedroom.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_qwen3b,I11:wrong_label,I11,wrong_label,bottle,I want to drink from the bottle in the bedroom.,"Pass me my walking stick, I want to move.","I would like a hot drink, please.",False
+lm_gen_qwen3b,I11:wrong_pick,I11,wrong_pick,orange cat,I see an orange cat in the bedroom.,"Pass me my walking stick, I want to move.",Is the cat here? I would like to see her.,False
+lm_gen_qwen3b,I12:clean,I12,clean,"sock, slipper, shoe",I need to find my slipper and shoe from the bedroom.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen3b,I12:partial,I12,partial,sock,I want to pick up the sock from the bedroom.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen3b,I12:wrong_label,I12,wrong_label,"sock, slipper, microwave oven",I need to find my slipper near the microwave in the bedroom.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen3b,I12:wrong_pick,I12,wrong_pick,"sock, slipper, nightstands",I need to put on my socks and slip into bed.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_qwen3b,I13:clean,I13,clean,"toothbrush, toothpaste, cup",I need water for my toothbrush and toothpaste.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen3b,I13:partial,I13,partial,toothbrush,I need to brush my teeth in the bathroom.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen3b,I13:wrong_label,I13,wrong_label,"toothbrush, toothpaste, bed",I need to brush my teeth and get some fresh air.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen3b,I13:wrong_pick,I13,wrong_pick,"toothbrush, toothpaste, front of a mirror",I need to brush my teeth in the bathroom.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_qwen3b,I14:clean,I14,clean,"shower head, towel, soap","I need to use the shower, grab some soap and a towel.",I would like a shower now.,I would like a shower now.,True
+lm_gen_qwen3b,I14:partial,I14,partial,shower head,I need to use the shower.,I would like a shower now.,I would like a shower now.,True
+lm_gen_qwen3b,I14:wrong_label,I14,wrong_label,"shower head, towel, toilet bowl","I need to use the bathroom; please get me water, towel, and flush.",I would like a shower now.,I need to use the toilet.,False
+lm_gen_qwen3b,I14:wrong_pick,I14,wrong_pick,"shower head, towel, lamp","I need to use the shower, then dry off with a towel and turn on the lamp.",I would like a shower now.,I would like a shower now.,True
+lm_gen_qwen3b,I15:clean,I15,clean,toilet tissue,I need toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+lm_gen_qwen3b,I15:partial,I15,partial,toilet tissue,I need toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+lm_gen_qwen3b,I15:wrong_label,I15,wrong_label,chair,I need to sit on the chair in the bathroom.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_qwen3b,I15:wrong_pick,I15,wrong_pick,cabinet,I want to open the cabinet in the bathroom.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_qwen3b,I16:clean,I16,clean,"soap, sink",I need to use the soap at the sink.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen3b,I16:partial,I16,partial,soap,I need soap.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen3b,I16:wrong_label,I16,wrong_label,"soap, bed",I need to use the soap and then go to bed.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_qwen3b,I16:wrong_pick,I16,wrong_pick,"soap, recliner",I need to use the soap and recliner in the bathroom.,I want to wash my hands.,I would like a shower now.,False
+lm_gen_qwen3b,I17:clean,I17,clean,hairbrush,I need to brush my hair in the bathroom.,Please brush my hair.,Please brush my hair.,True
+lm_gen_qwen3b,I17:partial,I17,partial,hairbrush,I need to brush my hair in the bathroom.,Please brush my hair.,Please brush my hair.,True
+lm_gen_qwen3b,I17:wrong_label,I17,wrong_label,bowl,I need to use the bowl in the bathroom.,Please brush my hair.,I need to use the toilet.,False
+lm_gen_qwen3b,I17:wrong_pick,I17,wrong_pick,washer,I need to use the washer in the bathroom.,Please brush my hair.,I would like a shower now.,False
+lm_gen_qwen3b,I18:clean,I18,clean,mirror,I need to look in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_qwen3b,I18:partial,I18,partial,mirror,I need to look in the mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_qwen3b,I18:wrong_label,I18,wrong_label,bowl,I need to use the bowl in the bathroom.,"Hold the mirror up, I want to see myself.",I need to use the toilet.,False
+lm_gen_qwen3b,I18:wrong_pick,I18,wrong_pick,washer,I need to use the washer in the bathroom.,"Hold the mirror up, I want to see myself.",I would like a shower now.,False
+lm_gen_qwen3b,I19:clean,I19,clean,"kettle, mug",I want some hot water in my mug.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen3b,I19:partial,I19,partial,kettle,I want to make some tea using the kettle.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen3b,I19:wrong_label,I19,wrong_label,"kettle, cat",I want to make some tea with the kettle and pet my cat.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen3b,I19:wrong_pick,I19,wrong_pick,"kettle, view of the ocean",I see the kettle but wish I could look at the view of the ocean.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_qwen3b,I20:clean,I20,clean,"milk, glass",I want to drink some milk from the glass.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen3b,I20:partial,I20,partial,milk,I want some milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen3b,I20:wrong_label,I20,wrong_label,"milk, newspaper",I need milk and a newspaper.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen3b,I20:wrong_pick,I20,wrong_pick,"milk, turkey",I want some milk and turkey.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_qwen3b,I21:clean,I21,clean,sandwich,I want to eat a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_qwen3b,I21:partial,I21,partial,sandwich,I want to eat a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_qwen3b,I21:wrong_label,I21,wrong_label,microwave,I want to use the microwave.,"I am hungry, I would like a sandwich.","My face is sweaty, please wipe it with a towel.",False
+lm_gen_qwen3b,I21:wrong_pick,I21,wrong_pick,vase,I see the vase in the kitchen.,"I am hungry, I would like a sandwich.",Please open the curtains.,False
+lm_gen_qwen3b,I22:clean,I22,clean,"refrigerator, orange juice",I want some orange juice from the fridge.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen3b,I22:partial,I22,partial,refrigerator,I want to open the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen3b,I22:wrong_label,I22,wrong_label,"refrigerator, toaster",I need to make some toast from the fridge.,"There is juice in the fridge, can I have some?","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen3b,I22:wrong_pick,I22,wrong_pick,"refrigerator, newspaper",I need to open the refrigerator and read the newspaper.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_qwen3b,I23:clean,I23,clean,"medicine, spoon",I need to take my medicine with a spoon.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+lm_gen_qwen3b,I23:partial,I23,partial,medicine,I need to take my medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_qwen3b,I23:wrong_label,I23,wrong_label,"medicine, dog",I need to take my medicine and pet the dog.,"My liquid medicine is due, please give it to me.","Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen3b,I23:wrong_pick,I23,wrong_pick,"medicine, top of a microwave",I need to take the medicine from the microwave.,"My liquid medicine is due, please give it to me.","It is time for my medicine, please bring it with water.",False
+lm_gen_qwen3b,I24:clean,I24,clean,"plate, fork, napkin","I'm getting my plate, fork, and napkin.",I am ready to eat now.,"I need a napkin, please.",False
+lm_gen_qwen3b,I24:partial,I24,partial,plate,I see the plate in the dining room.,I am ready to eat now.,"I need a napkin, please.",False
+lm_gen_qwen3b,I24:wrong_label,I24,wrong_label,"plate, fork, cake",I want to eat the cake with the fork on the plate.,I am ready to eat now.,"There is cake for the visitors, offer them some.",False
+lm_gen_qwen3b,I24:wrong_pick,I24,wrong_pick,"plate, fork, cup",I want to drink from the cup using the fork and eat off the plate in the dining room.,I am ready to eat now.,"Please feed me with a spoon, it is easier.",False
+lm_gen_qwen3b,I25:clean,I25,clean,"cup, straw",I want to drink from the cup with a straw.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_qwen3b,I25:partial,I25,partial,cup,I want to drink from the cup in the dining room.,Can I have a drink with a straw?,"I would like a hot drink, please.",False
+lm_gen_qwen3b,I25:wrong_label,I25,wrong_label,"cup, bowl",I want to drink from the cup and eat from the bowl in the dining room.,Can I have a drink with a straw?,"I would like a hot drink, please.",False
+lm_gen_qwen3b,I25:wrong_pick,I25,wrong_pick,"cup, broccoli",I want to drink water and eat broccoli.,Can I have a drink with a straw?,"I am thirsty, can I have some water?",False
+lm_gen_qwen3b,I26:clean,I26,clean,napkin,I need the napkin for my meal in the dining room.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_qwen3b,I26:partial,I26,partial,napkin,I need the napkin for my meal in the dining room.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_qwen3b,I26:wrong_label,I26,wrong_label,banana,I see a banana in the dining room.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_qwen3b,I26:wrong_pick,I26,wrong_pick,glass of wine,I see a glass of wine in the dining room.,"I need a napkin, please.","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen3b,I27:clean,I27,clean,spoon,I want to use the spoon in the dining room.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_qwen3b,I27:partial,I27,partial,spoon,I want to use the spoon in the dining room.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_qwen3b,I27:wrong_label,I27,wrong_label,bear,I see a bear in the dining room.,"Please feed me with a spoon, it is easier.",Is the cat here? I would like to see her.,False
+lm_gen_qwen3b,I27:wrong_pick,I27,wrong_pick,tomato,I see a tomato in the dining room.,"Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+lm_gen_qwen3b,I28:clean,I28,clean,"television set, remote control",I want to watch something on the television set using the remote control.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen3b,I28:partial,I28,partial,television set,I want to watch something on the television set.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen3b,I28:wrong_label,I28,wrong_label,"television set, chair",I want to watch something on the television set in the living room.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen3b,I28:wrong_pick,I28,wrong_pick,"television set, bedspread",I want to watch TV and change the bedding.,Please turn on the television.,Please turn on the television.,True
+lm_gen_qwen3b,I29:clean,I29,clean,"sofa, cushion",I'm sitting on the sofa with a cushion.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen3b,I29:partial,I29,partial,sofa,I see the sofa in the living room.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen3b,I29:wrong_label,I29,wrong_label,"sofa, cake",I want to sit on the sofa and eat the cake.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen3b,I29:wrong_pick,I29,wrong_pick,"sofa, woman",I see the sofa and there is a woman in the living room.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_qwen3b,I30:clean,I30,clean,wheelchair,I'm in my wheelchair in the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_qwen3b,I30:partial,I30,partial,wheelchair,I'm in my wheelchair in the living room.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_qwen3b,I30:wrong_label,I30,wrong_label,vase,I see the vase in the living room.,I want to get into my wheelchair.,Please open the curtains.,False
+lm_gen_qwen3b,I30:wrong_pick,I30,wrong_pick,men,I see men in the living room.,I want to get into my wheelchair.,Please open the curtains.,False
+lm_gen_qwen3b,I31:clean,I31,clean,curtain,I want to close the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_qwen3b,I31:partial,I31,partial,curtain,I want to close the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_qwen3b,I31:wrong_label,I31,wrong_label,cushion,I want to sit on the cushion in the living room.,Please open the curtains.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I31:wrong_pick,I31,wrong_pick,pajamas,I want to wear my pajamas.,Please open the curtains.,Please put my socks and slippers on.,False
+lm_gen_qwen3b,I32:clean,I32,clean,heater,I need to turn on the heater in the living room.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_qwen3b,I32:partial,I32,partial,heater,I need to turn on the heater in the living room.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_qwen3b,I32:wrong_label,I32,wrong_label,quilt,I want to snuggle up with the quilt in the living room.,Please turn up the heater.,Please straighten my bed covers.,False
+lm_gen_qwen3b,I32:wrong_pick,I32,wrong_pick,rabbit,I see a rabbit in the living room.,Please turn up the heater.,Is the cat here? I would like to see her.,False
+lm_gen_qwen3b,I33:clean,I33,clean,hand towel,I need to use the hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_qwen3b,I33:partial,I33,partial,hand towel,I need to use the hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_qwen3b,I33:wrong_label,I33,wrong_label,chair,I need to sit on the chair.,"My face is sweaty, please wipe it with a towel.",Please come in and sit down beside me.,False
+lm_gen_qwen3b,I33:wrong_pick,I33,wrong_pick,cell phone,I need to get my cell phone from the bedroom.,"My face is sweaty, please wipe it with a towel.","Call my family, I want to talk to them.",False
+lm_gen_qwen3b,I34:clean,I34,clean,alarm clock,I need to turn on the alarm clock.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I34:partial,I34,partial,alarm clock,I need to turn on the alarm clock.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I34:wrong_label,I34,wrong_label,remote control,I need to turn something on.,What time is it?,"Put some music on, please.",False
+lm_gen_qwen3b,I34:wrong_pick,I34,wrong_pick,itself,I see the bedroom itself.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I35:clean,I35,clean,wall clock,I see the wall clock on the living room wall.,When is my appointment today?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I35:partial,I35,partial,wall clock,I see the wall clock on the living room wall.,When is my appointment today?,"Please turn the light off, I want to sleep.",False
+lm_gen_qwen3b,I35:wrong_label,I35,wrong_label,doughnut,I want a doughnut in the living room.,When is my appointment today?,"I am hungry, I would like a sandwich.",False
+lm_gen_qwen3b,I35:wrong_pick,I35,wrong_pick,remote control,I'm looking for the remote control in the living room.,When is my appointment today?,"Call my family, I want to talk to them.",False
+lm_gen_qwen3b,I36:clean,I36,clean,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_qwen3b,I36:partial,I36,partial,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_qwen3b,I36:wrong_label,I36,wrong_label,sofa,I want to sit on the sofa.,I have already taken my medicine.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I36:wrong_pick,I36,wrong_pick,orange cat,I see an orange cat in the bedroom.,I have already taken my medicine.,Is the cat here? I would like to see her.,False
+lm_gen_qwen3b,I37:clean,I37,clean,"notebook, pen",I need to write something in my notebook.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_qwen3b,I37:partial,I37,partial,notebook,I need to find my notebook in the bedroom.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_qwen3b,I37:wrong_label,I37,wrong_label,"notebook, toilet",I need to use the toilet and then find a notebook.,"Write this down for me, please.",I need to use the toilet.,False
+lm_gen_qwen3b,I37:wrong_pick,I37,wrong_pick,"notebook, blanket",I need to write in my notebook with a blanket.,"Write this down for me, please.","I am cold, can I have another blanket?",False
+lm_gen_qwen3b,I38:clean,I38,clean,laptop computer,I see the laptop computer in the living room.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_qwen3b,I38:partial,I38,partial,laptop computer,I see the laptop computer in the living room.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_qwen3b,I38:wrong_label,I38,wrong_label,chair,I need to sit on the chair.,"Open my laptop, I want to check my email.",Please come in and sit down beside me.,False
+lm_gen_qwen3b,I38:wrong_pick,I38,wrong_pick,beer bottle,I see the beer bottle in the living room.,"Open my laptop, I want to check my email.","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen3b,I39:clean,I39,clean,book,I want to read the book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_qwen3b,I39:partial,I39,partial,book,I want to read the book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_qwen3b,I39:wrong_label,I39,wrong_label,bottle,I want to drink from the bottle in the bedroom.,Read me the next chapter of my book.,"I would like a hot drink, please.",False
+lm_gen_qwen3b,I39:wrong_pick,I39,wrong_pick,dorm room,I want to be in my bedroom.,Read me the next chapter of my book.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I40:clean,I40,clean,newspaper,I'm looking for the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_qwen3b,I40:partial,I40,partial,newspaper,I'm looking for the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_qwen3b,I40:wrong_label,I40,wrong_label,phone,I need to use the phone in the living room.,"Read me the news, please.","Call my family, I want to talk to them.",False
+lm_gen_qwen3b,I40:wrong_pick,I40,wrong_pick,group of people,I see a group of people in the living room.,"Read me the news, please.",Please open the curtains.,False
+lm_gen_qwen3b,I41:clean,I41,clean,stove,I want to use the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_qwen3b,I41:partial,I41,partial,stove,I want to use the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_qwen3b,I41:wrong_label,I41,wrong_label,apples,I see apples in the kitchen.,"Be careful, the stove is still on.","There is juice in the fridge, can I have some?",False
+lm_gen_qwen3b,I41:wrong_pick,I41,wrong_pick,dog,I see the dog in the kitchen.,"Be careful, the stove is still on.","Bring the dog to me, I want to stroke it.",False
+lm_gen_qwen3b,I42:clean,I42,clean,table lamp,I need the table lamp on in the bedroom.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+lm_gen_qwen3b,I42:partial,I42,partial,table lamp,I need the table lamp on in the bedroom.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+lm_gen_qwen3b,I42:wrong_label,I42,wrong_label,clock,I need to check the time on the clock.,The lamp beside my bed is not working.,What time is it?,False
+lm_gen_qwen3b,I42:wrong_pick,I42,wrong_pick,floor,I need to go to the floor in the bedroom.,The lamp beside my bed is not working.,I need to use the toilet.,False
+lm_gen_qwen3b,I43:clean,I43,clean,cake,I see the cake in the dining room.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_qwen3b,I43:partial,I43,partial,cake,I see the cake in the dining room.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_qwen3b,I43:wrong_label,I43,wrong_label,television set,I see the television set in the dining room.,"There is cake for the visitors, offer them some.",Please turn on the television.,False
+lm_gen_qwen3b,I43:wrong_pick,I43,wrong_pick,ketchup,I want some ketchup in the dining room.,"There is cake for the visitors, offer them some.","I am hungry, I would like a sandwich.",False
+lm_gen_qwen3b,I44:clean,I44,clean,cellular telephone,I need to use my cellular telephone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_qwen3b,I44:partial,I44,partial,cellular telephone,I need to use my cellular telephone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_qwen3b,I44:wrong_label,I44,wrong_label,clock,I need to check the time on the clock.,"Call my family, I want to talk to them.",What time is it?,False
+lm_gen_qwen3b,I44:wrong_pick,I44,wrong_pick,bookcase,I want to look at the bookcase.,"Call my family, I want to talk to them.",Read me the next chapter of my book.,False
+lm_gen_qwen3b,I45:clean,I45,clean,painting,I see the painting in the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_qwen3b,I45:partial,I45,partial,painting,I see the painting in the living room.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_qwen3b,I45:wrong_label,I45,wrong_label,cake,I want to eat the cake in the living room.,"That painting is my favourite, tell me about it.","There is cake for the visitors, offer them some.",False
+lm_gen_qwen3b,I45:wrong_pick,I45,wrong_pick,furniture,I see furniture in the living room.,"That painting is my favourite, tell me about it.",I want to sit on the sofa.,False
+lm_gen_qwen3b,I46:clean,I46,clean,dog,I see the dog in the living room.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_qwen3b,I46:partial,I46,partial,dog,I see the dog in the living room.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_qwen3b,I46:wrong_label,I46,wrong_label,couch,I see the couch in the living room.,"Bring the dog to me, I want to stroke it.",I want to sit on the sofa.,False
+lm_gen_qwen3b,I46:wrong_pick,I46,wrong_pick,map,I need a map for the living room.,"Bring the dog to me, I want to stroke it.","Call my family, I want to talk to them.",False
+lm_gen_qwen3b,I47:clean,I47,clean,cat,I see the cat in the bedroom.,Is the cat here? I would like to see her.,Is the cat here? I would like to see her.,True
+lm_gen_qwen3b,I47:partial,I47,partial,cat,I see the cat in the bedroom.,Is the cat here? I would like to see her.,Is the cat here? I would like to see her.,True
+lm_gen_qwen3b,I47:wrong_label,I47,wrong_label,chair,I need to sit on the chair.,Is the cat here? I would like to see her.,Please come in and sit down beside me.,False
+lm_gen_qwen3b,I47:wrong_pick,I47,wrong_pick,remote,I want to turn on the TV in the bedroom.,Is the cat here? I would like to see her.,Please turn on the television.,False
+lm_gen_qwen3b,I48:clean,I48,clean,flower arrangement,I see the flower arrangement in the living room.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_qwen3b,I48:partial,I48,partial,flower arrangement,I see the flower arrangement in the living room.,Who sent these flowers?,Who sent these flowers?,True
+lm_gen_qwen3b,I48:wrong_label,I48,wrong_label,doughnut,I want a doughnut in the living room.,Who sent these flowers?,"I am hungry, I would like a sandwich.",False
+lm_gen_qwen3b,I48:wrong_pick,I48,wrong_pick,wine bottle,I see the wine bottle in the living room.,Who sent these flowers?,"Pour me a little wine, let us celebrate.",False
+lm_gen_qwen3b,I49:clean,I49,clean,wineglass,I see the wineglass in the dining room.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_qwen3b,I49:partial,I49,partial,wineglass,I see the wineglass in the dining room.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+lm_gen_qwen3b,I49:wrong_label,I49,wrong_label,refrigerator,I want to open the refrigerator in the dining room.,"Pour me a little wine, let us celebrate.","There is juice in the fridge, can I have some?",False
+lm_gen_qwen3b,I49:wrong_pick,I49,wrong_pick,plate of pizza,I see the plate of pizza in the dining room.,"Pour me a little wine, let us celebrate.",I am ready to eat now.,False
+lm_gen_qwen3b,I50:clean,I50,clean,radio receiver,I want to listen to the radio in the living room.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_qwen3b,I50:partial,I50,partial,radio receiver,I want to listen to the radio in the living room.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_qwen3b,I50:wrong_label,I50,wrong_label,bottle,I see the bottle in the living room.,"Put some music on, please.","Pour me a little wine, let us celebrate.",False
+lm_gen_qwen3b,I50:wrong_pick,I50,wrong_pick,video game,I want to play the video game in the living room.,"Put some music on, please.",Please turn on the television.,False
+lm_gen_qwen3b,I51:clean,I51,clean,magazine,I want to read the magazine in the bedroom.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_qwen3b,I51:partial,I51,partial,magazine,I want to read the magazine in the bedroom.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_qwen3b,I51:wrong_label,I51,wrong_label,remote control,I need to turn something on.,Sit with me and look at this magazine.,"Put some music on, please.",False
+lm_gen_qwen3b,I51:wrong_pick,I51,wrong_pick,chair,I need to sit on the chair.,Sit with me and look at this magazine.,Please come in and sit down beside me.,False
+lm_gen_qwen3b,I52:clean,I52,clean,armchair,I'm sitting in the armchair in the living room.,Sit down next to me for a while.,Sit down next to me for a while.,True
+lm_gen_qwen3b,I52:partial,I52,partial,armchair,I'm sitting in the armchair in the living room.,Sit down next to me for a while.,Sit down next to me for a while.,True
+lm_gen_qwen3b,I52:wrong_label,I52,wrong_label,umbrella,I need an umbrella in the living room.,Sit down next to me for a while.,Can I have a drink with a straw?,False
+lm_gen_qwen3b,I52:wrong_pick,I52,wrong_pick,bed,I'm lying on the bed.,Sit down next to me for a while.,I need to use the toilet.,False
+lm_gen_qwen3b,I53:clean,I53,clean,headset,I need to wear my headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_qwen3b,I53:partial,I53,partial,headset,I need to wear my headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_qwen3b,I53:wrong_label,I53,wrong_label,toilet,I need to use the toilet in the bedroom.,"Put my headphones on, I want to listen.",I need to use the toilet.,False
+lm_gen_qwen3b,I53:wrong_pick,I53,wrong_pick,papers,I need to find the papers in the bedroom.,"Put my headphones on, I want to listen.","The toilet paper is finished, please bring more.",False
+lm_gen_qwen3b,I54:clean,I54,clean,plate,I see the plate in the dining room.,"That was lovely, thank you.","I need a napkin, please.",False
+lm_gen_qwen3b,I54:partial,I54,partial,plate,I see the plate in the dining room.,"That was lovely, thank you.","I need a napkin, please.",False
+lm_gen_qwen3b,I54:wrong_label,I54,wrong_label,sofa,I see the sofa in the dining room.,"That was lovely, thank you.",I want to sit on the sofa.,False
+lm_gen_qwen3b,I54:wrong_pick,I54,wrong_pick,bowl of peanuts,I see the bowl of peanuts in the dining room.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_qwen3b,I55:clean,I55,clean,"cup, teapot, milk",I want a cup of tea with milk.,Would you like a cup of tea?,Can I have a glass of milk?,False
+lm_gen_qwen3b,I55:partial,I55,partial,cup,I want to drink from the cup.,Would you like a cup of tea?,Can I have a drink with a straw?,False
+lm_gen_qwen3b,I55:wrong_label,I55,wrong_label,"cup, teapot, sofa",I want to drink from the cup on the sofa.,Would you like a cup of tea?,I want to sit on the sofa.,False
+lm_gen_qwen3b,I55:wrong_pick,I55,wrong_pick,"cup, teapot, refrigerator",I want to drink from the cup near the refrigerator.,Would you like a cup of tea?,Can I have a drink with a straw?,False
+lm_gen_qwen3b,I56:clean,I56,clean,chair,I see the chair in the dining room.,"Please sit down, make yourself comfortable.",Please come in and sit down beside me.,False
+lm_gen_qwen3b,I56:partial,I56,partial,chair,I see the chair in the dining room.,"Please sit down, make yourself comfortable.",Please come in and sit down beside me.,False
+lm_gen_qwen3b,I56:wrong_label,I56,wrong_label,knife,I see the knife in the dining room.,"Please sit down, make yourself comfortable.","I need a napkin, please.",False
+lm_gen_qwen3b,I56:wrong_pick,I56,wrong_pick,drinks,I want to drink something in the dining room.,"Please sit down, make yourself comfortable.","I would like a hot drink, please.",False
+lm_gen_qwen3b,I57:clean,I57,clean,flower arrangement,I see a flower arrangement in the bedroom.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_qwen3b,I57:partial,I57,partial,flower arrangement,I see a flower arrangement in the bedroom.,"Thank you for the flowers, they are beautiful.",Who sent these flowers?,False
+lm_gen_qwen3b,I57:wrong_label,I57,wrong_label,orange,I see an orange in the bedroom.,"Thank you for the flowers, they are beautiful.","There is juice in the fridge, can I have some?",False
+lm_gen_qwen3b,I57:wrong_pick,I57,wrong_pick,hotel room,I'm in a hotel room.,"Thank you for the flowers, they are beautiful.",I need to use the toilet.,False
+lm_gen_qwen3b,I58:clean,I58,clean,television set,I want to watch something on the television set.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_qwen3b,I58:partial,I58,partial,television set,I want to watch something on the television set.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_qwen3b,I58:wrong_label,I58,wrong_label,orange,I see an orange in the living room.,"Sorry, could you turn the television down?","There is juice in the fridge, can I have some?",False
+lm_gen_qwen3b,I58:wrong_pick,I58,wrong_pick,radio receiver,I want to listen to the radio in the living room.,"Sorry, could you turn the television down?","Put some music on, please.",False
+lm_gen_qwen3b,I59:clean,I59,clean,"napkin, table",I'm looking for the napkin at the dining table.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen3b,I59:partial,I59,partial,napkin,I need the napkin for my meal in the dining room.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen3b,I59:wrong_label,I59,wrong_label,"napkin, cup",I want to use the napkin and drink from the cup in the dining room.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen3b,I59:wrong_pick,I59,wrong_pick,"napkin, man","I need the napkin, there's a man in the room.","Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_qwen3b,I60:clean,I60,clean,"chair, bed",I want to sit on the bed.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_qwen3b,I60:partial,I60,partial,chair,I need to sit on the chair.,Please come in and sit down beside me.,Please come in and sit down beside me.,True
+lm_gen_qwen3b,I60:wrong_label,I60,wrong_label,"chair, laptop",I need to sit on the chair and use my laptop.,Please come in and sit down beside me.,Please come in and sit down beside me.,True
+lm_gen_qwen3b,I60:wrong_pick,I60,wrong_pick,"chair, mouse",I need to sit down and use the mouse.,Please come in and sit down beside me.,I want to get into my wheelchair.,False
+lm_gen_smol1.7b,I01:clean,I01,clean,"water bottle, straw",I need a drink.,"I am thirsty, can I have some water?","Excuse me, I have spilled something on the table.",False
+lm_gen_smol1.7b,I01:partial,I01,partial,water bottle,I need to refill my water bottle.,"I am thirsty, can I have some water?",Can I have a drink with a straw?,False
+lm_gen_smol1.7b,I01:wrong_label,I01,wrong_label,"water bottle, television set",I need to refill my water bottle.,"I am thirsty, can I have some water?",Can I have a drink with a straw?,False
+lm_gen_smol1.7b,I01:wrong_pick,I01,wrong_pick,"water bottle, sheets",I need to change my sheets.,"I am thirsty, can I have some water?",Please straighten my bed covers.,False
+lm_gen_smol1.7b,I02:clean,I02,clean,"pill, water bottle",I need to take my medication.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_smol1.7b,I02:partial,I02,partial,pill,I need to take my medication.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_smol1.7b,I02:wrong_label,I02,wrong_label,"pill, cat",I'm taking my cat to the vet.,"It is time for my medicine, please bring it with water.",Is the cat here? I would like to see her.,False
+lm_gen_smol1.7b,I02:wrong_pick,I02,wrong_pick,"pill, laptop",I need to take my medication.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+lm_gen_smol1.7b,I03:clean,I03,clean,blanket,I want to wrap myself in the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_smol1.7b,I03:partial,I03,partial,blanket,I want to wrap myself in the blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+lm_gen_smol1.7b,I03:wrong_label,I03,wrong_label,television set,I want to turn on the television.,"I am cold, can I have another blanket?",Please turn on the television.,False
+lm_gen_smol1.7b,I03:wrong_pick,I03,wrong_pick,top of it,I'm going to sleep.,"I am cold, can I have another blanket?","Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I04:clean,I04,clean,fan,I want to turn off the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_smol1.7b,I04:partial,I04,partial,fan,I want to turn off the fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+lm_gen_smol1.7b,I04:wrong_label,I04,wrong_label,laptop computer,I'm going to check my emails.,"I am too warm, please turn on the fan.","Open my laptop, I want to check my email.",False
+lm_gen_smol1.7b,I04:wrong_pick,I04,wrong_pick,luggage,I'm going to pack my luggage.,"I am too warm, please turn on the fan.",I am ready to eat now.,False
+lm_gen_smol1.7b,I05:clean,I05,clean,pillow,I'm going to sleep with my pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_smol1.7b,I05:partial,I05,partial,pillow,I'm going to sleep with my pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+lm_gen_smol1.7b,I05:wrong_label,I05,wrong_label,clock,I need to set my alarm for tomorrow.,"Please move my pillow, my head is uncomfortable.",What time is it?,False
+lm_gen_smol1.7b,I05:wrong_pick,I05,wrong_pick,young boy,I'm going to play with my toy car.,"Please move my pillow, my head is uncomfortable.",I want to get into my wheelchair.,False
+lm_gen_smol1.7b,I06:clean,I06,clean,"bed, quilt, pillow",I want to sleep on my bed with a warm quilt and a soft pillow.,Please straighten my bed covers.,"Please move my pillow, my head is uncomfortable.",False
+lm_gen_smol1.7b,I06:partial,I06,partial,bed,I want to sleep.,Please straighten my bed covers.,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I06:wrong_label,I06,wrong_label,"bed, quilt, dining table",I want to sleep on the bed with the quilt.,Please straighten my bed covers.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I06:wrong_pick,I06,wrong_pick,"bed, quilt, mother","I love you, Mom.",Please straighten my bed covers.,Please come in and sit down beside me.,False
+lm_gen_smol1.7b,I07:clean,I07,clean,toilet,I need to use the toilet.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_smol1.7b,I07:partial,I07,partial,toilet,I need to use the toilet.,I need to use the toilet.,I need to use the toilet.,True
+lm_gen_smol1.7b,I07:wrong_label,I07,wrong_label,chair,I want to sit in the chair.,I need to use the toilet.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I07:wrong_pick,I07,wrong_pick,television set,I want to turn on the television.,I need to use the toilet.,Please turn on the television.,False
+lm_gen_smol1.7b,I08:clean,I08,clean,tissue paper,I'm going to blow my nose.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_smol1.7b,I08:partial,I08,partial,tissue paper,I'm going to blow my nose.,"I need a tissue, please.","I need a tissue, please.",True
+lm_gen_smol1.7b,I08:wrong_label,I08,wrong_label,sofa,I want to sit on the sofa.,"I need a tissue, please.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I08:wrong_pick,I08,wrong_pick,mother,I love you.,"I need a tissue, please.",Please come in and sit down beside me.,False
+lm_gen_smol1.7b,I09:clean,I09,clean,lamp,I want to turn on the lamp.,"Please turn the light off, I want to sleep.","Please turn the light off, I want to sleep.",True
+lm_gen_smol1.7b,I09:partial,I09,partial,lamp,I want to turn on the lamp.,"Please turn the light off, I want to sleep.","Please turn the light off, I want to sleep.",True
+lm_gen_smol1.7b,I09:wrong_label,I09,wrong_label,train,I'm going to the train station.,"Please turn the light off, I want to sleep.",I need to use the toilet.,False
+lm_gen_smol1.7b,I09:wrong_pick,I09,wrong_pick,wheelchair,I want to use my wheelchair to move around the bedroom.,"Please turn the light off, I want to sleep.",I want to get into my wheelchair.,False
+lm_gen_smol1.7b,I10:clean,I10,clean,spectacles,I need my glasses.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_smol1.7b,I10:partial,I10,partial,spectacles,I need my glasses.,Can you pass me my glasses?,Can you pass me my glasses?,True
+lm_gen_smol1.7b,I10:wrong_label,I10,wrong_label,cat,I love my cat.,Can you pass me my glasses?,Is the cat here? I would like to see her.,False
+lm_gen_smol1.7b,I10:wrong_pick,I10,wrong_pick,camera,I want to take a picture of my cat.,Can you pass me my glasses?,Is the cat here? I would like to see her.,False
+lm_gen_smol1.7b,I11:clean,I11,clean,walking stick,I'm using my walking stick to help me walk.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_smol1.7b,I11:partial,I11,partial,walking stick,I'm using my walking stick to help me walk.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+lm_gen_smol1.7b,I11:wrong_label,I11,wrong_label,bottle,I'm thirsty.,"Pass me my walking stick, I want to move.","I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I11:wrong_pick,I11,wrong_pick,orange cat,I love my orange cat.,"Pass me my walking stick, I want to move.",Is the cat here? I would like to see her.,False
+lm_gen_smol1.7b,I12:clean,I12,clean,"sock, slipper, shoe",I want to put on my slipper.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_smol1.7b,I12:partial,I12,partial,sock,I'm going to put on my sock.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_smol1.7b,I12:wrong_label,I12,wrong_label,"sock, slipper, microwave oven",I need to put these socks on.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_smol1.7b,I12:wrong_pick,I12,wrong_pick,"sock, slipper, nightstands",I want to put on my slipper.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+lm_gen_smol1.7b,I13:clean,I13,clean,"toothbrush, toothpaste, cup",I'm brushing my teeth with toothpaste in a cup.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_smol1.7b,I13:partial,I13,partial,toothbrush,I need to brush my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_smol1.7b,I13:wrong_label,I13,wrong_label,"toothbrush, toothpaste, bed",I brush my teeth with toothpaste every morning and night.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_smol1.7b,I13:wrong_pick,I13,wrong_pick,"toothbrush, toothpaste, front of a mirror",I need to brush my teeth.,I want to brush my teeth.,I want to brush my teeth.,True
+lm_gen_smol1.7b,I14:clean,I14,clean,"shower head, towel, soap",I'm going to wash my body with soap.,I would like a shower now.,I want to wash my hands.,False
+lm_gen_smol1.7b,I14:partial,I14,partial,shower head,I want to turn on the shower.,I would like a shower now.,I would like a shower now.,True
+lm_gen_smol1.7b,I14:wrong_label,I14,wrong_label,"shower head, towel, toilet bowl",I need to wash my face.,I would like a shower now.,"My face is sweaty, please wipe it with a towel.",False
+lm_gen_smol1.7b,I14:wrong_pick,I14,wrong_pick,"shower head, towel, lamp",I want to take a shower.,I would like a shower now.,I would like a shower now.,True
+lm_gen_smol1.7b,I15:clean,I15,clean,toilet tissue,I need to use the bathroom.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_smol1.7b,I15:partial,I15,partial,toilet tissue,I need to use the bathroom.,"The toilet paper is finished, please bring more.",I need to use the toilet.,False
+lm_gen_smol1.7b,I15:wrong_label,I15,wrong_label,chair,I'm sitting in the chair.,"The toilet paper is finished, please bring more.",Please come in and sit down beside me.,False
+lm_gen_smol1.7b,I15:wrong_pick,I15,wrong_pick,cabinet,I'm going to get some water.,"The toilet paper is finished, please bring more.","I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I16:clean,I16,clean,"soap, sink",I need to wash my hands.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_smol1.7b,I16:partial,I16,partial,soap,I need to wash my hands.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_smol1.7b,I16:wrong_label,I16,wrong_label,"soap, bed",I need to wash my hands.,I want to wash my hands.,I want to wash my hands.,True
+lm_gen_smol1.7b,I16:wrong_pick,I16,wrong_pick,"soap, recliner",I need to use the bathroom.,I want to wash my hands.,I need to use the toilet.,False
+lm_gen_smol1.7b,I17:clean,I17,clean,hairbrush,I need to brush my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_smol1.7b,I17:partial,I17,partial,hairbrush,I need to brush my hair.,Please brush my hair.,Please brush my hair.,True
+lm_gen_smol1.7b,I17:wrong_label,I17,wrong_label,bowl,I'm going to wash my hands.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_smol1.7b,I17:wrong_pick,I17,wrong_pick,washer,I need to do my laundry.,Please brush my hair.,I want to wash my hands.,False
+lm_gen_smol1.7b,I18:clean,I18,clean,mirror,I need to check my reflection.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_smol1.7b,I18:partial,I18,partial,mirror,I need to check my reflection.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+lm_gen_smol1.7b,I18:wrong_label,I18,wrong_label,bowl,I'm going to wash my hands.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_smol1.7b,I18:wrong_pick,I18,wrong_pick,washer,I need to do my laundry.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+lm_gen_smol1.7b,I19:clean,I19,clean,"kettle, mug",I want a cup of tea.,"I would like a hot drink, please.",Would you like a cup of tea?,False
+lm_gen_smol1.7b,I19:partial,I19,partial,kettle,I want to boil water.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_smol1.7b,I19:wrong_label,I19,wrong_label,"kettle, cat",I'm going to boil some water for my cat.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_smol1.7b,I19:wrong_pick,I19,wrong_pick,"kettle, view of the ocean",I want to boil some water.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+lm_gen_smol1.7b,I20:clean,I20,clean,"milk, glass",I need a glass of milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_smol1.7b,I20:partial,I20,partial,milk,I need to get the milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_smol1.7b,I20:wrong_label,I20,wrong_label,"milk, newspaper",I need to get the milk from the fridge.,Can I have a glass of milk?,Can I have a glass of milk?,True
+lm_gen_smol1.7b,I20:wrong_pick,I20,wrong_pick,"milk, turkey",I want to drink some milk and eat a turkey sandwich.,Can I have a glass of milk?,"I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I21:clean,I21,clean,sandwich,I'm going to make a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_smol1.7b,I21:partial,I21,partial,sandwich,I'm going to make a sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_smol1.7b,I21:wrong_label,I21,wrong_label,microwave,I want to heat up my lunch in the microwave.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+lm_gen_smol1.7b,I21:wrong_pick,I21,wrong_pick,vase,I love the vase.,"I am hungry, I would like a sandwich.","That painting is my favourite, tell me about it.",False
+lm_gen_smol1.7b,I22:clean,I22,clean,"refrigerator, orange juice",I want to drink some orange juice from the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_smol1.7b,I22:partial,I22,partial,refrigerator,I want to open the refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+lm_gen_smol1.7b,I22:wrong_label,I22,wrong_label,"refrigerator, toaster",I want to toast some bread.,"There is juice in the fridge, can I have some?","Pour me a little wine, let us celebrate.",False
+lm_gen_smol1.7b,I22:wrong_pick,I22,wrong_pick,"refrigerator, newspaper",I'm reading the news from the fridge.,"There is juice in the fridge, can I have some?","Read me the news, please.",False
+lm_gen_smol1.7b,I23:clean,I23,clean,"medicine, spoon",I need the spoon to take my medicine.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+lm_gen_smol1.7b,I23:partial,I23,partial,medicine,I need to take my medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_smol1.7b,I23:wrong_label,I23,wrong_label,"medicine, dog",I need to take my dog's medicine.,"My liquid medicine is due, please give it to me.","It is time for my medicine, please bring it with water.",False
+lm_gen_smol1.7b,I23:wrong_pick,I23,wrong_pick,"medicine, top of a microwave",I need to take my medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+lm_gen_smol1.7b,I24:clean,I24,clean,"plate, fork, napkin",I'm going to eat my dinner with a fork and a napkin.,I am ready to eat now.,"I need a napkin, please.",False
+lm_gen_smol1.7b,I24:partial,I24,partial,plate,I'm going to eat off this plate.,I am ready to eat now.,I am ready to eat now.,True
+lm_gen_smol1.7b,I24:wrong_label,I24,wrong_label,"plate, fork, cake",I'm going to eat the cake with the fork.,I am ready to eat now.,"There is cake for the visitors, offer them some.",False
+lm_gen_smol1.7b,I24:wrong_pick,I24,wrong_pick,"plate, fork, cup",I'm going to eat my breakfast with a fork and drink my coffee with a cup.,I am ready to eat now.,"I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I25:clean,I25,clean,"cup, straw",I'm thirsty.,Can I have a drink with a straw?,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I25:partial,I25,partial,cup,I'm thirsty.,Can I have a drink with a straw?,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I25:wrong_label,I25,wrong_label,"cup, bowl",I'm drinking from the cup and eating from the bowl.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+lm_gen_smol1.7b,I25:wrong_pick,I25,wrong_pick,"cup, broccoli",I'm drinking broccoli.,Can I have a drink with a straw?,"Excuse me, I have spilled something on the table.",False
+lm_gen_smol1.7b,I26:clean,I26,clean,napkin,I'll wipe my mouth with this napkin.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_smol1.7b,I26:partial,I26,partial,napkin,I'll wipe my mouth with this napkin.,"I need a napkin, please.","I need a napkin, please.",True
+lm_gen_smol1.7b,I26:wrong_label,I26,wrong_label,banana,I'm craving a banana.,"I need a napkin, please.","I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I26:wrong_pick,I26,wrong_pick,glass of wine,I'd like a glass of wine.,"I need a napkin, please.","Pour me a little wine, let us celebrate.",False
+lm_gen_smol1.7b,I27:clean,I27,clean,spoon,I'm going to use this spoon to eat my food.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_smol1.7b,I27:partial,I27,partial,spoon,I'm going to use this spoon to eat my food.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+lm_gen_smol1.7b,I27:wrong_label,I27,wrong_label,bear,I'm hungry.,"Please feed me with a spoon, it is easier.","I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I27:wrong_pick,I27,wrong_pick,tomato,I love eating tomatoes.,"Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+lm_gen_smol1.7b,I28:clean,I28,clean,"television set, remote control",Turn on the TV.,Please turn on the television.,Please turn on the television.,True
+lm_gen_smol1.7b,I28:partial,I28,partial,television set,I want to watch my favorite show on the TV.,Please turn on the television.,Please turn on the television.,True
+lm_gen_smol1.7b,I28:wrong_label,I28,wrong_label,"television set, chair",I want to watch TV.,Please turn on the television.,Please turn on the television.,True
+lm_gen_smol1.7b,I28:wrong_pick,I28,wrong_pick,"television set, bedspread",I want to watch TV on the couch.,Please turn on the television.,Please turn on the television.,True
+lm_gen_smol1.7b,I29:clean,I29,clean,"sofa, cushion",I'm sitting on the sofa with a cushion behind me.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_smol1.7b,I29:partial,I29,partial,sofa,I'm sitting on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_smol1.7b,I29:wrong_label,I29,wrong_label,"sofa, cake",I'm enjoying the cake on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_smol1.7b,I29:wrong_pick,I29,wrong_pick,"sofa, woman",I'm sitting on the sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+lm_gen_smol1.7b,I30:clean,I30,clean,wheelchair,I want to use my wheelchair.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_smol1.7b,I30:partial,I30,partial,wheelchair,I want to use my wheelchair.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+lm_gen_smol1.7b,I30:wrong_label,I30,wrong_label,vase,I love the vase on the coffee table.,I want to get into my wheelchair.,"I need a napkin, please.",False
+lm_gen_smol1.7b,I30:wrong_pick,I30,wrong_pick,men,I'm going to the kitchen to get a glass of water.,I want to get into my wheelchair.,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I31:clean,I31,clean,curtain,I want to close the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_smol1.7b,I31:partial,I31,partial,curtain,I want to close the curtain.,Please open the curtains.,Please open the curtains.,True
+lm_gen_smol1.7b,I31:wrong_label,I31,wrong_label,cushion,I'm comfortable on the cushion.,Please open the curtains.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I31:wrong_pick,I31,wrong_pick,pajamas,I'm wearing my pajamas.,Please open the curtains.,Please put my socks and slippers on.,False
+lm_gen_smol1.7b,I32:clean,I32,clean,heater,I want to turn on the heater.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_smol1.7b,I32:partial,I32,partial,heater,I want to turn on the heater.,Please turn up the heater.,Please turn up the heater.,True
+lm_gen_smol1.7b,I32:wrong_label,I32,wrong_label,quilt,I'm cozy under this quilt.,Please turn up the heater.,Please straighten my bed covers.,False
+lm_gen_smol1.7b,I32:wrong_pick,I32,wrong_pick,rabbit,I love my rabbit.,Please turn up the heater.,"Bring the dog to me, I want to stroke it.",False
+lm_gen_smol1.7b,I33:clean,I33,clean,hand towel,I'll dry my face with this hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_smol1.7b,I33:partial,I33,partial,hand towel,I'll dry my face with this hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+lm_gen_smol1.7b,I33:wrong_label,I33,wrong_label,chair,I want to sit in the chair.,"My face is sweaty, please wipe it with a towel.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I33:wrong_pick,I33,wrong_pick,cell phone,I'll call you when I get home.,"My face is sweaty, please wipe it with a towel.","Call my family, I want to talk to them.",False
+lm_gen_smol1.7b,I34:clean,I34,clean,alarm clock,I need to turn off the alarm.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I34:partial,I34,partial,alarm clock,I need to turn off the alarm.,What time is it?,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I34:wrong_label,I34,wrong_label,remote control,I want to turn on the TV.,What time is it?,Please turn on the television.,False
+lm_gen_smol1.7b,I34:wrong_pick,I34,wrong_pick,itself,I love spending time in my bedroom.,What time is it?,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I35:clean,I35,clean,wall clock,I want to see the time.,When is my appointment today?,What time is it?,False
+lm_gen_smol1.7b,I35:partial,I35,partial,wall clock,I want to see the time.,When is my appointment today?,What time is it?,False
+lm_gen_smol1.7b,I35:wrong_label,I35,wrong_label,doughnut,I'm craving a doughnut.,When is my appointment today?,"I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I35:wrong_pick,I35,wrong_pick,remote control,I want to watch TV.,When is my appointment today?,Please turn on the television.,False
+lm_gen_smol1.7b,I36:clean,I36,clean,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_smol1.7b,I36:partial,I36,partial,medicine,I need to take my medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+lm_gen_smol1.7b,I36:wrong_label,I36,wrong_label,sofa,I want to sit on the sofa.,I have already taken my medicine.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I36:wrong_pick,I36,wrong_pick,orange cat,I love my orange cat.,I have already taken my medicine.,Is the cat here? I would like to see her.,False
+lm_gen_smol1.7b,I37:clean,I37,clean,"notebook, pen",I'm writing a letter to my friend.,"Write this down for me, please.","Read me the news, please.",False
+lm_gen_smol1.7b,I37:partial,I37,partial,notebook,I'm writing in my notebook.,"Write this down for me, please.","Write this down for me, please.",True
+lm_gen_smol1.7b,I37:wrong_label,I37,wrong_label,"notebook, toilet",I need to use the bathroom.,"Write this down for me, please.",I need to use the toilet.,False
+lm_gen_smol1.7b,I37:wrong_pick,I37,wrong_pick,"notebook, blanket",I'm going to read you a book under the blanket.,"Write this down for me, please.","I am cold, can I have another blanket?",False
+lm_gen_smol1.7b,I38:clean,I38,clean,laptop computer,I'm going to check my emails.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_smol1.7b,I38:partial,I38,partial,laptop computer,I'm going to check my emails.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+lm_gen_smol1.7b,I38:wrong_label,I38,wrong_label,chair,I'm sitting in the chair.,"Open my laptop, I want to check my email.",Please come in and sit down beside me.,False
+lm_gen_smol1.7b,I38:wrong_pick,I38,wrong_pick,beer bottle,I'm thirsty.,"Open my laptop, I want to check my email.","I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I39:clean,I39,clean,book,I'm reading a book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_smol1.7b,I39:partial,I39,partial,book,I'm reading a book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+lm_gen_smol1.7b,I39:wrong_label,I39,wrong_label,bottle,I'm thirsty.,Read me the next chapter of my book.,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I39:wrong_pick,I39,wrong_pick,dorm room,I'm going to bed.,Read me the next chapter of my book.,I am ready to eat now.,False
+lm_gen_smol1.7b,I40:clean,I40,clean,newspaper,I'm reading the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_smol1.7b,I40:partial,I40,partial,newspaper,I'm reading the newspaper.,"Read me the news, please.","Read me the news, please.",True
+lm_gen_smol1.7b,I40:wrong_label,I40,wrong_label,phone,I'll call you.,"Read me the news, please.","Call my family, I want to talk to them.",False
+lm_gen_smol1.7b,I40:wrong_pick,I40,wrong_pick,group of people,I'm so glad to be here.,"Read me the news, please.",Please come in and sit down beside me.,False
+lm_gen_smol1.7b,I41:clean,I41,clean,stove,I want to turn on the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_smol1.7b,I41:partial,I41,partial,stove,I want to turn on the stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+lm_gen_smol1.7b,I41:wrong_label,I41,wrong_label,apples,I'm going to eat an apple.,"Be careful, the stove is still on.",I am ready to eat now.,False
+lm_gen_smol1.7b,I41:wrong_pick,I41,wrong_pick,dog,I love my dog.,"Be careful, the stove is still on.","Bring the dog to me, I want to stroke it.",False
+lm_gen_smol1.7b,I42:clean,I42,clean,table lamp,I want to turn on the table lamp.,The lamp beside my bed is not working.,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I42:partial,I42,partial,table lamp,I want to turn on the table lamp.,The lamp beside my bed is not working.,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I42:wrong_label,I42,wrong_label,clock,I need to set my alarm for tomorrow.,The lamp beside my bed is not working.,What time is it?,False
+lm_gen_smol1.7b,I42:wrong_pick,I42,wrong_pick,floor,I'm on the floor.,The lamp beside my bed is not working.,I want to get into my wheelchair.,False
+lm_gen_smol1.7b,I43:clean,I43,clean,cake,I love your cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_smol1.7b,I43:partial,I43,partial,cake,I love your cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+lm_gen_smol1.7b,I43:wrong_label,I43,wrong_label,television set,Turn on the TV.,"There is cake for the visitors, offer them some.",Please turn on the television.,False
+lm_gen_smol1.7b,I43:wrong_pick,I43,wrong_pick,ketchup,I want to put ketchup on my fries.,"There is cake for the visitors, offer them some.","I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I44:clean,I44,clean,cellular telephone,I'll call you when I get home.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_smol1.7b,I44:partial,I44,partial,cellular telephone,I'll call you when I get home.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+lm_gen_smol1.7b,I44:wrong_label,I44,wrong_label,clock,I need to set my alarm for tomorrow.,"Call my family, I want to talk to them.",What time is it?,False
+lm_gen_smol1.7b,I44:wrong_pick,I44,wrong_pick,bookcase,I'm reading a book.,"Call my family, I want to talk to them.",Read me the next chapter of my book.,False
+lm_gen_smol1.7b,I45:clean,I45,clean,painting,I'm painting a beautiful landscape.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_smol1.7b,I45:partial,I45,partial,painting,I'm painting a beautiful landscape.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+lm_gen_smol1.7b,I45:wrong_label,I45,wrong_label,cake,I want a slice of cake.,"That painting is my favourite, tell me about it.","There is cake for the visitors, offer them some.",False
+lm_gen_smol1.7b,I45:wrong_pick,I45,wrong_pick,furniture,I want to sit on the couch.,"That painting is my favourite, tell me about it.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I46:clean,I46,clean,dog,I love my dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_smol1.7b,I46:partial,I46,partial,dog,I love my dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+lm_gen_smol1.7b,I46:wrong_label,I46,wrong_label,couch,I'm sitting on the couch.,"Bring the dog to me, I want to stroke it.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I46:wrong_pick,I46,wrong_pick,map,I'm looking at the map.,"Bring the dog to me, I want to stroke it.","That painting is my favourite, tell me about it.",False
+lm_gen_smol1.7b,I47:clean,I47,clean,cat,I love my cat.,Is the cat here? I would like to see her.,Is the cat here? I would like to see her.,True
+lm_gen_smol1.7b,I47:partial,I47,partial,cat,I love my cat.,Is the cat here? I would like to see her.,Is the cat here? I would like to see her.,True
+lm_gen_smol1.7b,I47:wrong_label,I47,wrong_label,chair,I want to sit in the chair.,Is the cat here? I would like to see her.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I47:wrong_pick,I47,wrong_pick,remote,I'll turn on the lights.,Is the cat here? I would like to see her.,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I48:clean,I48,clean,flower arrangement,I love the beauty of your flower arrangement.,Who sent these flowers?,"Thank you for the flowers, they are beautiful.",False
+lm_gen_smol1.7b,I48:partial,I48,partial,flower arrangement,I love the beauty of your flower arrangement.,Who sent these flowers?,"Thank you for the flowers, they are beautiful.",False
+lm_gen_smol1.7b,I48:wrong_label,I48,wrong_label,doughnut,I'm craving a doughnut.,Who sent these flowers?,"I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I48:wrong_pick,I48,wrong_pick,wine bottle,I'm thirsty.,Who sent these flowers?,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I49:clean,I49,clean,wineglass,I'd like to drink some wine.,"Pour me a little wine, let us celebrate.","I would like a hot drink, please.",False
+lm_gen_smol1.7b,I49:partial,I49,partial,wineglass,I'd like to drink some wine.,"Pour me a little wine, let us celebrate.","I would like a hot drink, please.",False
+lm_gen_smol1.7b,I49:wrong_label,I49,wrong_label,refrigerator,I want to eat something.,"Pour me a little wine, let us celebrate.","I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I49:wrong_pick,I49,wrong_pick,plate of pizza,"I'm so hungry, can I have a slice?","Pour me a little wine, let us celebrate.","I am hungry, I would like a sandwich.",False
+lm_gen_smol1.7b,I50:clean,I50,clean,radio receiver,I want to listen to the radio.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_smol1.7b,I50:partial,I50,partial,radio receiver,I want to listen to the radio.,"Put some music on, please.","Put some music on, please.",True
+lm_gen_smol1.7b,I50:wrong_label,I50,wrong_label,bottle,I'm thirsty.,"Put some music on, please.","I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I50:wrong_pick,I50,wrong_pick,video game,I want to play a video game.,"Put some music on, please.",Please turn on the television.,False
+lm_gen_smol1.7b,I51:clean,I51,clean,magazine,I'm reading a magazine in my bedroom.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_smol1.7b,I51:partial,I51,partial,magazine,I'm reading a magazine in my bedroom.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+lm_gen_smol1.7b,I51:wrong_label,I51,wrong_label,remote control,I want to turn on the TV.,Sit with me and look at this magazine.,Please turn on the television.,False
+lm_gen_smol1.7b,I51:wrong_pick,I51,wrong_pick,chair,I want to sit in the chair.,Sit with me and look at this magazine.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I52:clean,I52,clean,armchair,I'm comfortable in my armchair.,Sit down next to me for a while.,Sit down next to me for a while.,True
+lm_gen_smol1.7b,I52:partial,I52,partial,armchair,I'm comfortable in my armchair.,Sit down next to me for a while.,Sit down next to me for a while.,True
+lm_gen_smol1.7b,I52:wrong_label,I52,wrong_label,umbrella,I need to bring this umbrella inside.,Sit down next to me for a while.,Please open the curtains.,False
+lm_gen_smol1.7b,I52:wrong_pick,I52,wrong_pick,bed,I'm going to sleep.,Sit down next to me for a while.,"Please turn the light off, I want to sleep.",False
+lm_gen_smol1.7b,I53:clean,I53,clean,headset,I'm listening to music through my headphones.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_smol1.7b,I53:partial,I53,partial,headset,I'm listening to music through my headphones.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+lm_gen_smol1.7b,I53:wrong_label,I53,wrong_label,toilet,I need to use the toilet.,"Put my headphones on, I want to listen.",I need to use the toilet.,False
+lm_gen_smol1.7b,I53:wrong_pick,I53,wrong_pick,papers,I'm going to read you a book.,"Put my headphones on, I want to listen.",Read me the next chapter of my book.,False
+lm_gen_smol1.7b,I54:clean,I54,clean,plate,I'm going to eat off this plate.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_smol1.7b,I54:partial,I54,partial,plate,I'm going to eat off this plate.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_smol1.7b,I54:wrong_label,I54,wrong_label,sofa,I want to sit on the sofa.,"That was lovely, thank you.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I54:wrong_pick,I54,wrong_pick,bowl of peanuts,I'm enjoying these peanuts.,"That was lovely, thank you.",I am ready to eat now.,False
+lm_gen_smol1.7b,I55:clean,I55,clean,"cup, teapot, milk",I want to drink tea.,Would you like a cup of tea?,Would you like a cup of tea?,True
+lm_gen_smol1.7b,I55:partial,I55,partial,cup,I'm thirsty.,Would you like a cup of tea?,"I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I55:wrong_label,I55,wrong_label,"cup, teapot, sofa",I want to sit on the sofa and drink tea from the teapot.,Would you like a cup of tea?,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I55:wrong_pick,I55,wrong_pick,"cup, teapot, refrigerator",I want a cup of tea.,Would you like a cup of tea?,Would you like a cup of tea?,True
+lm_gen_smol1.7b,I56:clean,I56,clean,chair,I want to sit in the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I56:partial,I56,partial,chair,I want to sit in the chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I56:wrong_label,I56,wrong_label,knife,I'll cut the steak.,"Please sit down, make yourself comfortable.",I am ready to eat now.,False
+lm_gen_smol1.7b,I56:wrong_pick,I56,wrong_pick,drinks,I'd like a glass of water.,"Please sit down, make yourself comfortable.","I am thirsty, can I have some water?",False
+lm_gen_smol1.7b,I57:clean,I57,clean,flower arrangement,I love your beautiful flower arrangement.,"Thank you for the flowers, they are beautiful.","Thank you for the flowers, they are beautiful.",True
+lm_gen_smol1.7b,I57:partial,I57,partial,flower arrangement,I love your beautiful flower arrangement.,"Thank you for the flowers, they are beautiful.","Thank you for the flowers, they are beautiful.",True
+lm_gen_smol1.7b,I57:wrong_label,I57,wrong_label,orange,I want to wear an orange shirt.,"Thank you for the flowers, they are beautiful.","There is juice in the fridge, can I have some?",False
+lm_gen_smol1.7b,I57:wrong_pick,I57,wrong_pick,hotel room,I want to sleep in my hotel room.,"Thank you for the flowers, they are beautiful.",I want to sit on the sofa.,False
+lm_gen_smol1.7b,I58:clean,I58,clean,television set,I want to watch my favorite show on the TV.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_smol1.7b,I58:partial,I58,partial,television set,I want to watch my favorite show on the TV.,"Sorry, could you turn the television down?",Please turn on the television.,False
+lm_gen_smol1.7b,I58:wrong_label,I58,wrong_label,orange,I love orange.,"Sorry, could you turn the television down?","There is juice in the fridge, can I have some?",False
+lm_gen_smol1.7b,I58:wrong_pick,I58,wrong_pick,radio receiver,I want to listen to the radio.,"Sorry, could you turn the television down?","Put some music on, please.",False
+lm_gen_smol1.7b,I59:clean,I59,clean,"napkin, table",I'll wipe my mouth with this napkin.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_smol1.7b,I59:partial,I59,partial,napkin,I'll wipe my mouth with this napkin.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_smol1.7b,I59:wrong_label,I59,wrong_label,"napkin, cup","I'll have a cup of coffee, please.","Excuse me, I have spilled something on the table.","I would like a hot drink, please.",False
+lm_gen_smol1.7b,I59:wrong_pick,I59,wrong_pick,"napkin, man",I'll wipe my mouth with this napkin.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+lm_gen_smol1.7b,I60:clean,I60,clean,"chair, bed",I want to sit on the chair and sleep on the bed.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I60:partial,I60,partial,chair,I want to sit in the chair.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+lm_gen_smol1.7b,I60:wrong_label,I60,wrong_label,"chair, laptop","I'm sitting in my chair, working on my laptop.",Please come in and sit down beside me.,I want to get into my wheelchair.,False
+lm_gen_smol1.7b,I60:wrong_pick,I60,wrong_pick,"chair, mouse",I want to sit in the chair and click the mouse.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+template,I01:clean,I01,clean,"water bottle, straw",I want water bottle and straw.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+template,I01:partial,I01,partial,water bottle,I want water bottle.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+template,I01:wrong_label,I01,wrong_label,"water bottle, television set",I want water bottle and television set.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+template,I01:wrong_pick,I01,wrong_pick,"water bottle, sheets",I want water bottle and sheets.,"I am thirsty, can I have some water?","I am thirsty, can I have some water?",True
+template,I02:clean,I02,clean,"pill, water bottle",I want pill and water bottle.,"It is time for my medicine, please bring it with water.","I am thirsty, can I have some water?",False
+template,I02:partial,I02,partial,pill,I want pill.,"It is time for my medicine, please bring it with water.","It is time for my medicine, please bring it with water.",True
+template,I02:wrong_label,I02,wrong_label,"pill, cat",I want pill and cat.,"It is time for my medicine, please bring it with water.","I am hungry, I would like a sandwich.",False
+template,I02:wrong_pick,I02,wrong_pick,"pill, laptop",I want pill and laptop.,"It is time for my medicine, please bring it with water.",I have already taken my medicine.,False
+template,I03:clean,I03,clean,blanket,I want blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+template,I03:partial,I03,partial,blanket,I want blanket.,"I am cold, can I have another blanket?","I am cold, can I have another blanket?",True
+template,I03:wrong_label,I03,wrong_label,television set,I want television set.,"I am cold, can I have another blanket?",Please turn on the television.,False
+template,I03:wrong_pick,I03,wrong_pick,top of it,I want top of it.,"I am cold, can I have another blanket?","I am hungry, I would like a sandwich.",False
+template,I04:clean,I04,clean,fan,I want fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+template,I04:partial,I04,partial,fan,I want fan.,"I am too warm, please turn on the fan.","I am too warm, please turn on the fan.",True
+template,I04:wrong_label,I04,wrong_label,laptop computer,I want laptop computer.,"I am too warm, please turn on the fan.","Open my laptop, I want to check my email.",False
+template,I04:wrong_pick,I04,wrong_pick,luggage,I want luggage.,"I am too warm, please turn on the fan.",Please put my socks and slippers on.,False
+template,I05:clean,I05,clean,pillow,I want pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+template,I05:partial,I05,partial,pillow,I want pillow.,"Please move my pillow, my head is uncomfortable.","Please move my pillow, my head is uncomfortable.",True
+template,I05:wrong_label,I05,wrong_label,clock,I want clock.,"Please move my pillow, my head is uncomfortable.",What time is it?,False
+template,I05:wrong_pick,I05,wrong_pick,young boy,I want young boy.,"Please move my pillow, my head is uncomfortable.","I am hungry, I would like a sandwich.",False
+template,I06:clean,I06,clean,"bed, quilt, pillow","I want bed, quilt and pillow.",Please straighten my bed covers.,Please put my socks and slippers on.,False
+template,I06:partial,I06,partial,bed,I want bed.,Please straighten my bed covers.,"I am hungry, I would like a sandwich.",False
+template,I06:wrong_label,I06,wrong_label,"bed, quilt, dining table","I want bed, quilt and dining table.",Please straighten my bed covers.,"I am hungry, I would like a sandwich.",False
+template,I06:wrong_pick,I06,wrong_pick,"bed, quilt, mother","I want bed, quilt and mother.",Please straighten my bed covers.,"I am hungry, I would like a sandwich.",False
+template,I07:clean,I07,clean,toilet,I want toilet.,I need to use the toilet.,I need to use the toilet.,True
+template,I07:partial,I07,partial,toilet,I want toilet.,I need to use the toilet.,I need to use the toilet.,True
+template,I07:wrong_label,I07,wrong_label,chair,I want chair.,I need to use the toilet.,I want to sit on the sofa.,False
+template,I07:wrong_pick,I07,wrong_pick,television set,I want television set.,I need to use the toilet.,Please turn on the television.,False
+template,I08:clean,I08,clean,tissue paper,I want tissue paper.,"I need a tissue, please.","I need a tissue, please.",True
+template,I08:partial,I08,partial,tissue paper,I want tissue paper.,"I need a tissue, please.","I need a tissue, please.",True
+template,I08:wrong_label,I08,wrong_label,sofa,I want sofa.,"I need a tissue, please.",I want to sit on the sofa.,False
+template,I08:wrong_pick,I08,wrong_pick,mother,I want mother.,"I need a tissue, please.","I am hungry, I would like a sandwich.",False
+template,I09:clean,I09,clean,lamp,I want lamp.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+template,I09:partial,I09,partial,lamp,I want lamp.,"Please turn the light off, I want to sleep.",The lamp beside my bed is not working.,False
+template,I09:wrong_label,I09,wrong_label,train,I want train.,"Please turn the light off, I want to sleep.","Bring the dog to me, I want to stroke it.",False
+template,I09:wrong_pick,I09,wrong_pick,wheelchair,I want wheelchair.,"Please turn the light off, I want to sleep.",I want to get into my wheelchair.,False
+template,I10:clean,I10,clean,spectacles,I want spectacles.,Can you pass me my glasses?,Can you pass me my glasses?,True
+template,I10:partial,I10,partial,spectacles,I want spectacles.,Can you pass me my glasses?,Can you pass me my glasses?,True
+template,I10:wrong_label,I10,wrong_label,cat,I want cat.,Can you pass me my glasses?,"Bring the dog to me, I want to stroke it.",False
+template,I10:wrong_pick,I10,wrong_pick,camera,I want camera.,Can you pass me my glasses?,Please turn on the television.,False
+template,I11:clean,I11,clean,walking stick,I want walking stick.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+template,I11:partial,I11,partial,walking stick,I want walking stick.,"Pass me my walking stick, I want to move.","Pass me my walking stick, I want to move.",True
+template,I11:wrong_label,I11,wrong_label,bottle,I want bottle.,"Pass me my walking stick, I want to move.",Can I have a glass of milk?,False
+template,I11:wrong_pick,I11,wrong_pick,orange cat,I want orange cat.,"Pass me my walking stick, I want to move.","Bring the dog to me, I want to stroke it.",False
+template,I12:clean,I12,clean,"sock, slipper, shoe","I want sock, slipper and shoe.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+template,I12:partial,I12,partial,sock,I want sock.,Please put my socks and slippers on.,Please put my socks and slippers on.,True
+template,I12:wrong_label,I12,wrong_label,"sock, slipper, microwave oven","I want sock, slipper and microwave oven.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+template,I12:wrong_pick,I12,wrong_pick,"sock, slipper, nightstands","I want sock, slipper and nightstands.",Please put my socks and slippers on.,Please put my socks and slippers on.,True
+template,I13:clean,I13,clean,"toothbrush, toothpaste, cup","I want toothbrush, toothpaste and cup.",I want to brush my teeth.,I want to brush my teeth.,True
+template,I13:partial,I13,partial,toothbrush,I want toothbrush.,I want to brush my teeth.,I want to brush my teeth.,True
+template,I13:wrong_label,I13,wrong_label,"toothbrush, toothpaste, bed","I want toothbrush, toothpaste and bed.",I want to brush my teeth.,I want to brush my teeth.,True
+template,I13:wrong_pick,I13,wrong_pick,"toothbrush, toothpaste, front of a mirror","I want toothbrush, toothpaste and front of a mirror.",I want to brush my teeth.,I want to brush my teeth.,True
+template,I14:clean,I14,clean,"shower head, towel, soap","I want shower head, towel and soap.",I would like a shower now.,I would like a shower now.,True
+template,I14:partial,I14,partial,shower head,I want shower head.,I would like a shower now.,I would like a shower now.,True
+template,I14:wrong_label,I14,wrong_label,"shower head, towel, toilet bowl","I want shower head, towel and toilet bowl.",I would like a shower now.,I would like a shower now.,True
+template,I14:wrong_pick,I14,wrong_pick,"shower head, towel, lamp","I want shower head, towel and lamp.",I would like a shower now.,I would like a shower now.,True
+template,I15:clean,I15,clean,toilet tissue,I want toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+template,I15:partial,I15,partial,toilet tissue,I want toilet tissue.,"The toilet paper is finished, please bring more.","I need a tissue, please.",False
+template,I15:wrong_label,I15,wrong_label,chair,I want chair.,"The toilet paper is finished, please bring more.",I want to sit on the sofa.,False
+template,I15:wrong_pick,I15,wrong_pick,cabinet,I want cabinet.,"The toilet paper is finished, please bring more.","I am hungry, I would like a sandwich.",False
+template,I16:clean,I16,clean,"soap, sink",I want soap and sink.,I want to wash my hands.,I would like a shower now.,False
+template,I16:partial,I16,partial,soap,I want soap.,I want to wash my hands.,I want to wash my hands.,True
+template,I16:wrong_label,I16,wrong_label,"soap, bed",I want soap and bed.,I want to wash my hands.,I would like a shower now.,False
+template,I16:wrong_pick,I16,wrong_pick,"soap, recliner",I want soap and recliner.,I want to wash my hands.,I would like a shower now.,False
+template,I17:clean,I17,clean,hairbrush,I want hairbrush.,Please brush my hair.,Please brush my hair.,True
+template,I17:partial,I17,partial,hairbrush,I want hairbrush.,Please brush my hair.,Please brush my hair.,True
+template,I17:wrong_label,I17,wrong_label,bowl,I want bowl.,Please brush my hair.,I am ready to eat now.,False
+template,I17:wrong_pick,I17,wrong_pick,washer,I want washer.,Please brush my hair.,I want to wash my hands.,False
+template,I18:clean,I18,clean,mirror,I want mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+template,I18:partial,I18,partial,mirror,I want mirror.,"Hold the mirror up, I want to see myself.","Hold the mirror up, I want to see myself.",True
+template,I18:wrong_label,I18,wrong_label,bowl,I want bowl.,"Hold the mirror up, I want to see myself.",I am ready to eat now.,False
+template,I18:wrong_pick,I18,wrong_pick,washer,I want washer.,"Hold the mirror up, I want to see myself.",I want to wash my hands.,False
+template,I19:clean,I19,clean,"kettle, mug",I want kettle and mug.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+template,I19:partial,I19,partial,kettle,I want kettle.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+template,I19:wrong_label,I19,wrong_label,"kettle, cat",I want kettle and cat.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+template,I19:wrong_pick,I19,wrong_pick,"kettle, view of the ocean",I want kettle and view of the ocean.,"I would like a hot drink, please.","I would like a hot drink, please.",True
+template,I20:clean,I20,clean,"milk, glass",I want milk and glass.,Can I have a glass of milk?,Can I have a glass of milk?,True
+template,I20:partial,I20,partial,milk,I want milk.,Can I have a glass of milk?,Can I have a glass of milk?,True
+template,I20:wrong_label,I20,wrong_label,"milk, newspaper",I want milk and newspaper.,Can I have a glass of milk?,Can I have a glass of milk?,True
+template,I20:wrong_pick,I20,wrong_pick,"milk, turkey",I want milk and turkey.,Can I have a glass of milk?,Can I have a glass of milk?,True
+template,I21:clean,I21,clean,sandwich,I want sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+template,I21:partial,I21,partial,sandwich,I want sandwich.,"I am hungry, I would like a sandwich.","I am hungry, I would like a sandwich.",True
+template,I21:wrong_label,I21,wrong_label,microwave,I want microwave.,"I am hungry, I would like a sandwich.",I am ready to eat now.,False
+template,I21:wrong_pick,I21,wrong_pick,vase,I want vase.,"I am hungry, I would like a sandwich.","I need a napkin, please.",False
+template,I22:clean,I22,clean,"refrigerator, orange juice",I want refrigerator and orange juice.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+template,I22:partial,I22,partial,refrigerator,I want refrigerator.,"There is juice in the fridge, can I have some?","There is juice in the fridge, can I have some?",True
+template,I22:wrong_label,I22,wrong_label,"refrigerator, toaster",I want refrigerator and toaster.,"There is juice in the fridge, can I have some?","I am hungry, I would like a sandwich.",False
+template,I22:wrong_pick,I22,wrong_pick,"refrigerator, newspaper",I want refrigerator and newspaper.,"There is juice in the fridge, can I have some?","I am hungry, I would like a sandwich.",False
+template,I23:clean,I23,clean,"medicine, spoon",I want medicine and spoon.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+template,I23:partial,I23,partial,medicine,I want medicine.,"My liquid medicine is due, please give it to me.",I have already taken my medicine.,False
+template,I23:wrong_label,I23,wrong_label,"medicine, dog",I want medicine and dog.,"My liquid medicine is due, please give it to me.","Bring the dog to me, I want to stroke it.",False
+template,I23:wrong_pick,I23,wrong_pick,"medicine, top of a microwave",I want medicine and top of a microwave.,"My liquid medicine is due, please give it to me.","My liquid medicine is due, please give it to me.",True
+template,I24:clean,I24,clean,"plate, fork, napkin","I want plate, fork and napkin.",I am ready to eat now.,"I need a napkin, please.",False
+template,I24:partial,I24,partial,plate,I want plate.,I am ready to eat now.,"I am hungry, I would like a sandwich.",False
+template,I24:wrong_label,I24,wrong_label,"plate, fork, cake","I want plate, fork and cake.",I am ready to eat now.,"I am hungry, I would like a sandwich.",False
+template,I24:wrong_pick,I24,wrong_pick,"plate, fork, cup","I want plate, fork and cup.",I am ready to eat now.,"I am hungry, I would like a sandwich.",False
+template,I25:clean,I25,clean,"cup, straw",I want cup and straw.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+template,I25:partial,I25,partial,cup,I want cup.,Can I have a drink with a straw?,Can I have a drink with a straw?,True
+template,I25:wrong_label,I25,wrong_label,"cup, bowl",I want cup and bowl.,Can I have a drink with a straw?,I am ready to eat now.,False
+template,I25:wrong_pick,I25,wrong_pick,"cup, broccoli",I want cup and broccoli.,Can I have a drink with a straw?,I am ready to eat now.,False
+template,I26:clean,I26,clean,napkin,I want napkin.,"I need a napkin, please.","I need a napkin, please.",True
+template,I26:partial,I26,partial,napkin,I want napkin.,"I need a napkin, please.","I need a napkin, please.",True
+template,I26:wrong_label,I26,wrong_label,banana,I want banana.,"I need a napkin, please.","I am hungry, I would like a sandwich.",False
+template,I26:wrong_pick,I26,wrong_pick,glass of wine,I want glass of wine.,"I need a napkin, please.","Pour me a little wine, let us celebrate.",False
+template,I27:clean,I27,clean,spoon,I want spoon.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+template,I27:partial,I27,partial,spoon,I want spoon.,"Please feed me with a spoon, it is easier.","Please feed me with a spoon, it is easier.",True
+template,I27:wrong_label,I27,wrong_label,bear,I want bear.,"Please feed me with a spoon, it is easier.","Bring the dog to me, I want to stroke it.",False
+template,I27:wrong_pick,I27,wrong_pick,tomato,I want tomato.,"Please feed me with a spoon, it is easier.",I am ready to eat now.,False
+template,I28:clean,I28,clean,"television set, remote control",I want television set and remote control.,Please turn on the television.,Please turn on the television.,True
+template,I28:partial,I28,partial,television set,I want television set.,Please turn on the television.,Please turn on the television.,True
+template,I28:wrong_label,I28,wrong_label,"television set, chair",I want television set and chair.,Please turn on the television.,Please turn on the television.,True
+template,I28:wrong_pick,I28,wrong_pick,"television set, bedspread",I want television set and bedspread.,Please turn on the television.,Please turn on the television.,True
+template,I29:clean,I29,clean,"sofa, cushion",I want sofa and cushion.,I want to sit on the sofa.,I want to sit on the sofa.,True
+template,I29:partial,I29,partial,sofa,I want sofa.,I want to sit on the sofa.,I want to sit on the sofa.,True
+template,I29:wrong_label,I29,wrong_label,"sofa, cake",I want sofa and cake.,I want to sit on the sofa.,I want to sit on the sofa.,True
+template,I29:wrong_pick,I29,wrong_pick,"sofa, woman",I want sofa and woman.,I want to sit on the sofa.,I want to sit on the sofa.,True
+template,I30:clean,I30,clean,wheelchair,I want wheelchair.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+template,I30:partial,I30,partial,wheelchair,I want wheelchair.,I want to get into my wheelchair.,I want to get into my wheelchair.,True
+template,I30:wrong_label,I30,wrong_label,vase,I want vase.,I want to get into my wheelchair.,"I need a napkin, please.",False
+template,I30:wrong_pick,I30,wrong_pick,men,I want men.,I want to get into my wheelchair.,Please put my socks and slippers on.,False
+template,I31:clean,I31,clean,curtain,I want curtain.,Please open the curtains.,Please open the curtains.,True
+template,I31:partial,I31,partial,curtain,I want curtain.,Please open the curtains.,Please open the curtains.,True
+template,I31:wrong_label,I31,wrong_label,cushion,I want cushion.,Please open the curtains.,I want to sit on the sofa.,False
+template,I31:wrong_pick,I31,wrong_pick,pajamas,I want pajamas.,Please open the curtains.,Please put my socks and slippers on.,False
+template,I32:clean,I32,clean,heater,I want heater.,Please turn up the heater.,Please turn up the heater.,True
+template,I32:partial,I32,partial,heater,I want heater.,Please turn up the heater.,Please turn up the heater.,True
+template,I32:wrong_label,I32,wrong_label,quilt,I want quilt.,Please turn up the heater.,Please straighten my bed covers.,False
+template,I32:wrong_pick,I32,wrong_pick,rabbit,I want rabbit.,Please turn up the heater.,"Bring the dog to me, I want to stroke it.",False
+template,I33:clean,I33,clean,hand towel,I want hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+template,I33:partial,I33,partial,hand towel,I want hand towel.,"My face is sweaty, please wipe it with a towel.","My face is sweaty, please wipe it with a towel.",True
+template,I33:wrong_label,I33,wrong_label,chair,I want chair.,"My face is sweaty, please wipe it with a towel.",I want to sit on the sofa.,False
+template,I33:wrong_pick,I33,wrong_pick,cell phone,I want cell phone.,"My face is sweaty, please wipe it with a towel.","Call my family, I want to talk to them.",False
+template,I34:clean,I34,clean,alarm clock,I want alarm clock.,What time is it?,"I am hungry, I would like a sandwich.",False
+template,I34:partial,I34,partial,alarm clock,I want alarm clock.,What time is it?,"I am hungry, I would like a sandwich.",False
+template,I34:wrong_label,I34,wrong_label,remote control,I want remote control.,What time is it?,Please turn on the television.,False
+template,I34:wrong_pick,I34,wrong_pick,itself,I want itself.,What time is it?,"I am hungry, I would like a sandwich.",False
+template,I35:clean,I35,clean,wall clock,I want wall clock.,When is my appointment today?,Please open the curtains.,False
+template,I35:partial,I35,partial,wall clock,I want wall clock.,When is my appointment today?,Please open the curtains.,False
+template,I35:wrong_label,I35,wrong_label,doughnut,I want doughnut.,When is my appointment today?,"I am hungry, I would like a sandwich.",False
+template,I35:wrong_pick,I35,wrong_pick,remote control,I want remote control.,When is my appointment today?,Please turn on the television.,False
+template,I36:clean,I36,clean,medicine,I want medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+template,I36:partial,I36,partial,medicine,I want medicine.,I have already taken my medicine.,I have already taken my medicine.,True
+template,I36:wrong_label,I36,wrong_label,sofa,I want sofa.,I have already taken my medicine.,I want to sit on the sofa.,False
+template,I36:wrong_pick,I36,wrong_pick,orange cat,I want orange cat.,I have already taken my medicine.,"Bring the dog to me, I want to stroke it.",False
+template,I37:clean,I37,clean,"notebook, pen",I want notebook and pen.,"Write this down for me, please.","Write this down for me, please.",True
+template,I37:partial,I37,partial,notebook,I want notebook.,"Write this down for me, please.","Write this down for me, please.",True
+template,I37:wrong_label,I37,wrong_label,"notebook, toilet",I want notebook and toilet.,"Write this down for me, please.",I need to use the toilet.,False
+template,I37:wrong_pick,I37,wrong_pick,"notebook, blanket",I want notebook and blanket.,"Write this down for me, please.","I am cold, can I have another blanket?",False
+template,I38:clean,I38,clean,laptop computer,I want laptop computer.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+template,I38:partial,I38,partial,laptop computer,I want laptop computer.,"Open my laptop, I want to check my email.","Open my laptop, I want to check my email.",True
+template,I38:wrong_label,I38,wrong_label,chair,I want chair.,"Open my laptop, I want to check my email.",I want to sit on the sofa.,False
+template,I38:wrong_pick,I38,wrong_pick,beer bottle,I want beer bottle.,"Open my laptop, I want to check my email.","I would like a hot drink, please.",False
+template,I39:clean,I39,clean,book,I want book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+template,I39:partial,I39,partial,book,I want book.,Read me the next chapter of my book.,Read me the next chapter of my book.,True
+template,I39:wrong_label,I39,wrong_label,bottle,I want bottle.,Read me the next chapter of my book.,Can I have a glass of milk?,False
+template,I39:wrong_pick,I39,wrong_pick,dorm room,I want dorm room.,Read me the next chapter of my book.,I want to sit on the sofa.,False
+template,I40:clean,I40,clean,newspaper,I want newspaper.,"Read me the news, please.","Read me the news, please.",True
+template,I40:partial,I40,partial,newspaper,I want newspaper.,"Read me the news, please.","Read me the news, please.",True
+template,I40:wrong_label,I40,wrong_label,phone,I want phone.,"Read me the news, please.","Call my family, I want to talk to them.",False
+template,I40:wrong_pick,I40,wrong_pick,group of people,I want group of people.,"Read me the news, please.","Pour me a little wine, let us celebrate.",False
+template,I41:clean,I41,clean,stove,I want stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+template,I41:partial,I41,partial,stove,I want stove.,"Be careful, the stove is still on.","Be careful, the stove is still on.",True
+template,I41:wrong_label,I41,wrong_label,apples,I want apples.,"Be careful, the stove is still on.","I am hungry, I would like a sandwich.",False
+template,I41:wrong_pick,I41,wrong_pick,dog,I want dog.,"Be careful, the stove is still on.","Bring the dog to me, I want to stroke it.",False
+template,I42:clean,I42,clean,table lamp,I want table lamp.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+template,I42:partial,I42,partial,table lamp,I want table lamp.,The lamp beside my bed is not working.,The lamp beside my bed is not working.,True
+template,I42:wrong_label,I42,wrong_label,clock,I want clock.,The lamp beside my bed is not working.,What time is it?,False
+template,I42:wrong_pick,I42,wrong_pick,floor,I want floor.,The lamp beside my bed is not working.,"I am hungry, I would like a sandwich.",False
+template,I43:clean,I43,clean,cake,I want cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+template,I43:partial,I43,partial,cake,I want cake.,"There is cake for the visitors, offer them some.","There is cake for the visitors, offer them some.",True
+template,I43:wrong_label,I43,wrong_label,television set,I want television set.,"There is cake for the visitors, offer them some.",Please turn on the television.,False
+template,I43:wrong_pick,I43,wrong_pick,ketchup,I want ketchup.,"There is cake for the visitors, offer them some.","I am hungry, I would like a sandwich.",False
+template,I44:clean,I44,clean,cellular telephone,I want cellular telephone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+template,I44:partial,I44,partial,cellular telephone,I want cellular telephone.,"Call my family, I want to talk to them.","Call my family, I want to talk to them.",True
+template,I44:wrong_label,I44,wrong_label,clock,I want clock.,"Call my family, I want to talk to them.",What time is it?,False
+template,I44:wrong_pick,I44,wrong_pick,bookcase,I want bookcase.,"Call my family, I want to talk to them.","I am hungry, I would like a sandwich.",False
+template,I45:clean,I45,clean,painting,I want painting.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+template,I45:partial,I45,partial,painting,I want painting.,"That painting is my favourite, tell me about it.","That painting is my favourite, tell me about it.",True
+template,I45:wrong_label,I45,wrong_label,cake,I want cake.,"That painting is my favourite, tell me about it.","There is cake for the visitors, offer them some.",False
+template,I45:wrong_pick,I45,wrong_pick,furniture,I want furniture.,"That painting is my favourite, tell me about it.",I want to sit on the sofa.,False
+template,I46:clean,I46,clean,dog,I want dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+template,I46:partial,I46,partial,dog,I want dog.,"Bring the dog to me, I want to stroke it.","Bring the dog to me, I want to stroke it.",True
+template,I46:wrong_label,I46,wrong_label,couch,I want couch.,"Bring the dog to me, I want to stroke it.",I want to sit on the sofa.,False
+template,I46:wrong_pick,I46,wrong_pick,map,I want map.,"Bring the dog to me, I want to stroke it.","Pass me my walking stick, I want to move.",False
+template,I47:clean,I47,clean,cat,I want cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+template,I47:partial,I47,partial,cat,I want cat.,Is the cat here? I would like to see her.,"Bring the dog to me, I want to stroke it.",False
+template,I47:wrong_label,I47,wrong_label,chair,I want chair.,Is the cat here? I would like to see her.,I want to sit on the sofa.,False
+template,I47:wrong_pick,I47,wrong_pick,remote,I want remote.,Is the cat here? I would like to see her.,Please turn on the television.,False
+template,I48:clean,I48,clean,flower arrangement,I want flower arrangement.,Who sent these flowers?,"Thank you for the flowers, they are beautiful.",False
+template,I48:partial,I48,partial,flower arrangement,I want flower arrangement.,Who sent these flowers?,"Thank you for the flowers, they are beautiful.",False
+template,I48:wrong_label,I48,wrong_label,doughnut,I want doughnut.,Who sent these flowers?,"I am hungry, I would like a sandwich.",False
+template,I48:wrong_pick,I48,wrong_pick,wine bottle,I want wine bottle.,Who sent these flowers?,"Pour me a little wine, let us celebrate.",False
+template,I49:clean,I49,clean,wineglass,I want wineglass.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+template,I49:partial,I49,partial,wineglass,I want wineglass.,"Pour me a little wine, let us celebrate.","Pour me a little wine, let us celebrate.",True
+template,I49:wrong_label,I49,wrong_label,refrigerator,I want refrigerator.,"Pour me a little wine, let us celebrate.","There is juice in the fridge, can I have some?",False
+template,I49:wrong_pick,I49,wrong_pick,plate of pizza,I want plate of pizza.,"Pour me a little wine, let us celebrate.","I am hungry, I would like a sandwich.",False
+template,I50:clean,I50,clean,radio receiver,I want radio receiver.,"Put some music on, please.","Put some music on, please.",True
+template,I50:partial,I50,partial,radio receiver,I want radio receiver.,"Put some music on, please.","Put some music on, please.",True
+template,I50:wrong_label,I50,wrong_label,bottle,I want bottle.,"Put some music on, please.",Can I have a glass of milk?,False
+template,I50:wrong_pick,I50,wrong_pick,video game,I want video game.,"Put some music on, please.",Please turn on the television.,False
+template,I51:clean,I51,clean,magazine,I want magazine.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+template,I51:partial,I51,partial,magazine,I want magazine.,Sit with me and look at this magazine.,Sit with me and look at this magazine.,True
+template,I51:wrong_label,I51,wrong_label,remote control,I want remote control.,Sit with me and look at this magazine.,Please turn on the television.,False
+template,I51:wrong_pick,I51,wrong_pick,chair,I want chair.,Sit with me and look at this magazine.,I want to sit on the sofa.,False
+template,I52:clean,I52,clean,armchair,I want armchair.,Sit down next to me for a while.,Sit down next to me for a while.,True
+template,I52:partial,I52,partial,armchair,I want armchair.,Sit down next to me for a while.,Sit down next to me for a while.,True
+template,I52:wrong_label,I52,wrong_label,umbrella,I want umbrella.,Sit down next to me for a while.,Please open the curtains.,False
+template,I52:wrong_pick,I52,wrong_pick,bed,I want bed.,Sit down next to me for a while.,"I am hungry, I would like a sandwich.",False
+template,I53:clean,I53,clean,headset,I want headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+template,I53:partial,I53,partial,headset,I want headset.,"Put my headphones on, I want to listen.","Put my headphones on, I want to listen.",True
+template,I53:wrong_label,I53,wrong_label,toilet,I want toilet.,"Put my headphones on, I want to listen.",I need to use the toilet.,False
+template,I53:wrong_pick,I53,wrong_pick,papers,I want papers.,"Put my headphones on, I want to listen.","Bring the dog to me, I want to stroke it.",False
+template,I54:clean,I54,clean,plate,I want plate.,"That was lovely, thank you.","I am hungry, I would like a sandwich.",False
+template,I54:partial,I54,partial,plate,I want plate.,"That was lovely, thank you.","I am hungry, I would like a sandwich.",False
+template,I54:wrong_label,I54,wrong_label,sofa,I want sofa.,"That was lovely, thank you.",I want to sit on the sofa.,False
+template,I54:wrong_pick,I54,wrong_pick,bowl of peanuts,I want bowl of peanuts.,"That was lovely, thank you.",I am ready to eat now.,False
+template,I55:clean,I55,clean,"cup, teapot, milk","I want cup, teapot and milk.",Would you like a cup of tea?,Can I have a glass of milk?,False
+template,I55:partial,I55,partial,cup,I want cup.,Would you like a cup of tea?,Can I have a drink with a straw?,False
+template,I55:wrong_label,I55,wrong_label,"cup, teapot, sofa","I want cup, teapot and sofa.",Would you like a cup of tea?,Would you like a cup of tea?,True
+template,I55:wrong_pick,I55,wrong_pick,"cup, teapot, refrigerator","I want cup, teapot and refrigerator.",Would you like a cup of tea?,Would you like a cup of tea?,True
+template,I56:clean,I56,clean,chair,I want chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+template,I56:partial,I56,partial,chair,I want chair.,"Please sit down, make yourself comfortable.",I want to sit on the sofa.,False
+template,I56:wrong_label,I56,wrong_label,knife,I want knife.,"Please sit down, make yourself comfortable.","I am hungry, I would like a sandwich.",False
+template,I56:wrong_pick,I56,wrong_pick,drinks,I want drinks.,"Please sit down, make yourself comfortable.","I would like a hot drink, please.",False
+template,I57:clean,I57,clean,flower arrangement,I want flower arrangement.,"Thank you for the flowers, they are beautiful.","Thank you for the flowers, they are beautiful.",True
+template,I57:partial,I57,partial,flower arrangement,I want flower arrangement.,"Thank you for the flowers, they are beautiful.","Thank you for the flowers, they are beautiful.",True
+template,I57:wrong_label,I57,wrong_label,orange,I want orange.,"Thank you for the flowers, they are beautiful.","There is juice in the fridge, can I have some?",False
+template,I57:wrong_pick,I57,wrong_pick,hotel room,I want hotel room.,"Thank you for the flowers, they are beautiful.",I would like a shower now.,False
+template,I58:clean,I58,clean,television set,I want television set.,"Sorry, could you turn the television down?",Please turn on the television.,False
+template,I58:partial,I58,partial,television set,I want television set.,"Sorry, could you turn the television down?",Please turn on the television.,False
+template,I58:wrong_label,I58,wrong_label,orange,I want orange.,"Sorry, could you turn the television down?","There is juice in the fridge, can I have some?",False
+template,I58:wrong_pick,I58,wrong_pick,radio receiver,I want radio receiver.,"Sorry, could you turn the television down?","Put some music on, please.",False
+template,I59:clean,I59,clean,"napkin, table",I want napkin and table.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+template,I59:partial,I59,partial,napkin,I want napkin.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+template,I59:wrong_label,I59,wrong_label,"napkin, cup",I want napkin and cup.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+template,I59:wrong_pick,I59,wrong_pick,"napkin, man",I want napkin and man.,"Excuse me, I have spilled something on the table.","I need a napkin, please.",False
+template,I60:clean,I60,clean,"chair, bed",I want chair and bed.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+template,I60:partial,I60,partial,chair,I want chair.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+template,I60:wrong_label,I60,wrong_label,"chair, laptop",I want chair and laptop.,Please come in and sit down beside me.,I want to sit on the sofa.,False
+template,I60:wrong_pick,I60,wrong_pick,"chair, mouse",I want chair and mouse.,Please come in and sit down beside me.,I want to get into my wheelchair.,False

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Google's face landmarker: downloaded, not redistributed (see the README)
+face_landmarker.task
+
+# Per-machine, and meaningless on any other machine
+system/camera_choice.json
+system/diagnose_raw.csv
+
+# Sessions recorded by whoever runs this, which are their data and not ours
+system/sessions/
+
+# Photographs. capture_figure.py writes here; no image of any person belongs in
+# this repository, and this line is the second line of defence, not the first.
+captures/
+figs_raw/
+
+# The blinded audit answer keys. Withheld so the same sheets can be rated again.
+**/audit_key_private/
+**/message_key_private/
+
+# Study 6's operator logs, until the question in the top-level README is settled.
+# Delete this line when the folder is added deliberately.
+data/sessions/study6_deployment/
+
+# Local analysis output. Each study's published results are committed; a re-run
+# writes over them, which is intended, but scratch folders are not.
+results_local/
+*.tmp
+
+# The figure scripts write PNG next to PDF; the paper uses the PDFs.
+figures/*.png
