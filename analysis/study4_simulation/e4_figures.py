@@ -28,15 +28,16 @@ SHOW = {                                   # interface -> (label, colour)
     "look_to_speak": ("Look to Speak (96 items)", ORANGE),
     "look_to_speak_16": ("Look to Speak (16 items)", ORANGE),
     "grid9_fixed": ("3x3 grid, fixed list", VIOLET),
-    "row3_fixed_double": ("row of 3, fixed list, guarded", VIOLET),
+    "row3_fixed_double": ("row of 3, fixed list, repeat", VIOLET),
     "row3_scene": ("row of 3, scene", BLUE),
-    "row3_scene_double": ("row of 3, scene, guarded", BLUE),
-    "scan3_scene_double": ("scanning row of 3, scene, guarded", AQUA),
+    "row3_scene_confirm": ("row of 3, scene, confirm", BLUE),
+    "row3_scene_double": ("row of 3, scene, repeat", BLUE),
+    "scan3_scene_double": ("scanning row of 3, scene, repeat", AQUA),
 }
 SWEEP = {"row3_scene": ("row of 3, scene", BLUE, "-"),
-         "row3_scene_double": ("row of 3, scene, guarded", BLUE, "--"),
+         "row3_scene_double": ("row of 3, scene, repeat", BLUE, "--"),
          "scan3_scene": ("scanning, scene", AQUA, "-"),
-         "scan3_scene_double": ("scanning, scene, guarded", AQUA, "--")}
+         "scan3_scene_double": ("scanning, scene, repeat", AQUA, "--")}
 
 
 def style(ax):
@@ -76,7 +77,7 @@ def main():
     ax.text(0.5, 6, "5% wrong messages", fontsize=7.5, color=MUTED)
     ax.set_xlabel("seconds per message attempt", fontsize=9, color=INK)
     ax.set_ylabel("wrong message spoken (%)", fontsize=9, color=INK)
-    ax.set_title("Speed against error, at the gaze accuracy measured in E1b", fontsize=10, color=INK)
+    ax.set_title("Speed against error, at the gaze accuracy measured in Study 1", fontsize=10, color=INK)
     ax.set_xlim(left=0)
     ax.set_ylim(-3, 95)
     fig.tight_layout()
@@ -101,7 +102,7 @@ def main():
     ax.text(0.605, 6.5, "5% wrong messages", fontsize=7.5, color=MUTED)
     meas = 0.838
     ax.axvline(meas, color=MUTED, linewidth=1, linestyle=":")
-    ax.text(meas + 0.004, 62, "measured\n(E1b, no calibration)", fontsize=7.5, color=MUTED)
+    ax.text(meas + 0.004, 62, "measured\n(Study 1, no calibration)", fontsize=7.5, color=MUTED)
     ax.set_xlabel("per-selection gaze accuracy, 3 zones", fontsize=9, color=INK)
     ax.set_ylabel("wrong message spoken (%)", fontsize=9, color=INK)
     ax.set_title("How accurate must the gaze be?", fontsize=10, color=INK)

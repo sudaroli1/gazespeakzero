@@ -102,6 +102,63 @@ def durations(d):
     return t
 
 
+
+# ---------------------------------------------------------------------------
+# Section 4.5.3, the calibration mapping. The paper states that on one session a
+# monotone (isotonic) fit raised held-out three-zone accuracy from 0.675 to 0.762
+# and the right-hand zone from 0.72 to 1.00, while the left-hand zone did not
+# improve (0.56 to 0.53). Those figures are recomputed here from the calibration
+# frames, fitting on the first calibration pass and testing on the second, so the
+# claim is checkable rather than asserted.
+
+CALIB = dict(session="P04", affine=0.675, isotonic=0.762,
+             right_affine=0.72, right_isotonic=1.00,
+             left_affine=0.56, left_isotonic=0.53)
+
+
+def zone_of(x, zones=3):
+    return np.clip((np.clip(x, 0, 1) * zones).astype(int), 0, zones - 1)
+
+
+def check_calibration(sessions):
+    """Raw / affine / isotonic three-zone accuracy, held out on the second pass."""
+    print(f"\nSection 4.5.3, the calibration mapping - session {CALIB['session']}")
+    try:
+        from sklearn.isotonic import IsotonicRegression
+    except ImportError:
+        print("  SKIP scikit-learn is not installed, so this block cannot run")
+        return
+    path = os.path.join(sessions, f"calib_frames_{CALIB['session']}.csv")
+    if not os.path.exists(path):
+        print(f"  SKIP {os.path.basename(path)} is not in this copy of the data")
+        return
+
+    d = pd.read_csv(path)
+    passes = sorted(d["pass"].unique())
+    fit, test = d[d["pass"] == passes[0]], d[d["pass"] == passes[1]]
+    target = zone_of(test.target_x.to_numpy())
+
+    # An affine correction fitted prediction-on-target and then inverted. Fitted the
+    # other way round it is attenuated by the noise in the predictor (regression
+    # dilution) and corrects almost nothing; Sec. 4.5.3 reports that mistake too.
+    slope, intercept = np.polyfit(fit.target_x, fit.px_raw, 1)
+    affine = zone_of((test.px_raw.to_numpy() - intercept) / slope)
+    iso = IsotonicRegression(out_of_bounds="clip").fit(fit.px_raw, fit.target_x)
+    isotonic = zone_of(iso.predict(test.px_raw))
+
+    def acc(pred, zone=None):
+        keep = slice(None) if zone is None else (target == zone)
+        return round(float((pred[keep] == target[keep]).mean()), 3)
+
+    print(f"  fitted on pass {passes[0]} ({len(fit)} frames), "
+          f"tested on pass {passes[1]} ({len(test)} frames)")
+    check("affine, overall", acc(affine), CALIB["affine"])
+    check("isotonic, overall", acc(isotonic), CALIB["isotonic"])
+    check("affine, right-hand zone", acc(affine, 2), CALIB["right_affine"], tol=0.006)
+    check("isotonic, right-hand zone", acc(isotonic, 2), CALIB["right_isotonic"])
+    check("affine, left-hand zone", acc(affine, 0), CALIB["left_affine"], tol=0.006)
+    check("isotonic, left-hand zone", acc(isotonic, 0), CALIB["left_isotonic"], tol=0.006)
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sessions", default=os.path.join(
@@ -177,6 +234,8 @@ def main():
         n_bad += int(first.cue_zone.isna().sum())
     check("trials excluded, cue off screen at the start", n_bad, CLAIMED["exclusion"]["unreachable"])
     check("cued trials in the folder", n_trials, CLAIMED["exclusion"]["trials"])
+
+    check_calibration(a.sessions)
 
     print()
     if fails:
