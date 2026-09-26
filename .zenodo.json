@@ -1,0 +1,40 @@
+{
+ "title": "GazeSpeakZero: code, data and figures for \"Seeing is not selecting: measuring a webcam-only gaze communication aid\"",
+ "upload_type": "software",
+ "access_right": "open",
+ "license": "mit",
+ "description": "<p>The system, the analysis code, the session logs and the figures behind the paper <em>Seeing is not selecting: measuring a webcam-only gaze communication aid</em>.</p><p>The work asks what a communication aid can achieve with no hardware beyond an ordinary webcam, and measures how far per-frame benchmark accuracy overstates live per-selection accuracy. A webcam separates three screen zones at 0.83&ndash;0.87 per frame; used live to choose a word, the same pipeline supports roughly half that. Three of the work's own recommendations are reversed by its own later measurements, and the superseded analyses are documented rather than removed.</p><p>The repository is arranged so that every number in the paper can be checked: two scripts recompute the published figures for Sections 4.5 and 4.6 from the raw session logs and exit with an error if any has drifted, and five smoke tests plus thirty-one engine tests cover the analysis and the selection logic. EXCLUDED.json lists what is deliberately absent, with a reason for each: no image of any person, the blinded audit answer keys, and third-party datasets and models that are not ours to redistribute.</p>",
+ "creators": [
+  {
+   "name": "Dhananjeyan, Sudaroli",
+   "affiliation": "Independent Researcher, Bengaluru, India",
+   "orcid": "0000-0001-8270-6223"
+  },
+  {
+   "name": "R., Alexander",
+   "affiliation": "Department of Computer Science and Engineering, St. Joseph's College of Engineering, Chennai, India"
+  },
+  {
+   "name": "Sumathi, G.",
+   "affiliation": "Department of Computer Science and Engineering, SRM Institute of Science and Technology, Ramapuram Campus, Chennai, India"
+  },
+  {
+   "name": "Sindhu, M.",
+   "affiliation": "Department of Computer Science and Engineering, Chennai Institute of Technology, Chennai, India"
+  },
+  {
+   "name": "R., Vanidha Sri",
+   "affiliation": "Department of Computer Science and Business Systems, Panimalar Engineering College, Chennai, India"
+  }
+ ],
+ "keywords": [
+  "augmentative and alternative communication",
+  "assistive technology",
+  "gaze interaction",
+  "webcam gaze estimation",
+  "dwell selection",
+  "accessibility",
+  "reproducibility"
+ ],
+ "language": "eng"
+}
