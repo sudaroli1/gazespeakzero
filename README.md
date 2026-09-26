@@ -3,6 +3,9 @@
 Code, data and figures for *"Seeing is not selecting: measuring a webcam-only gaze
 communication aid"*.
 
+The archived release the paper cites is **[10.5281/zenodo.22972781](https://doi.org/10.5281/zenodo.22972781)**. This repository
+is where the work continues; the DOI is the fixed snapshot.
+
 The paper's claim is that **per-frame benchmark accuracy does not predict live
 per-selection accuracy**: the same gaze stage that scores 0.838 on a standard dataset
 supports about half that when a person uses it to choose a word. This repository is

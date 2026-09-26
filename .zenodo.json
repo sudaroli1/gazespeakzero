@@ -36,5 +36,13 @@
   "accessibility",
   "reproducibility"
  ],
- "language": "eng"
+ "language": "eng",
+ "related_identifiers": [
+  {
+   "relation": "isSupplementTo",
+   "identifier": "https://github.com/sudaroli1/gazespeakzero",
+   "resource_type": "software",
+   "scheme": "url"
+  }
+ ]
 }

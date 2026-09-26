@@ -8,6 +8,7 @@ abstract: >-
   communication aid that needs no hardware beyond an ordinary webcam.
 type: software
 license: MIT
+doi: 10.5281/zenodo.22972781
 authors:
   - family-names: Dhananjeyan
     given-names: Sudaroli
